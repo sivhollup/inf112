@@ -25,7 +25,7 @@ Note:
 
 ---
 
-## Hvordan skal vi jobbe med faget? 
+### Hvordan skal vi jobbe med faget? 
 
 Note:
 
@@ -34,7 +34,7 @@ Note:
 
 ---
 
-## Tema
+### Tema
 
 - Kommunikasjon (idag)
 - Prosjektorganisering
@@ -47,7 +47,7 @@ Note:
 
 ---
 
-## Forventninger til studentene
+### Forventninger til studentene
 
 - Aktive i forelesninger
 - Still spørsmål
@@ -62,7 +62,7 @@ Note:
 
 --- 
 
-## Forventninger til foreleser(e)
+### Forventninger til foreleser(e)
 
 - Faglig oppdatert
 - Lydhør
@@ -70,7 +70,7 @@ Note:
 
 --- 
 
-## Kommunikasjon
+### Kommunikasjon
 
 Note: 
 
@@ -83,7 +83,7 @@ Note:
 
 ---
 
-## Men vi skal jo bare kode?
+### Men vi skal jo bare kode?
 
 Note: 
 
@@ -94,7 +94,7 @@ Note:
 
 ---
 
-## Kommunikasjonskanaler
+### Kommunikasjonskanaler
 
 - Epost
 - Chat
@@ -156,6 +156,6 @@ Note:
 
 ---
 
-## Online chat
+### Online chat
 
  
