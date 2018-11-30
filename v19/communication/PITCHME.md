@@ -111,19 +111,23 @@ Note:
 
 ---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/misunderstanding.jpg?raw=true&position=right&size=55% 100%
 
-## Mye vanligere enn du tror
+@snap[span-45] 
+### Mye vanligere enn du tror
+@snapend
 
 ---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/understanding.jpg&position=right&size=55% 100%
 
-## Hva er vellykket kommunikasjon?
+@snap[span-45]
+### Hva er vellykket kommunikasjon?
 
-- Når meldingen som er levert betyr det samme for den som har levert meldingen
-  som den som har mottatt den
-- Når meldingen er nyttig for mottakeren
+@ulsplit-screen-list
+- Meldingen betyr det samme for mottaker og avsender
+- Meldingen er nyttig for mottakeren
+@snapend
 
 ---
 
-## Epost
+### Epost
 
 - Mottakere
 - Tema
