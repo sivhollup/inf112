@@ -1,0 +1,274 @@
+/* Intro Template Styles */
+
+.headline {
+  font-size: 2.5em !important;
+  font-weight: bold !important;
+}
+
+.byline {
+  letter-spacing: 0.1em;
+  font-size: 0.6em !important;
+}
+
+/* Split-Screen Template Styles */
+
+.split-screen-heading {
+  font-size: 1.7em !important;
+  font-weight: bold !important;
+}
+
+.split-screen-byline {
+  width: 35%;
+  font-size: 1.1em !important;
+}
+
+.split-screen-text {
+  width: 30%;
+  text-align: center;
+  font-size: 0.8em !important;
+}
+
+.split-screen-img {
+  width: 35%;
+}
+
+.split-screen-img img {
+  border-radius: 8% !important;
+}
+
+.split-screen-list li {
+  font-size: 0.8em;
+  margin:0 0 40px 0;
+}
+
+.split-screen-list li::before {
+  color: #FF5600 !important;
+  background-color: white !important;
+}
+
+/* List-Content Template Styles */
+
+.list-content-concise li {
+  font-size: 1em;
+  margin:0 0 10px 0;
+}
+
+.list-content-verbose ul {
+  list-style-type: square;
+}
+
+.list-content-verbose li {
+  font-size: 0.8em;
+  margin:0 0 40px 0;
+}
+
+.list-bullets-black li::before {
+  background-color: black !important;
+}
+
+.list-bullets-circles {
+  list-style-type: circle !important;
+}
+
+/** Boxed-Text Template Styles ***/
+
+.demo-box-text-padding #boxed-text {
+  padding-top: 1.95em;
+  padding-bottom: 1.95em;
+}
+
+.demo-box-step-padding #boxed-text {
+  padding-top: 1.8em;
+  padding-bottom: 2.3em;
+}
+
+/** Image Template Styles ***/
+
+/** Sidebox Template Styles ***/
+
+/** Code-Presenting Template Styles ***/
+
+/** Header-Footer Template Styles ***/
+
+.header-footer-list-shrink li {
+  color: white;
+  font-size: 0.7em;
+  margin:0 0 20px 0;
+}
+
+/** Quotation Template Styles ***/
+
+/** Announcements Template Styles ***/
+
+.announce-big-news {
+  font-size: 7em !important;
+}
+
+.announce-coming-soon {
+  font-size: 6.5em !important;
+}
+
+/** About Template Styles **/
+
+.about-team-pic img {
+  width: 60%;
+  border: none !important;
+  box-shadow: none !important;
+  -webkit-clip-path: circle(35% at 50% 50%);
+  clip-path: circle(35% at 50% 50%);
+}
+
+.about-team-pic-center img {
+  width: 70%;
+}
+
+.about-team-bio {
+  font-size: 0.6em !important;
+}
+
+.about-bio-details {
+  font-size: 0.8em !important;
+}
+
+/** Wrap-Up Template Styles **/
+
+.contact-name {
+  font-size: 0.6em !important;
+  font-weight: 800 !important;
+  text-transform: uppercase !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+.contact-email {
+  font-size: 0.5em !important;
+  font-weight: 600 !important;
+}
+
+.contact-links {
+  color: #00008B !important;
+}
+
+.twitter-handle {
+  font-size: 0.5em !important;
+  font-weight: bolder !important;
+  vertical-align: middle !important;
+}
+
+.git-handle {
+  font-size: 0.5em !important;
+  font-weight: bolder !important;
+  vertical-align: middle !important;
+}
+
+.pad-right-icon {
+  padding-right: 0.4em;
+}
+
+.pad-left-icon {
+  padding-left: 0.4em;
+}
+
+/** General Template Styles **/
+
+.template-note {
+  letter-spacing: 0.1em;
+  font-size: 0.4em !important;
+}
+
+.docslink {
+  color: #a49436;
+  font-size: 0.5em !important;
+  font-variant: small-caps !important;
+  letter-spacing: 0.2em;
+}
+
+#gp-logo img {
+  max-height: 3.5em;
+  max-width: none;
+}
+
+#title-footer a {
+  color: black;
+}
+
+#title-footer p.footer-hard {
+   color: black;
+}
+
+/** Reveal.js Core Override Styles **/
+
+.reveal ol li {
+    margin-left: 0;
+    padding-right: 0;
+    list-style-type: none;
+}
+
+.reveal ol li {
+  position: relative;
+  counter-increment: step-counter;
+}
+
+.reveal ol li::before {
+  color: white;
+  font-size: 80%;
+  font-weight: bold;
+  padding: 3px 10px;
+  margin-right: 15px;
+  border-radius: 3px;
+  background-color: #F26225;
+  content: counter(step-counter);
+}
+
+.reveal section img {
+  border: none;
+  box-shadow: none;
+  background: none;
+}
+
+.reveal .slide-number {
+  color: black !important;
+}
+
+.reveal blockquote {
+    width: 100%;
+    padding: 17px;
+    border-radius: 17px;
+    background: rgba(255,255,255,0.2);
+}
+
+.reveal pre {
+  width: 98%;
+  margin: 0px;
+  box-shadow: none;
+}
+
+.reveal pre code {
+  font-size: 1.2em;
+  line-height: 1.2;
+  border-radius: 10px;
+  max-height: 60vh !important;
+  overflow: hidden !important;
+}
+
+@media (device-width: 100vw) and (device-height: 100vh) {
+  .reveal pre code {
+    max-height: 50vh !important;
+  }
+}
+
+.hljs {
+  background: none;
+}
+
+.reveal p span.slide-title {
+  display: none;
+}
+
+.reveal .slides section .code-presenting-annotation {
+  color: white;
+  background: black;
+  padding: 0px 15px;
+  border-radius: 15px;
+  opacity: 0.75 !important;
+  font-size: 50% !important;
+}
