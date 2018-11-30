@@ -107,11 +107,11 @@ Note:
 - både dokumentasjon og kode er tekst. Begge er kommunikasjonskanaler. 
 
 
----?image=https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/misunderstanding.jpg?raw=true&position=right&size=55% 
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/misunderstanding.jpg?raw=true&position=right&size=55% 100%
 
 ## Mye vanligere enn du tror
 
----?image=https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/understanding.jpg&position=right&size=55% 
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/understanding.jpg&position=right&size=55% 100%
 
 ## Hva er vellykket kommunikasjon?
 
