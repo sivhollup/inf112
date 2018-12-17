@@ -10,4 +10,4 @@ Note:
 
 - 
 
----?image=https://en.wikipedia.org/wiki/Extreme_programming#/media/File:Extreme_Programming.svg
+---?https://upload.wikimedia.org/wikipedia/commons/4/44/XP-feedback.gif
