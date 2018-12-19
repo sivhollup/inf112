@@ -1,6 +1,6 @@
 ---
 
-# Versjonskontroll og git
+## Versjonskontroll og git
 
 ---
 
@@ -57,7 +57,7 @@ Note:
 - git commit -m "Ignorere .swp-filer"
 - git log (commit-melding er kommet med, hash for commit vises)
 
----?image=https://git-scm.com/book/en/v2/images/areas.png
+---?image=https://git-scm.com/book/en/v2/images/areas.png&size=60%
 
 Note:
 - Staging: git registrerer endringer som skal legges til i repository
