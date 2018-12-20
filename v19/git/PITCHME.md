@@ -134,6 +134,7 @@ Note:
 
 ### Begynn med github
 
+Note:
 - Opprett repository på github, gjerne med .gitignore og README
 - klon repositoriet ned til din maskin
 - da får du lokal kopi og upstream (sentralt githubrepo) er satt for deg
@@ -142,4 +143,40 @@ Note:
 
 ---
 
+### Jobbe i steg uten å forstyrre andre: branching
 
+Note:
+- git checkout -b <navn-på-branch> 
+- git commit 
+- git checkout master
+- git merge <navn-på-branch>
+- Ved endringer i master, merge master, evt rebase din branch på master mens du
+  jobber. jo lenger du venter jo verre blir konfliktene. 
+- Alternativ til merge: rebase. 
+
+---
+
+### Pull requests
+
+Note: 
+- Lag fork av prosjekt til din egen konto, du får da ditt eget prosjekt
+- Klon ditt prosjekt ned til din maskin
+- Lag en branch
+- Gjør commits, push branch til ditt sentrale github-repository
+- Gå til original-prosjektet og lag en pull request (PR)
+- Noen må da merge denne inn 
+
+--- 
+
+### Best practices
+
+Note: 
+- rebase før du merger noe som helst
+- kjør alltid testene etter rebase
+- se alltid over kodeendringer før commit
+- få noen til å se over koden med deg
+- sørg for å gruppere commits slik at alle endringene henger sammen
+- tidlig i prosjekt: kanskje trunk based (bare på master, evt med brancher på
+  prosjektet)
+- PR gir større mulighet for kontroll på endringer som blir merget inn, github
+  tilbyr feks visuell oversikt over endringer
