@@ -28,8 +28,8 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void testThreeReturnsFizz() {
-        assertEquals("fizz", fizzBuzz.compute(3));
+    public void test7ReturnsFizz() {
+        assertEquals("fizz", fizzBuzz.compute(7));
     }
 
     @Test
@@ -38,8 +38,8 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void test15ReturnsFizzBuzz() {
-        assertEquals("fizzbuzz", fizzBuzz.compute(15));
+    public void test35ReturnsFizzBuzz() {
+        assertEquals("fizzbuzz", fizzBuzz.compute(35));
     }
 
     @Test

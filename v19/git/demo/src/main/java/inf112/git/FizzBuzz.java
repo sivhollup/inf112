@@ -3,15 +3,27 @@ package inf112.git;
 public class FizzBuzz {
 
     public String compute(int number) {
-        if (number > 0 && number % 3 == 0 && number % 5 == 0) {
+        if (isHigherThanLowerBound(number) && isFizz(number) && isBuzz(number)) {
             return "fizzbuzz";
         }
-        if (number > 0 && number % 3 == 0) {
+        if (isHigherThanLowerBound(number) && isFizz(number)) {
             return "fizz";
         }
-        if (number > 0 && number % 5 == 0) {
+        if (isHigherThanLowerBound(number) && isBuzz(number)) {
             return "buzz";
         }
         return String.valueOf(number);
+    }
+
+    private boolean isBuzz(int number) {
+        return number % 5 == 0;
+    }
+
+    private boolean isFizz(int number) {
+        return number % 7 == 0;
+    }
+
+    private boolean isHigherThanLowerBound(int number) {
+        return number > 0;
     }
 }
