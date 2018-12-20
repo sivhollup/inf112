@@ -19,7 +19,36 @@ public class FizzBuzzTest {
 
     @Test
     public void testLowerBoundRegularNumber() {
-        //TODO
-        fail("Not implemented yet");
+        assertEquals("0", fizzBuzz.compute(0));
+    }
+
+    @Test
+    public void testRegularNumber() {
+        assertEquals("1", fizzBuzz.compute(1));
+    }
+
+    @Test
+    public void testThreeReturnsFizz() {
+        assertEquals("fizz", fizzBuzz.compute(3));
+    }
+
+    @Test
+    public void testFiveReturnsBuzz() {
+        assertEquals("buzz", fizzBuzz.compute(5));
+    }
+
+    @Test
+    public void test15ReturnsFizzBuzz() {
+        assertEquals("fizzbuzz", fizzBuzz.compute(15));
+    }
+
+    @Test
+    public void test21ReturnsFizz() {
+        assertEquals("fizz", fizzBuzz.compute(21));
+    }
+
+    @Test
+    public void test25ReturnsBuzz() {
+        assertEquals("buzz", fizzBuzz.compute(25));
     }
 }
