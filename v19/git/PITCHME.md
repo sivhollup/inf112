@@ -76,6 +76,19 @@ Note:
 - id til commiten
 - SHA1-hash
 - beregnes basert på innhold i filer og kataloger. Uendret fil --> uendret hash
+- hash er unik
+- commit med samme hash på to maskiner: garanterer at filene er like, OG at alle
+  forrige versjoner er like (historien er lik)
+- detaljer om hvordan git lagrer data: https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell#ch03-git-branching
+
+---?image=https://git-scm.com/book/en/v2/images/snapshots.png&size=60%
+
+Note: 
+- en commit er et snapshot av alle filene. Hvis en fil ikke er endret lagres kun
+  en referanse til filen i den forrige commit-en
+- stiplede linjer: referanser til tidligere versjon av en fil (fordi hash er lik
+  som forrige)
+- git er mer som et filsystem
 
 ---
 
@@ -110,9 +123,11 @@ Note:
 - No README, no .gitignore, no nothing. Tomt repository
 - kopier adresse (enten https eller ssh) til repository
 - git remote <-- tom
-- git remote add <adresse>
+- git remote add <adresse> (feks git remote add origin
+  git@github.com:sivhollup/v19-test.git)
 - git remote -v 
-- git push -u origin master (-u setter upstream repository url)
+- git push -u origin master (-u setter upstream repository url, push dytter til
+  en remote)
 - sjekk at filene er kommet opp på github
 
 ---
@@ -124,4 +139,7 @@ Note:
 - da får du lokal kopi og upstream (sentralt githubrepo) er satt for deg
 - sjekk med git remote
 - Konvensjon: Der du har klonet fra er origin
+
+---
+
 
