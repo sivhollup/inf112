@@ -180,5 +180,5 @@ Note:
 @snapend
 
 @snap[east thumbnail]
-![Cylon](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/cylon.svg)
+![Cylon](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/cylon.svg?raw=true&size=55% 100%)
 @snapend
