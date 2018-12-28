@@ -168,3 +168,19 @@ Note:
 - diskusjoner som ikke må gjøres alt på en gang (folk kan svare når det passer)
 - stille diskusjoner (diskutere uten å skape støy i landskapet)
 - beskjeder der og da (viktig informasjon må også gis på epost)
+
+---
+
+### Fokus
+
+@snap[west]
+![Dalek](https://www.clipartmax.com/png/middle/99-991429_dalek-doctor-who-dalek-icon.png)
+@snapend
+
+@snap[midpoint]
+![Chewie](https://icon-icons.com/icons2/1070/PNG/512/chewbacca_icon-icons.com_76942.png)
+@snapend
+
+@snap[east]
+![Cylon](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/cylon.svg)
+@snapend
