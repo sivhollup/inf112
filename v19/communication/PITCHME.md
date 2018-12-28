@@ -173,14 +173,14 @@ Note:
 
 ### Fokus
 
-@snap[west]
-![Dalek](https://www.clipartmax.com/png/middle/99-991429_dalek-doctor-who-dalek-icon.png)
+@snap[west thumbnail]
+![Tardis](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/tardis.svg)
 @snapend
 
-@snap[midpoint]
-![Chewie](https://icon-icons.com/icons2/1070/PNG/512/chewbacca_icon-icons.com_76942.png)
+@snap[midpoint thumbnail]
+![C3PO](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/c3po.svg)
 @snapend
 
-@snap[east]
+@snap[east thumbnail]
 ![Cylon](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/cylon.svg)
 @snapend
