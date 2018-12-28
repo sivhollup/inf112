@@ -176,9 +176,9 @@ Note:
 @snapend
 
 @snap[midpoint thumbnail]
-![C3PO](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/c3po.svg?raw=true&size=55% 100%)
+![C3PO](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/c3po.svg?size=55%)
 @snapend
 
 @snap[east thumbnail]
-![Cylon](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/cylon.svg?raw=true&size=55% 100%)
+![Cylon](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/cylon.svg?size=55% 100%)
 @snapend
