@@ -171,14 +171,14 @@ Note:
 
 ---
 
-@snap[west span-30]
+@snap[west]
 ![Tardis](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/tardis.png)
 @snapend
 
-@snap[midpoint span-30]
+@snap[midpoint span-10]
 ![C3PO](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/c3po.svg)
 @snapend
 
-@snap[east span-30]
+@snap[east span-10]
 ![Cylon](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/cylon.svg)
 @snapend
