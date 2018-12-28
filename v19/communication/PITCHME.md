@@ -171,7 +171,7 @@ Note:
 
 ---
 
-@snap[west]
+@snap[west span-10]
 ![Tardis](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/tardis.png)
 @snapend
 
