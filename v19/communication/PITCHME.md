@@ -172,13 +172,13 @@ Note:
 ---
 
 @snap[west thumbnail]
-![Tardis](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/tardis.svg)
+![Tardis](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/tardis.png)
 @snapend
 
 @snap[midpoint thumbnail]
-![C3PO](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/c3po.svg?size=55%)
+![C3PO](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/c3po.svg?size=30%)
 @snapend
 
 @snap[east thumbnail]
-![Cylon](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/cylon.svg?size=55% 100%)
+![Cylon](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/cylon.svg?size=30%)
 @snapend
