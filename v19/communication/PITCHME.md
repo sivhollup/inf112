@@ -171,14 +171,12 @@ Note:
 
 ---
 
-### Fokus
-
 @snap[west thumbnail]
 ![Tardis](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/tardis.svg)
 @snapend
 
 @snap[midpoint thumbnail]
-![C3PO](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/c3po.svg)
+![C3PO](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/c3po.svg?raw=true&size=55% 100%)
 @snapend
 
 @snap[east thumbnail]
