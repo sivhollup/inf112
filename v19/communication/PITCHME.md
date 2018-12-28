@@ -163,7 +163,6 @@ Note:
 - Team-informasjon
 
 Note: 
-
 - deling av ressurser
 - diskusjoner som ikke må gjøres alt på en gang (folk kan svare når det passer)
 - stille diskusjoner (diskutere uten å skape støy i landskapet)
