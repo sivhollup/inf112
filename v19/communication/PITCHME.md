@@ -177,9 +177,9 @@ Note:
 @snapend
 
 @snap[midpoint span-10]
-![C3PO](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/c3po.svg)
+![C3PO](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/c3po.png)
 @snapend
 
 @snap[east span-10]
-![Cylon](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/cylon.svg)
+![Cylon](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/cylon.png)
 @snapend
