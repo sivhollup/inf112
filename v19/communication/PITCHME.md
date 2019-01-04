@@ -181,11 +181,11 @@ Note:
 - Historie på kommunikasjon og valg som blir tatt på oppgaver
 
 
-@snap[north-west]
 ---?image=https://images.pexels.com/photos/935949/pexels-photo-935949.jpeg
-@snapend
 
+@snap[north-west]
 ### Ansikt til ansikt
+@snapend
 
 Note: 
 
