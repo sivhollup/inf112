@@ -184,7 +184,7 @@ Note:
 ---?image=https://images.pexels.com/photos/935949/pexels-photo-935949.jpeg
 
 @snap[north-west]
-### Ansikt til ansikt
+### @color[slate-grey](Ansikt til ansikt)
 @snapend
 
 Note: 
@@ -226,7 +226,7 @@ Note:
 
 
 
----?image?https://images.pexels.com/photos/1157859/pexels-photo-1157859.jpeg
+---?image=https://images.pexels.com/photos/1157859/pexels-photo-1157859.jpeg
 
 @snap[north-west]
 ### Møter
@@ -251,7 +251,7 @@ Note:
 ---?image=https://images.pexels.com/photos/845451/pexels-photo-845451.jpeg
 
 @snap[north-west]
-### Telefon og video
+### @color[slate-grey](Telefon og video)
 @snapend
 
 Note: 
