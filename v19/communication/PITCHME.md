@@ -102,10 +102,10 @@ Note:
 - Epost
 - Chat
 - Issue tracking
+- Ansikt til ansikt
 - Møter
 - Telefon/video
-- Tekst
-- Ansikt til ansikt
+- Tekst og figur
 
 Note: 
 
@@ -172,6 +172,152 @@ Note:
 - stille diskusjoner (diskutere uten å skape støy i landskapet)
 - beskjeder der og da (viktig informasjon må også gis på epost)
 
+---
+
+### Issue tracking
+
+Note: 
+
+- Hvilke arbeidsoppgaver finnes?
+- Hva er status på arbeidsoppgaver?
+- Hvem jobber med hva? 
+- Vis opensource project board på github
+- Kommentarer på pågående oppgaver
+- Historie på kommunikasjon og valg som blir tatt på oppgaver
+
+
+---?image=https://images.pexels.com/photos/935949/pexels-photo-935949.jpeg
+
+### Ansikt til ansikt
+
+Note: 
+
+- sosial interaksjon
+- faglig interaksjon
+- kunnskapsoverføring
+- samarbeid
+- Hva ser vi i bildet? Avslappet, blide, åpne for kommunikasjon
+- Pass på kroppsspråk (avvisende, åpen, konfronterende, avvæpnende)
+- Hvordan snakke for å åpne for konstruktiv diskusjon
+- Hvordan kritisere? 
+- Hvordan diskutere? 
+
+
+---
+
+### Hvem har rett? 
+
+- "Den skal være stor"
+- "Den skal være liten"
+
+Note: 
+- Hva kan være grunnen til en slik konflikt? (tenk fysiske objekter)
+- "Det viktigste er at det er mye plass"
+- "Det viktigste er at vekten er lav"
+
+
+--- 
+
+### Antagelser er farlige
+
+Note: 
+
+- pass på å fortelle om antagelser når dere diskuterer fag
+- åpen for diskusjon: åpen for å greie ut misforståelser basert på upresis
+  ordbruk
+
+
+
+---?image?https://images.pexels.com/photos/1157859/pexels-photo-1157859.jpeg
+@snap[north-west]
+### Møter
+@snapend
+
+Note: 
+
+- For prosjektrelatert arbeid som må diskuteres i fellesskap
+- Ansikt til ansikt
+- Diskusjon, planlegging, status
+- Korte eller lange (feks standup vs bli kjent med domenet)
+- Bør ikke være for lange, evt med pauser
+- Vær kritisk med hvem som trenger å være med
+- Være kritisk med når møter avholdes, de avbryter dagen
+- Er alle tilstede i rommet? Hvis remote, kamera eller bare lyd?
+- Begrens møter, ikke kast vekk tiden
+- Interaktivt, effektivt, husk pauser
+- Hold konstruktiv tone, forklar kontekst så kort som mulig
+- Agenda: ALLTID
+- Må noen forberede? Gi dem tid til det. Respekter andres tid. 
+
+---?image=https://images.pexels.com/photos/845451/pexels-photo-845451.jpeg
+
+@snap[north-west]
+### Telefon og video
+@snapend
+
+Note: 
+
+- En til en
+- Mange
+- I tilrettelagt møterom, fokusrom eller ved pulten
+- Bruk headset med mikrofon
+- Hvis mange: mute når du ikke snakker
+- Sørg for god lyd (kjøp ekstern høyttaler)
+- Snakk om hvordan slike møter fungerer, prøv å begrense forstyrrelser og
+  problemer
+
+
+---
+
+### Tekst
+
+Note: 
+
+- kontrakter, juridisk bindende
+- informasjon om prosjekt (kontekst til hvordan bygge)
+- informasjon som er mer permanent (enn feks chat eller ansikt-til-ansikt)
+
+
+---?image=https://images.pexels.com/photos/1043514/pexels-photo-1043514.jpeg
+
+### Figurer
+
+Note: 
+
+- informasjon om domenet
+- informasjon om kode
+- ting å huske på
+- visualisere flyt (data, arbeid, prosess)
+- noe flyktig (nyttig der og da), noe nyttig over tid (oversikt)
+- bruker ofte figurer for å hjelpe folk å forstå konsepter (noen mennesker
+  tenker visuelt)
+- forklare konsepter: ofte nyttig å tenke på ting på ulike måter
+- Andre typer figurer:
+
+---?image=https://images.pexels.com/photos/1537008/pexels-photo-1537008.jpeg
+
+Note: 
+- arkitektur, detaljer/oversikt
+
+---?image=https://images.pexels.com/photos/1181346/pexels-photo-1181346.jpeg
+
+Note: 
+
+- oversikt over kode (nyttig bruk av UML)
+
+---?image=https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg
+
+@snap[north-west]
+### Kode
+@snapend
+
+Note: 
+
+- forretningsregler for domenet
+- beskriver realiteten
+- leses av mange, lever lenge
+- beskriver løsningen på problemet du prøver å løse
+ 
 
 ---
 
