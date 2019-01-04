@@ -71,7 +71,9 @@ Note:
 
 ---?image=https://images.pexels.com/photos/1120344/pexels-photo-1120344.jpeg
 
+@snap[north-west]
 ### Kommunikasjon
+@snapend
 
 Note: 
 
