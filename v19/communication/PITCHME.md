@@ -122,10 +122,11 @@ Note:
 
 @snap[span-45]
 ### Hva er vellykket kommunikasjon?
+@snapend
 
+Note: 
 - Meldingen betyr det samme for mottaker og avsender
 - Meldingen er nyttig for mottakeren
-@snapend
 
 ---
 
