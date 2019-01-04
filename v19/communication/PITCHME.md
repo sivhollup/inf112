@@ -123,7 +123,6 @@ Note:
 @snap[span-45]
 ### Hva er vellykket kommunikasjon?
 
-@ulsplit-screen-list
 - Meldingen betyr det samme for mottaker og avsender
 - Meldingen er nyttig for mottakeren
 @snapend
