@@ -126,6 +126,7 @@ Note:
 @ulsplit-screen-list
 - Meldingen betyr det samme for mottaker og avsender
 - Meldingen er nyttig for mottakeren
+@ulsplit-screen-list-end
 @snapend
 
 ---
