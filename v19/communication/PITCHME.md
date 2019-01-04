@@ -138,23 +138,18 @@ Note:
 - Tråder
 
 Note: 
-
 - ikke send til absolutt alle. Tenk på hvem som faktisk trenger å bli informert.
-
 - forventer du svar? Til-felt. 
-
 - trenger å se, men ikke gjøre noe? Cc-felt
-
-- husk at bcc også finnes. Sender du til MANGE? Bruk bcc eller liste slik at ingen får oversikt over alle adressene og trykker reply-to-all ved en feiltakelse. 
-
-- epost bør være oppsummert i tittellinjen/tema slik at folk kan huske hva dette dreier seg om bare ved å se i oversiktslisten
-
-- en ting per eposttråd. Ikke benytt anledningen i en tråd til å snakke om noe annet, skriv ny epost i stedet for. 
-
+- husk at bcc også finnes. Sender du til MANGE? Bruk bcc eller liste slik at
+  ingen får oversikt over alle adressene og trykker reply-to-all ved en
+  feiltakelse. 
+- epost bør være oppsummert i tittellinjen/tema slik at folk kan huske hva dette
+  dreier seg om bare ved å se i oversiktslisten
+- en ting per eposttråd. Ikke benytt anledningen i en tråd til å snakke om noe
+  annet, skriv ny epost i stedet for. 
 - når svaret ikke haster, men er viktig
-
 - mer formelt enn feks chat
-
 - kan forvente at eposter blir lest
 
 ---
