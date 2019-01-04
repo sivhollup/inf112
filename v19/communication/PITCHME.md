@@ -229,7 +229,7 @@ Note:
 ---?image=https://images.pexels.com/photos/1157859/pexels-photo-1157859.jpeg
 
 @snap[north-west]
-### Møter
+### @color[#1D1F20](Møter)
 @snapend
 
 Note: 
@@ -279,8 +279,8 @@ Note:
 
 ---?image=https://images.pexels.com/photos/1043514/pexels-photo-1043514.jpeg
 
-@snap[north-west]
-### Figurer
+@snap[north-east]
+### @color[#1D1F20](Figurer)
 @snapend
 
 Note: 
@@ -309,7 +309,7 @@ Note:
 ---?image=https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg
 
 @snap[north-west]
-### Kode
+### @color[#1D1F20](Kode)
 @snapend
 
 Note: 
