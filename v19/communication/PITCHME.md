@@ -181,7 +181,9 @@ Note:
 - Historie på kommunikasjon og valg som blir tatt på oppgaver
 
 
+@snap[north-west]
 ---?image=https://images.pexels.com/photos/935949/pexels-photo-935949.jpeg
+@snapend
 
 ### Ansikt til ansikt
 
@@ -225,6 +227,7 @@ Note:
 
 
 ---?image?https://images.pexels.com/photos/1157859/pexels-photo-1157859.jpeg
+
 @snap[north-west]
 ### Møter
 @snapend
@@ -276,7 +279,9 @@ Note:
 
 ---?image=https://images.pexels.com/photos/1043514/pexels-photo-1043514.jpeg
 
+@snap[north-west]
 ### Figurer
+@snapend
 
 Note: 
 
