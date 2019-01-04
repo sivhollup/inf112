@@ -30,6 +30,7 @@ Note:
 Note:
 
 - Forelesninger i første halvdel av kurset, prosjektarbeid resten
+- Oppgaver for å lære verktøy og lage team
 - Prosjekt teller 50% av karakter
 
 ---
@@ -68,7 +69,7 @@ Note:
 - Lydhør
 - Engasjert
 
---- 
+---?image=https://images.pexels.com/photos/1120344/pexels-photo-1120344.jpeg
 
 ### Kommunikasjon
 
