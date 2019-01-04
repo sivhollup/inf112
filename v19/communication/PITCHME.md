@@ -126,7 +126,6 @@ Note:
 @ulsplit-screen-list
 - Meldingen betyr det samme for mottaker og avsender
 - Meldingen er nyttig for mottakeren
-@ulsplit-screen-list-end
 @snapend
 
 ---
@@ -199,6 +198,7 @@ Note:
 - samarbeid
 - Hva ser vi i bildet? Avslappet, blide, åpne for kommunikasjon
 - Pass på kroppsspråk (avvisende, åpen, konfronterende, avvæpnende)
+- Øyekontakt, opparbeid tillit
 - Hvordan snakke for å åpne for konstruktiv diskusjon
 - Hvordan kritisere? 
 - Hvordan diskutere? 
