@@ -90,7 +90,8 @@ Note:
 
 Note: 
 
-- Vi skal lage en levende representasjon av et sett med regler i en gitt kontekst
+- Vi skal lage en levende representasjon av et sett med regler i en gitt
+  kontekst
 - Må forstå problemområdet, kontekst og regler, altså DOMENET
 - Vi jobber med folk hele tiden
 
