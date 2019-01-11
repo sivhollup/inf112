@@ -303,6 +303,9 @@ Note:
 - Hold konstruktiv tone, forklar kontekst så kort som mulig
 - Agenda: ALLTID
 - Må noen forberede? Gi dem tid til det. Respekter andres tid. 
+- Kroppsspråk: ikke invader andres personlige område
+- Kroppsspråk: bakoverlent med kryssede armer/ben: negativ
+- Kroppsspråk: fremoverlent antyer interessert
 
 ---?image=https://images.pexels.com/photos/845451/pexels-photo-845451.jpeg
 
@@ -378,11 +381,51 @@ Note:
 
 ---
 
-### Hvordan diskutere sammen
+### Hvordan diskutere sammen 
 
-Note: 
-- parprogrammering, et godt eksempel
-- parprogrammering, et dårlig eksempel
+#### Et godt eksempel
+
+https://bit.ly/2RFTbqh
+
+Note:
+- åpen for endring i oppsett
+- forklarer hva han gjør
+- undersøker hvordan man kan jobbe best sammen (hva slags kontekst har den du
+  sitter sammen med?)
+- høflig: får tastatur
+- forklarer hvordan ny laptop fungerer
+- lar den andre få tenke i fred
+- bytter på å jobbe
+- virker kanskje vanskelig i begynnelsen, men blir effektivt over tid
+- kanskje ikke like bra: holder armen på stolen til naboen (men litt suboptimalt
+  oppsett med bare laptop)
+
+
+---
+
+### Hvordan diskutere sammen 
+
+#### Et dårlig eksempel
+
+https://bit.ly/2smxwW0
+
+Note:
+- uhøflig språk
+- uoppmerksom
+- lat
+- forsvinner i telefon
+- baksetesjåfør
+- useriøst
+- arrogant
+- ikke opptatt av samarbeid
+- sniping
+- kritiserer hverandre
+- svarer ikke på spørsmål
+- ingen forståelse for annen kontekst
+- usaklig kritikk av kode
+- usaklig forsvar av kode
+- gjentagelse
+- ikke noe problem en gang: men hva om dette er hverdag?
 
 
 ---
@@ -390,8 +433,50 @@ Note:
 ### Do's and don'ts
 
 Note: 
+- kode er ekstremt personlig, tanke oversatt direkte til tekst
+- mange tar kritikk av kode som personlig kritikk
+- hvis du reagerer på noe: hvorfor? 
+- hvis du reagerer på noe: hva kan være et alternativ?
+- være løsningsorientert, ikke problemorientert
+- sørg for at begge to forstår hva som foregår
+- partner er ikke tankelesere, forklar retningen du beveger deg i
+- vær høflig og profesjonell
+- vær konstruktiv
+- når den andre skriver kode: følg med
+- spør om å få overta hvis du har en ide
+- spør om partner vil kode hvis du har kodet lenge
+- la mobil og annen laptop ligge med mindre du leter etter løsning på problem
+  dere nå jobber med
+- hvis du feks må på do, gi beskjed hvor lenge du forventer å bli vekke
+- ikke gå uten forklaring
+- forsiktig med mat, er det OK for partner?
+- personlig hygiene teller, veldig tett på partner
+- pass kroppsspråk
 - høflighet
-- kroppsspråk
+- OK å være usikker
+- OK å prøve ut
+- OK å være uenige, kan vente med å løse noen problemer til senere
+- universelle regler, enter man koder eller prater sammen, tegner sammen osv.
+- si ifra om du trenger en pause
+
+
+---
+
+### Lønner deg seg å jobbe sammen?
+
+Note: 
+- Pros: bedre kunnskapsdeling: to stk har dyp forståelse av problemet
+- løser problemet fortere totalt sett, selv om det virker som om det går tregere
+  i begynnelsen
+- utforsker flere måter å løse problemer på
+- færre feil
+- Cons: veldig ulike personligheter kan ha problemer med å jobbe sammen
+- noen foretrekker å jobbe alene
+- slitsomt der og da (veldig intenst)
+- ulike arbeidsmetoder (feks cowboy mot planleggeren)
+- kan være lett å bli distrahert
+- Øvelse: Tellespillet
+
 
 ---
 
@@ -407,6 +492,19 @@ Note:
 ![Cylon](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/cylon.png)
 @snapend
 
+Note: 
+- Skal vise disse tre ikonene, de bytter med jevne mellomrom. Dere skal huske
+  hvor mange det er av hver uten å skrive ned. 
+- Kjører to runder av dette spillet. 
+- Runde 2: 
+- Hva er 5 + 8? Rop ut svaret
+- "Anne og Ole kjører tog. De starter i hhv Bergen og Oslo samtidig. Anne sitt
+  tog går i 75 km/t, og Ole sitt i 50 km/t. Det er 500 km mellom Bergen og Oslo.
+  Hvor langt har Anne kommet når de møtes (antall km fra Bergen)?"
+- Rop ut tallet på måneden du er født i
+- Hva er siste sifferet i telefonnummeret ditt?
+- Hvis vi hadde gjort denne øvelsen i par, går det an å bli mindre avbrutt?
+
 
 ---
 
@@ -420,16 +518,68 @@ Note:
 
 ---
 
-### Hvordan jobbe sammen
+### Hvordan jobbe sammen i par
 
 Note: 
-- parprogrammering
-- fysisk oppsett
-- hvordan jobbe sammen
-- avbrytelser
+- http://sedano.org/toddsedano/2017/10/24/considerate-pair-programming.html
+  (både del 1, 2 og 3)
+- To hoder tenker bedre enn ett, særlig på komplekse problemer. Bare det å
+  forklare løsningen din for andre gjør at du forstår den bedre selv. 
+- Ha to tastatur, helst to skjermer også, likeverdig plassering av partnere
+- Kan være bedre å stå
+- Gi komplimenter hvis du gleder deg, si hvorfor
+- Introduksjon hvis du ikke har sittet sammen med noen før
+- Hva er forventninger til utfall av parprogrammering? (løse problemer i
+  fellesskap, levere funksjonalitet osv)
+- Hvordan har den andre det i dag? Kan vi tilpasse situasjon slik at det blir
+  mest mulig effektivt?
+- Eks: "Er bekymret for om featuren vi lager løser problemet vi egentlig har"
+- Eks: "Gleder meg til å få hjelp med dette, for jeg har stått fast i 2 dager"
+- Eks: "Du har mer erfaring enn meg, så jeg er nervøs"
+- Sjekk tilstand halvveis i sesjonen, be om tilbakemelding. Vær konstruktiv!
+- Ta pauser når det ikke går an å konsentrere seg
+- Den som trenger mest tid setter tempo på arbeidet, begge skal være med
+- Si takk på slutten av dagen!
+- Hvis noe går gale: 
+- Gjenta/forklar med egne ord hva problemstillingen er (kan hjelpe på
+  forståelse)
+- ulike ideer til hvordan løse problemet? Prøv å argumentere FOR partneren sin
+- gå gjennom hvordan dere har havnet i situasjonen
+- prøv å tenke ut andre løsninger
+- få noen andre fra teamet til å hjelpe
+- prøv begge løsninger
+- Forklar hva du føler: "Når du gjør .. så oppfatter i hodet mitt ... da føler jeg.."
+- Snakk om noe annet: spør hva partneren er opptatt av? (trenger ikke være
+  faglig)
+- Deeskaler situasjonen (pause/samtale om andre ting osv)
+
+
+---
+
+### Kommunikasjon er essensielt
+
+Note: 
+- ikke snakket noe særlig om hvilket språk vi bruker, og hvilke ord (kommer
+  senere)
+- kommunikasjon er ikke-verbalt og verbalt, skriftlig, figurer, kode, chat
+- kommunikasjon legger grunnlaget for å få til et bra resultat både daglig og
+  totalt
+
+
+--- 
+
+### Neste: Versjonskontroll 
+
+Note: 
+- neste forelesning: versjonskontroll og git
+
 
 ---
 
 ### Slack
 
 https://bit.ly/2SO63b0
+
+Note: 
+- satt opp et slack-workspace til faget. Diskuter fag, lag
+  prosjektkanal/gruppekanal. Spør meg der eller send epost. 
