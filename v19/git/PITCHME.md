@@ -7,48 +7,86 @@
 ### Verden uten versjonskontroll
 
 Note: 
-
 - må kopiere alle filer frem og tilbake
-- må ha Internet
-- må huske hvilken versjon som er den nyeste hele tiden
+- finnes kanskje bare en kopi, hva skjer hvis disken din ryker?
+- må huske hvilken versjon som er den nyeste hele tiden hvis du skal dele
+- hva hvis flere er med? enda vanskeligere å vite hva som er nyeste
+- kan være lurt å ha sentralt sted alle kopierer fra, men trenger fortsatt en
+  lur måte å spore endringer på: versjons-kontroll
+
 
 ---
 
-### Git? Yes, please
-
-- Filer
-- Endringer
-- Hvem og når
-
+### Versjonskontroll? Yes, please
 
 Note:
-- finnes flere enn git, men omtrent alle bruker git. 
+- finnes flere verktøy enn git, men git er omtrent bransjestandard 
 - lagrer filene dine
 - lagrer endringer
+- lagrer hva som har blitt endret, når det har blitt endret, og hvem som endret
+  det
 - legger til rette for å dele
-- legger til rette for å håndtere konflikter i filer
+- legger til rette for å spore endringer
+- legger til rette for å håndtere konflikter i ulike versjoner av filene
+
 
 ---
 
 ### Versjonskontroll endrer arbeidshverdag
 
-- Gruppering
-- Eksperimentering
+Note: 
+- oversikt over endringer (hva og når)
+- gjør det enklere å jobbe fra ulike enheter
+- backup hvis du deler mellom ulike enheter
+- gjør det enklere å samarbeide
+- reduserer risiko
+- øker trygghet
+- to siste punktene er viktige, fordi:
+- lettere å utforske når man er avslappet (utvikling er et kreativt yrke)
+- lettere å holde oversikt på hva som skjer
+
+
+---
+
+### Gruppering av relaterte endringer
 
 Note: 
-- gruppere endringer som hører sammen. Enklere å se sammenhenger, feks om koden
-  din får dårlig kvalitet, men også se hva som skal til for å gjøre en endring
-- lettere å fjerne en endring hvis det viser seg at det var en dårlig ide
-- ved å committe små steg er det lett å gå tilbake. Gjør at du trygt kan
-  eksperimentere med kodeendringer. 
-- større endringer i kodebasen kan gjøres tryggere, ved at den gjøres i små
-  steg. Mindre endringer fører til mindre risiko ved hver endring.
+- kan eksplisitt si "disse endringene hører sammen". Eks: endre prosentsats på
+  lån i dokumentasjon: alle vet hvor i dokumentet akkurat det tallet befinner
+  seg. Eks: endre forretningslogikk i kode over flere filer: alle vet at alle
+  disse endringene er nødvendige for å endre funksjonalitet. Lignende endringer
+  kan bruke tidligere commit som utgangspunkt
+- bruker verktøy (enten grafisk eller kommandolinjebasert) for å visualisere
+  endringene fra en versjon til neste
+- enklere å diskutere konsekvenser av endring når den kan ses på i sin helhet
+- å se sammenhenger i koden gir en pekepinn på kvalitet på kodebasen. Dersom en
+  endring i funksjonalitet berører fryktelig mange filer: sykdomstegn på koden?
+  Hjelper teamet å vurdere kodekvalitet
+- hva hvis endringen viser seg å være uønsket? Siden alt er gruppert et sted (en
+  commit), kan den lett fjernes igjen
+
+
+
+---
+
+### Kontrollerte eksperimenter
+
+Note: 
+- noen endringer er store. Stort er skummelt og det er lett å gå seg vill. 
+- versjonskontroll lar deg utføre ett steg om gangen --> bedre kontroll
+- ved å committe små steg er det lett å gå tilbake. 
+- små endringer medfører liten risiko, fordi du vet nøyaktig hva du endrer og
+  hvilken konsekvens det får
+- hvis du ser at det går feil vei, kan du kaste kun koden som førte deg på
+  villspor
+
 
 ---
 
 ### Git lokalt
 
 Note: 
+- installer git på maskinen
 - lag et repository av en katalog du har lokalt: git init
 - ls -la viser .git-katalog
 - git status
@@ -60,61 +98,110 @@ Note:
 ---?image=https://git-scm.com/book/en/v2/images/areas.png&size=60%
 
 Note:
-- Staging: git registrerer endringer som skal legges til i repository
-- staging er også kalt index
-- Mellomsteg for å kun få med de rette tingene
+- Oversikt over sentrale konsepter i git
+- Working directory: katalogen du står i
+- Repository: der git lagrer alle data
+- Staging area: "virtuelt" område hvor git registrerer endringer som skal legges
+  til i repository (også kalt index)
+- Staging: Mellomsteg for å kun få med ønskede endringer. Git add legger til
+  endringer/filer til staging area
 - git add . legger til alt, men det går også an å legge til bare noen få linjer
   eller bare noen spesifikke filer
 - Gir mulighet til å se over hvilke endringer som kommer inn (egen code review)
 - commit lagrer endringene av filene (evt nye filer) i lokalt repository
 
+
 ---
 
-### 6a1f07c3c5f23fd53bdba0d816b8b971f433a37a
+#### 6a1f07c3c5f23fd53bdba0d816b8b971f433a37a
 
 Note: 
-- id til commiten
-- SHA1-hash
-- beregnes basert på innhold i filer og kataloger. Uendret fil --> uendret hash
+- git log gir masse informasjon: hvem, når, id til commiten
+- id til commiten er eh SHA1-hash
+- beregnes basert på innhold i filer og kataloger.
 - hash er unik
+- Uendret fil --> uendret hash
 - commit med samme hash på to maskiner: garanterer at filene er like, OG at alle
   forrige versjoner er like (historien er lik)
 - detaljer om hvordan git lagrer data: https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell#ch03-git-branching
 
----?image=https://git-scm.com/book/en/v2/images/snapshots.png&size=60%
-
-Note: 
-- en commit er et snapshot av alle filene. Hvis en fil ikke er endret lagres kun
-  en referanse til filen i den forrige commit-en
-- stiplede linjer: referanser til tidligere versjon av en fil (fordi hash er lik
-  som forrige)
-- git er mer som et filsystem
 
 ---
 
-### Flere commits
+- git add
+- git status
+- git commit
+- git log
+- git init
+
+---?image=https://git-scm.com/book/en/v2/images/snapshots.png&size=60%
 
 Note: 
-- lag en fil, legg til, commit
-- git log <-- viser antall commits, nyeste øverst
+- Mer detaljer om versjoner på filer
+- En rad: en fil
+- En kolonne: en versjon av repositoriet (tidsakse)
+- en commit er et snapshot av alle filene. 
+- Hvis en fil er uendret lagres kun en referanse til filen i den forrige
+  commit-en, feks endres ikke fil B før i 4. versjon
+- stiplede linjer: referanser til tidligere versjon av en fil (fordi hash er lik
+  som forrige)
+- git er som et filsystem mhp referanser til ulike versjoner
 - Men ok: jeg vil samarbeide med noen! Evt bare ha tilgang til mine filer fra et
   annet sted. 
+
+
+---
+
+### git clone
+
+Note:
+- For å bidra til et repository brukes git clone
+- Lager katalog med samme navn som repository, legger inn .git (altså,
+  repositoriet) i katalogen og sjekker ut alle filene i et nytt arbeidsområde
+- Setter samtidig opp en remote som heter origin, som peker på der du sjekket ut
+  repositoriet fra
+- Hvis du har repository på en USB-pinne, kan du bruke den som origin (offline
+  samarbeid feks)
+
+
+--- 
+
+git clone repositoryURL
+
+Note: 
+- kan gi sti til repository
+- kan gi URL til repository
+
+
+---?image=https://qph.fs.quoracdn.net/main-qimg-d151c0543baa145e6252c1ec95199963&size=65% 
+
+Note: 
+- endringer til og fra remote tilfører nytt lag
+- git pull: drar ned endringer i repository fra et remote repository
+- git push: dytter dine endringer (alle commits siden forrige pull) til remote
+  repository
+- Finnes mange skytjenester som tillater deling av git-repositories
+
 
 ---
 
 ### Git != github
 
+Note: 
 - Git: versjonskontroll
 - Github: distribusjonskanal for git-repositories
-
-Note: 
 - git kan installeres lokalt, får eget, lokalt repository. 
 - lokalt repository kan kobles mot sentralt repository, feks github. 
-- gitlab er også brukt, men i mye mindre grad
+- gitlab, bitbucket andre varianter
+- github: har git installert på sine servere, bygger mye god funksjonalitet på
+  toppen
+- når du legger et git-repository til på github lagrer de .git-katalogen for deg
+  og lar deg skrive til og lese fra den, samt de du tillater å gjøre det samme
+
 
 ---
 
-### Del via github
+### Del repository via github
 
 Note: 
 - https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/
