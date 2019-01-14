@@ -209,8 +209,8 @@ Note:
 - Create repository on github
 - No README, no .gitignore, no nothing. Tomt repository
 - kopier adresse (enten https eller ssh) til repository
-- git remote <-- tom
-- git remote add <adresse> (feks git remote add origin
+- git remote gir tom liste
+- git remote add <adresse> <navn> (feks git remote add origin
   git@github.com:sivhollup/v19-test.git)
 - git remote -v 
 - git push -u origin master (-u setter upstream repository url, push dytter til
@@ -219,14 +219,70 @@ Note:
 
 ---
 
-### Begynn med github
+### Klon repository fra github
 
+Note:
 - Opprett repository på github, gjerne med .gitignore og README
 - klon repositoriet ned til din maskin
+- git clone <url> <navn>
+- hvis navn ikke er oppgitt får katalogen samme navn som repositoriet har på
+  github
 - da får du lokal kopi og upstream (sentralt githubrepo) er satt for deg
 - sjekk med git remote
 - Konvensjon: Der du har klonet fra er origin
 
+
 ---
 
+### Trunk based commits
 
+Note: 
+- mange måter å bruke git og github på
+- et repository har en hovedgren (branch): master
+- et repository kan ha mange branches
+- enkleste: commit direkte til trunk (altså master-branch)
+- demo: git-kata
+
+
+---?image=https://git-scm.com/book/en/v2/images/basic-merging-2.png&size=65%
+
+@snap[north]
+#### Branch, merge og rebase
+@snapend
+
+Note: 
+- en peker til en commit (altså en versjon av repositoriet ditt)
+- kan utvikle seg uavhengig av resten av repositoriet sine grener
+- brukes for å gjøre uavhengig arbeid i en kort periode
+- for å avslutte en branch og ta vare på innholdet, merges grenen inn i master
+  (eller andre grener)
+- merge: en ny commit lages ved å sette sammen tilstand i repositoriet du er og
+  tilstanden på den siste commiten i grenen som merges inn
+- git prøver å finne ut hva som er likt og ulikt mellom de ulike filene i de
+  ulike grenene
+- hvis det er tydelig hva som er forskjeller merger git automatisk
+- hvis det er endringer der git ikke tydelig oppdager hva som bør være
+  gjeldende, får du merge-konflikt
+- ved konflikt: du må finne ut hva som skal være riktig, og fortsette merge
+- https://www.atlassian.com/git/tutorials/using-branches/git-merge
+- alternativ til merge: rebase
+- rebase skriver om historien i repositoriet ditt slik at det ser ut som om dine
+  endringer blir gjort etter de fra branchen du rebaser på. Da slipper du merge
+- god kotyme: merge eller rebase master inn i branchen du holder på med ofte
+- merge master inn som siste steg før du merger inn endringer i master (da
+  slipper du konflikt på master-branch) 
+
+
+---
+
+### Pull request
+
+Note: 
+- atter en måte å samle endringer på. 
+- pull request er IKKE git, men github, bitbucket, gitlab osv har lignende
+  funksjonalitet
+- pull request samler alle relevante endringer slik at de kan ses på som en
+  helhet (feks en feature)
+- ekstra lag med abstraksjon/mulighet for å gruppere endringer
+- kan velge mellom å ta inn alle commits i en PR eller samle dem (squashe) til
+  en. 
