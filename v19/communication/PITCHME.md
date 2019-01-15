@@ -189,21 +189,18 @@ Note:
 ### Epost
 
 Note: 
-- Mottakere
-- Tema
-- Innhold
-- Tråder
-- send kun til de som faktisk trenger å bli informert.
-- forventer du svar? Til-felt. 
-- trenger å se, men ikke gjøre noe? Cc-felt
+- Mottakere: kun de som trenger å være med. Aktiv tilbakemelding? Til-felt. 
+- Trenger å se, men ikke å gi tilbakemelding? CC-felt. 
 - husk at bcc også finnes. Sender du til MANGE? Bruk bcc eller liste slik at
   ingen får oversikt over alle adressene og trykker reply-to-all ved en
   feiltakelse. 
+- Tema: ett tema pr eposttråd.
+- Nytt tema, selv om det er til de samme? Ny eposttråd
+- Innhold: kort og konsist
+- Tråder: relevant svar: svar på eposten
 - epost bør være oppsummert i tittellinjen/tema slik at folk kan huske hva dette
   dreier seg om bare ved å se i oversiktslisten. Eks: "Din flyvning med SAS
   <dato>"
-- et tema per eposttråd. Ikke benytt anledningen i en tråd til å snakke om noe
-  annet, skriv ny epost i stedet for. 
 - når svaret ikke haster, men er viktig
 - mer formelt enn feks chat
 - kan forvente at eposter blir lest og besvart
