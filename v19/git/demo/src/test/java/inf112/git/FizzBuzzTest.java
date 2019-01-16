@@ -13,7 +13,7 @@ public class FizzBuzzTest {
     private FizzBuzz fizzBuzz;
 
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
         fizzBuzz = new FizzBuzz();
     }
 
