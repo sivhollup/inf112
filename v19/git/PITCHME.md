@@ -251,7 +251,7 @@ Note:
 @snapend
 
 Note: 
-- en peker til en commit (altså en versjon av repositoriet ditt)
+- en branch er en peker til en commit (altså en versjon av repositoriet ditt)
 - kan utvikle seg uavhengig av resten av repositoriet sine grener
 - brukes for å gjøre uavhengig arbeid i en kort periode
 - for å avslutte en branch og ta vare på innholdet, merges grenen inn i master
@@ -270,19 +270,97 @@ Note:
   endringer blir gjort etter de fra branchen du rebaser på. Da slipper du merge
 - god kotyme: merge eller rebase master inn i branchen du holder på med ofte
 - merge master inn som siste steg før du merger inn endringer i master (da
-  slipper du konflikt på master-branch) 
+  slipper du konflikt på master-branch)
+- bruk tid på merge konflikter. Små commits og rebase ofte reduserer sjansen for
+  konflikter
 
 
 ---
 
-### Pull request
+### Pull request (PR)
 
 Note: 
-- atter en måte å samle endringer på. 
-- pull request er IKKE git, men github, bitbucket, gitlab osv har lignende
-  funksjonalitet
-- pull request samler alle relevante endringer slik at de kan ses på som en
+- en Pull Request (PR) en måte å samle endringer på. 
+- pull request er IKKE git, men github-funksjonalitet. Bitbucket, gitlab osv har
+  lignende funksjonalitet
+- en pull request samler alle relevante endringer slik at de kan ses på som en
   helhet (feks en feature)
 - ekstra lag med abstraksjon/mulighet for å gruppere endringer
 - kan velge mellom å ta inn alle commits i en PR eller samle dem (squashe) til
   en. 
+- kan lage en PR fra en branch du har commitet, eller fra en fork
+
+
+---
+
+### Fork
+
+Note: 
+- du kan lage din egen versjon av et prosjekt, det kalles en fork
+- en fork er ditt eget repository, men har alle commits fra upstream (kotyme for
+  hva du kaller repositoriet som er basis for ditt)
+- mange open source-prosjekter bruker dette, da kan utviklere som ikke er på
+  teamet få bidra med kode selv om de ikke har skriverettigheter på prosjektet
+- Kan også brukes av teammedlemmer i prosjektet, får ryddigere repository fordi
+  det ikke ligger masse branches i hovedrepositoriet
+
+
+---
+
+### git remote
+
+Note: 
+- Peker på et repository på github, bitbucket, gitlab osv
+- Kotyme: Der du har klonet fra heter origin
+- en remote har et navn og en URL der repositoriet ligger
+- du trenger to "varianter", en for fetch (henting) og en for push
+- slik legger du til en remote (både fetch og pull)
+- git remote add <navn> <url>
+- hvis du har laget en fork bør du ha to remotes, origin er din fork på github,
+  mens upstream er originalrepositoriet du ønsker å hente ned endringer fra
+
+
+---
+
+### PR, branching eller trunk?
+
+Note:
+- ulike arbeidsflyter har gode og dårlige sider
+- trunk: veldig enkelt, men høy risiko
+- trunk: gir mange commits
+- trunk: alle endringer er synlige i master, kan være forvirrende
+- trunk: fordel tidlig i prosjektet? Veldig kort feedbackloop
+- branching: lar deg arbeide "i fred" på større features uten å ha
+  ikke-fungerende funksjonalitet i master/prod. Kan jobbe rundt dette med
+  feature toggling, men introduserer ekstra kompleksitet i koden
+- branching: må passe på å merge/rebase ofte
+- branching: må passe på å ikke ha lengelevende brancher
+- PR: tidlig i prosjektet kan PR-måten å jobbe på være tungvint fordi
+  feedback-loop blir lang (alle sitter og venter på endringer i oppsett)
+- PR: kan skjule kompleksitet og detaljer i utvikling så master blir ryddig
+- PR: gir ekstra mulighet til å reviewe større endringer i detalj
+- PR: gir andre enn team-medlemmene (de som har skriverettigheter til
+  repositoriet) mulighet til å bidra til åpne prosjekter
+- PR: komplekst prosjektoppsett med hovedrepository og forks
+- PR: må passe på å holde egen fork oppdatert med commits fra remote (Jeg henter
+  alle commits fra upstream og rebaser på dem og dytter det til min fork på
+  github)
+
+
+---
+
+### Versjonskontroll er nyttig
+
+Note: 
+- versjonskontroll gjør at du kan jobbe med filer på ulike steder, gjerne sammen
+  med andre, uten å bekymre deg for at du ikke har siste endringer
+- garanterer samme tilstand på samme versjon 
+- bruk av distribueringskanal som github gir deg backup og et nyttig sted å
+  samarbeide mot
+- små commits gir trygghet og gjør arbeidet lettere
+- bruk branches, forks og pull requests med forsiktighet
+
+
+---
+
+### Neste: prosjektmetodikk
