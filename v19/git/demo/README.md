@@ -8,7 +8,7 @@
 - Only account for natural numbers, no negative numbers
 
 
-### Changes
+### Extra challenges
 
 - Change the code so that "fizz" is returned if the input number is divisible by 7 rather than 3
 - Change the code so that the string values returned can be changed
