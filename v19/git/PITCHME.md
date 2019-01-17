@@ -22,7 +22,6 @@ Note:
 Note:
 - finnes flere verktøy enn git, men git er omtrent bransjestandard 
 - lagrer filene dine
-- lagrer endringer
 - lagrer hva som har blitt endret, når det har blitt endret, og hvem som endret
   det
 - legger til rette for å dele
@@ -58,12 +57,12 @@ Note:
   kan bruke tidligere commit som utgangspunkt
 - bruker verktøy (enten grafisk eller kommandolinjebasert) for å visualisere
   endringene fra en versjon til neste
-- enklere å diskutere konsekvenser av endring når den kan ses på i sin helhet
+- enklere å diskutere konsekvenser av endring når alt samles på ett sted
 - å se sammenhenger i koden gir en pekepinn på kvalitet på kodebasen. Dersom en
   endring i funksjonalitet berører fryktelig mange filer: sykdomstegn på koden?
   Hjelper teamet å vurdere kodekvalitet
 - hva hvis endringen viser seg å være uønsket? Siden alt er gruppert et sted (en
-  commit), kan den lett fjernes igjen
+  commit), kan den lett fjernes igjen (eks oppgradering av pakker som gikk galt)
 
 
 
@@ -73,12 +72,17 @@ Note:
 
 Note: 
 - noen endringer er store. Stort er skummelt og det er lett å gå seg vill. 
+- hva er en stor endring? Kan måle i tid, kompleksitet i koden (feks hvor mange
+  eksekveringsstier som påvirkes av en endring) eller antall linjer
 - versjonskontroll lar deg utføre ett steg om gangen --> bedre kontroll
+- arbeidsflyt: gjør en endring du har kontroll på, commit. Gjør en ny, liten
+  endring, commit. 
 - ved å committe små steg er det lett å gå tilbake. 
 - små endringer medfører liten risiko, fordi du vet nøyaktig hva du endrer og
   hvilken konsekvens det får
 - hvis du ser at det går feil vei, kan du kaste kun koden som førte deg på
-  villspor
+  villspor. Hvis du ser at det går lenger tilbake, kast alle commits som har
+  ført deg på feilspor (feks git revert).  
 
 
 ---
@@ -94,6 +98,7 @@ Note:
 - git add . (legger til alle filer fra der du står og nedover)
 - git commit -m "Ignorere .swp-filer"
 - git log (commit-melding er kommet med, hash for commit vises)
+
 
 ---?image=https://git-scm.com/book/en/v2/images/areas.png&size=60%
 
@@ -136,6 +141,10 @@ Note:
 
 ---?image=https://git-scm.com/book/en/v2/images/snapshots.png&size=60%
 
+@snap[north]
+### Versjonshistorikk
+@snapend
+
 Note: 
 - Mer detaljer om versjoner på filer
 - En rad: en fil
@@ -166,14 +175,16 @@ Note:
 
 --- 
 
-git clone repositoryURL
+git clone repositoryURL navn
 
 Note: 
 - kan gi sti til repository
 - kan gi URL til repository
+- vanligvis bruker vi git clone til å klone ned fra et repository som er
+  tilgjengelig online, feks på github
 
 
----?image=https://qph.fs.quoracdn.net/main-qimg-d151c0543baa145e6252c1ec95199963&size=65% 
+---?image=https://qph.fs.quoracdn.net/main-qimg-d151c0543baa145e6252c1ec95199963&size=50% 
 
 Note: 
 - endringer til og fra remote tilfører nytt lag
@@ -241,7 +252,7 @@ Note:
 - et repository har en hovedgren (branch): master
 - et repository kan ha mange branches
 - enkleste: commit direkte til trunk (altså master-branch)
-- demo: git-kata
+- Demo: git-kata
 
 
 ---?image=https://git-scm.com/book/en/v2/images/basic-merging-2.png&size=65%
