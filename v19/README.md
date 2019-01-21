@@ -13,3 +13,12 @@ Fordypningsstoff:
 - [Mer om parprogrammering](https://medium.com/@weblab_tech/pair-programming-guide-a76ca43ff389) 
 - [Hvordan lese kroppsspråk](https://www.verywellmind.com/understand-body-language-and-facial-expressions-4147228)
 - [Mer om kroppsspråk](http://www.talentsmart.com/articles/8-Great-Tricks-For-Reading-People%E2%80%99s-Body-Language-2147446644-p-1.html)
+
+
+## Versjonskontroll
+
+Fordypningsstoff: 
+- [Introduksjon til git](https://git-scm.com/book/en/v2/Getting-Started-Git-Basics)
+- [Git branching og hvordan commits lages](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell#ch03-git-branching)
+- [Vanlige gitkommandoer](https://www.robinwieruch.de/git-essential-commands/)
+- [Git cheat sheet](https://medium.com/@nendhruv/essential-git-commands-every-developer-should-know-1249d4d597b5)
