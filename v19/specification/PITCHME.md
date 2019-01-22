@@ -1,14 +1,10 @@
 ### Spesifisering
 
-
----
-
-https://bit.ly/
+https://bit.ly/2R1tZpT
 
 Note: 
-- url til forelesningsnotatene
-- slides finner du her: 
-
+- kjært barn har mange navn: kravspesifikasjon, usecase, user story,
+  funksjonelle krav, ikke-funksjonelle krav
 
 ---
 
@@ -23,13 +19,20 @@ Note:
 - Handler om å finne ut HVEM vi lager en løsning for
 - Handler om å finne ut HVORFOR vi løser et problem
 - Handler om å finne ut HVILKET problem vi prøver å løse
+
+
+---
+
+### En spesifikasjon beskriver ønsket oppførsel
+
+Note: 
+- systemet skal oppfylle et behov.
 - Mange ulike ord og uttrykk rundt spesifisering
 
 
 ---
 
 ### Krav
-#### Funksjonelle og ikke-funksjonelle
 
 Note:
 - engelsk: requirements
@@ -50,6 +53,15 @@ Note:
   krav, men i praksis havner alle kravene i samme spesifikasjon
 
 
+---
+
+### Use case
+
+Note:
+- presisering av et krav
+- skal ha med hvem som er brukere av kravet, hvem krav eller resultat av krav
+  kan være interessant for
+
 --- 
 
 ### Brukerhistorier
@@ -57,7 +69,7 @@ Note:
 Note: 
 - engelsk: user stories
 - Vanlig måte å beskrive krav på er gjennom brukerhistorier
-- Bestemt form
+- Følger en bestemt form: 
 
 
 ---
@@ -68,22 +80,20 @@ Som @color[green](rolle) trenger jeg @color[green](funksjonalitet) for å
 Note: 
 - finnes andre måter å beskrive krav på også, men de fleste følger omtrent
   formen til brukerhistorier
-- skal snakke mer om hva en god brukerhistorie er litt senere
 - først, litt om "universet" brukerhistorier, og krav, befinner seg i
 
 ---
 
-### Størrelsesorden
+### Epics, features og brukerhistorier
 
 Note: 
-- epics eller features
-- brukerhistorier skal ikke være epics
-- epics beskriver hovedfunksjonalitet, egentlig mer et sett av brukerhistorier
-- Eksempel på epic: en bruker skal kunne tweete
+- epics, eller features, beskriver hovedfunksjonalitet, egentlig mer et sett av brukerhistorier
+- brukerhistorier skal omhandle en spesifikk oppgave
+- Eksempel på feature set: en bruker skal kunne tweete
 - hvorfor er dette en epic? Det er mange veier til mål, kanskje mange måter å
   tweete på, alle må beskrives. Finnes mange regler som skal oppfylles feks.
+- Oppgave: finne ut hvilke krav som egentlig ligger i denne
 - Eksempel på epic: en bruker skal kunne starte spillet 
-- en brukerhistorie er spesifikk
 
 
 ---
@@ -97,6 +107,7 @@ Note:
   bruksmønster det samme
 - eksempel: universell utforming. Lager du en nettside for en offentlig etat, må
   blinde/svaksynte kunne bruke skjermleser for å bruke systemet
+- Oppgave: gå tilbake til tweet-eksempel: hvilke roller finnes for twitter?
 - ofte lager vi personas for å få frem ulike typer brukere, feks eldre folk som
   taster sakte, ekspertbrukere som vil ha hurtigtaster og krever at systemet
   svarer fort
@@ -106,12 +117,19 @@ Note:
 
 ---
 
-### Hvor kommer krav fra?
+### Hvor kommer en spesifikasjon fra? 
 
 Note: 
-- krav kommer fra kunden
+- som oftest fra en kunde
+- Får ofte beskjed om at "dette er ferdig tenkt". Nesten aldri sant. 
+
+
+---
+
+#### Krav er mangelfulle, uklare eller direkte feil
+
+Note:
 - kommer IKKE ferdigtygde, spesifikke krav eller brukerhistorier
-- hvis det gjør det, er de som oftest dårlige, mangelfulle eller feile
 - årsakene er mange: 
 - kunden vet ikke hva kunden trenger
 - kunden vet ikke hvordan løsningen bør være
@@ -119,6 +137,22 @@ Note:
 - kunden sier ikke tydelig hva som er viktig og hva som er detaljer
 - kunden er ikke trent i å skrive spesifikke krav
 - kunden bruker upresist språk
+- Ta med noe om utviklingsprosessen
+  (interaksjonsdesign-grafisk-design-kravspek-utvikling) selv om krav går på
+  tvers av dette
+- Vi må vite: 
+- Hvem er brukerne?
+- Hvilke oppgaver skal kunne utføres?
+- Hvilken bruker skal utføre hvilken oppgave?
+- Hva er resultatet av hver utført oppgave?
+
+
+---
+
+### Hvor kommer krav fra?
+
+Note: 
+- krav kommer fra kunden
 - hvorfor er krav så dårlige?
 
 
@@ -216,7 +250,7 @@ Note:
 
 ---
 
-### Bryt opp
+### Motorsag
 
 Note: 
 - Bryt opp. Grav i brukerhistoriene. Spesifiser bedre på hver historier
@@ -233,7 +267,7 @@ Note:
   selskaper slik at jeg kan få autocomplete i søkefeltet
 - hvorfor er dette et problem? Gir ingen verdi for kunden
 - skal lande et sted mellom kråkesølv og isfjell
-
+- løsningen på denne: ikke prioriter den
 
 
 ---
