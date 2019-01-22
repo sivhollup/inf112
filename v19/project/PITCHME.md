@@ -1,8 +1,20 @@
+---
+
+### Denne presentasjonen
+
+https://bit.ly/2Mq6Mgj
+
+
 ---?image=https://images.pexels.com/photos/1776134/pexels-photo-1776134.jpeg
 
 Note:
 - Bilde: føtter på et barn som såvidt har lært seg å gå
 - byggebransjen har eksistert i tusenvis av år, vi er kvitt barnesykdommene
+- alle har et forhold til byggebransjen
+- de fleste klarer å spikre sammen småting
+- de fleste klarer å gjøre litt større ting, feks lage en terasse, ved å lese
+  litt
+- noen klarer å gjenkjenne godt arbeid selv om de ikke er i bransjen selv
 - IT-bransjen har kun eksistert i noen få år, vi kan regne fra ca 60-tallet
 - Dette har flere konsekvenser, først og fremst: umoden bransje, vi har ikke
   funnet ut hva som virkelig fungerer. I tillegg går utviklingen veldig fort, du
@@ -51,19 +63,28 @@ Note:
   weak computers, programming became a mild problem, and now we have gigantic
   computers, programming has become an equally gigantic problem." Edsger
   Dijkstra 
+- Software har nesten uendelig mange mulige eksekveringsstier, gjør at risiko
+  for feil er veldig høy, ikke mulig å teste alt.
 - sannheten er ikke så enkel, en annet problem var at kundens krav var
   LOV (kunden har alltid rett)
 - som et resultat av dette vokste det frem ulike typer prosjektmetodologier for
   å få bukt med disse problemene
-- Et annet problem: Prosjekt tenkt på som ferdigprodukt man kan kjøpe (altså
+
+---
+
+### Programvarebransjen vs andre bransjer
+
+- Mange tenker på software som ferdigprodukt man kan kjøpe (altså
   ikke vedlikehold eller endring over tid).
+- Mange har tenkt at produktet er "ferdig" etter release (stemmer jo ikke).
+  Dette er "sant" i mange andre, mer etablerte, bransjer (særlig fysiske
+  produkter)
+- Dette er ikke egentlig virkeligheten mer. Mange applikasjoner har
+  abonnement-løsninger, omtrent alt som har software har oppdateringer.
 - Veldig sjeldent release. Konsekvenser: Høy risiko ved release, veldig mange
   ting kan gå gale (bilde). Mye stress og frys på funksjonalitet lenge før fordi
   mye testing skal gjøres.
-- Mange har tenkt at produktet er "ferdig" etter release (stemmer jo ikke).
-- Software har nesten uendelig mange mulige eksekveringsstier, gjør at risiko
-  for feil er veldig høy, ikke mulig å teste alt.
-- Glemt en veldig viktig ting:
+- Mange glemmer et veldig viktig punkt:
 
 
 ---
@@ -101,9 +122,10 @@ Note:
 Individuals and interactions over processess and tools
 
 Note:
-- uten folk er det ikke noe prosjekt. En person i et prosjektteam er ikke en
-  ressurs. Har unik kompetanse, bakgrunn, kontekst og synspunkter. Vi trenger
-  prosesser og verktøy også, men det er underordnet et fungerende team.
+- uten folk er det ikke noe prosjekt. 
+- En person i et prosjektteam er ikke en ressurs. Har unik kompetanse, bakgrunn,
+  kontekst og synspunkter. Vi trenger prosesser og verktøy også, men det er
+  underordnet et fungerende team.
 - kan selvsagt bytte ut teammedlemmer, men det er en stor kostnad forbundet
   med det
 
@@ -363,3 +385,53 @@ Note:
 - alle i teamet stemmer på hva som er mest viktig og blir sammen enige om noen
   få punkter som skal endres/gjennomføres frem til neste retrospektiv
 - husk: hold god stemning, vil helst ende opp med god-feeling etter retro
+
+---
+
+### Programvareutvikling er kontinuerlig
+
+Note: 
+- slutter ikke før ingen bruker koden og alle maskiner som kjører koden er av
+
+---
+
+### Programvareutvikling er vanskelig
+
+Note: 
+- vi lever i krysningen mellom mennesker og maskiner og må gjøre konkret mening
+  og presise regler ut av uklare og uferdige ideer
+
+--- 
+
+### Programvare skal leveres ofte
+
+
+---
+
+### En person er ikke en ressurs
+
+
+---
+
+### Begrens arbeidsmengde
+
+
+---
+
+### Prioriter ofte
+
+
+---
+
+### Bruk riktig verktøy
+
+
+---
+
+### Lær av fortiden
+
+
+---
+
+### Neste: Spesifisering
+
