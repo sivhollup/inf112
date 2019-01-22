@@ -74,6 +74,7 @@ Note:
 
 ### Programvarebransjen vs andre bransjer
 
+Note:
 - Mange tenker på software som ferdigprodukt man kan kjøpe (altså
   ikke vedlikehold eller endring over tid).
 - Mange har tenkt at produktet er "ferdig" etter release (stemmer jo ikke).
