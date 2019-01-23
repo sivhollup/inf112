@@ -1,10 +1,9 @@
 ### Spesifisering
 
-https://bit.ly/2R1tZpT
+Note:
+- presentasjonsslides: 
+- https://bit.ly/2R1tZpT
 
-Note: 
-- kjært barn har mange navn: kravspesifikasjon, usecase, user story,
-  funksjonelle krav, ikke-funksjonelle krav
 
 ---
 
@@ -15,19 +14,22 @@ Note:
 - beskrivelse av et problem
 - beskrivelse av en løsning på et problem
 - beskrivelse av en eller flere oppgaver
-- Handler om det å finne ut HVA som skal lages
+- Poenget: 
 - Handler om å finne ut HVEM vi lager en løsning for
 - Handler om å finne ut HVORFOR vi løser et problem
 - Handler om å finne ut HVILKET problem vi prøver å løse
+- Sånn sett: Handler om det å finne ut HVA som skal lages, men det er et
+  resultat av punktene over
 
 
 ---
 
-### En spesifikasjon beskriver ønsket oppførsel
+### En spesifikasjon bør beskrive ønsket oppførsel
 
 Note: 
 - systemet skal oppfylle et behov.
-- Mange ulike ord og uttrykk rundt spesifisering
+- kjært barn har mange navn/relaterte konsepter: kravspesifikasjon, usecase,
+  user story, funksjonelle krav, ikke-funksjonelle krav
 
 
 ---
@@ -51,6 +53,7 @@ Note:
 - Eksempel: Systemet skal ha oppetid på mer enn 99,99%
 - Mange har tidligere skilt veldig på funksjonelle krav og ikke-funksjonelle
   krav, men i praksis havner alle kravene i samme spesifikasjon
+- Krav handler ofte om HVA
 
 
 ---
@@ -59,8 +62,13 @@ Note:
 
 Note:
 - presisering av et krav
+- her er det med detaljer, og det er rom for mer beskrivelse av kontekst
 - skal ha med hvem som er brukere av kravet, hvem krav eller resultat av krav
   kan være interessant for
+- kan inneholde hva input og output skal være
+- mye brukt før, ikke så mye nevnt i dag, ganske formelt og kan være et rigid
+  system
+
 
 --- 
 
@@ -68,7 +76,8 @@ Note:
 
 Note: 
 - engelsk: user stories
-- Vanlig måte å beskrive krav på er gjennom brukerhistorier
+- Vanlig måte å formidle spesifisering på, mye brukt i industrien
+- en brukerhistorie er nettopp: en kort historie
 - Følger en bestemt form: 
 
 
@@ -78,22 +87,12 @@ Som @color[green](rolle) trenger jeg @color[green](funksjonalitet) for å
 @color[green](oppnå nytteverdi)
 
 Note: 
-- finnes andre måter å beskrive krav på også, men de fleste følger omtrent
-  formen til brukerhistorier
-- først, litt om "universet" brukerhistorier, og krav, befinner seg i
-
----
-
-### Epics, features og brukerhistorier
-
-Note: 
-- epics, eller features, beskriver hovedfunksjonalitet, egentlig mer et sett av brukerhistorier
-- brukerhistorier skal omhandle en spesifikk oppgave
-- Eksempel på feature set: en bruker skal kunne tweete
-- hvorfor er dette en epic? Det er mange veier til mål, kanskje mange måter å
-  tweete på, alle må beskrives. Finnes mange regler som skal oppfylles feks.
-- Oppgave: finne ut hvilke krav som egentlig ligger i denne
-- Eksempel på epic: en bruker skal kunne starte spillet 
+- veldig vanlig format for krav/usecase/userstory
+- skal inneholde HVEM som har behovet
+- skal inneholde HVA behovet er (HVILKET problem skal løses/hvilken
+  funksjonalitet som trengs)
+- skal inneholde HVORFOR en rolle har behovet
+- introdusert noen nye konsepter her, gå mer i dybden på roller
 
 
 ---
@@ -101,18 +100,48 @@ Note:
 ### Roller 
 
 Note: 
-- de som skal bruke systemet
-- noen har bare en type bruker, de fleste har flere
-- husk at selv om ønsket funksjonalitet er det samme, er ikke nødvendigvis
-  bruksmønster det samme
-- eksempel: universell utforming. Lager du en nettside for en offentlig etat, må
-  blinde/svaksynte kunne bruke skjermleser for å bruke systemet
-- Oppgave: gå tilbake til tweet-eksempel: hvilke roller finnes for twitter?
+- personer som skal bruke systemet
+- noen system har bare en type bruker, de fleste har flere
+- Oppgave: Mitt UiB. Hvilke roller har dette systemet?
+- Studieadministrasjon
+- Foreleser
+- Gruppeleder
+- Student
+- Dette er hovedgruppene av roller. I tillegg finnes det "subgrupper" av roller,
+  fordi folk bruker systemene på ulike måter. 
+- bruksmønsteret er ulikt for ulike mennesker
+- eksempel: hva hvis du er svaksynt eller blind? 
+- eksempel: hva hvis du ikke snakker norsk?
+- eksempel: hva hvis du har dysleksi?
+- eksempel: hva hvis du er fargeblind?
+- hva hvis du taster veldig sakte av en eller annen grunn? Mange felt autolagrer
+  etter en viss tid, men hvis du taster veldig sent kan det få konsekvenser
+- noe av dette handler om universell utforming, noe alle offentlige nettsider er
+  lovpålagt å følge (det finnes teknikker for å tilrettelegge websider for
+  skjermleser, feks. Men selve bruksopplevelsen er annerledes, feks ved søk)
+- Oppgave: hvilke roller finnes for twitter?
+- Tweeter (innholdsprodusent?), tilhører, moderator, ikke-person-brukere som
+  systemer som ønsker å tweete på vegne av noen, eller konsumere ulike typer
+  tweets 
+- en rolle trenger ikke være en person, det kan også være et system
 - ofte lager vi personas for å få frem ulike typer brukere, feks eldre folk som
   taster sakte, ekspertbrukere som vil ha hurtigtaster og krever at systemet
-  svarer fort
-- personas kan også være brukere som trenger å bruke systemet på ulikt vis, feks
-  forelesere vs studenter vs studieadministrasjon i Mitt UiB
+  svarer fort. Disse gjenbrukes i brukerhistoriene og alle som jobber med
+  utviklingen av systemet "kjenner" de ulike profilene
+
+
+---
+
+Som @color[green](rolle) trenger jeg @color[green](funksjonalitet) for å
+@color[green](oppnå nytteverdi)
+
+Note:
+- ser veldig enkelt og greit ut, ikke sant? Det å lage en god kravspesifikasjon
+  er VANSKELIG (tenk håndverksanalogi)
+- Oppgave: Alle kjenner twitter?
+- Twitter: skrive ned brukerhistorier for twitter
+- skal snakke om hva en god spesifikasjon er, kommer til å bruke brukerhistorier
+  som eksempel, men først: 
 
 
 ---
@@ -120,54 +149,63 @@ Note:
 ### Hvor kommer en spesifikasjon fra? 
 
 Note: 
-- som oftest fra en kunde
-- Får ofte beskjed om at "dette er ferdig tenkt". Nesten aldri sant. 
+- som oftest fra en kunde som har et behov de ønsker å få oppfylt
+- Får ofte beskjed om at "dette er ferdig tenkt", "bare lag dette". Nesten aldri
+  sant. 
 
 
----
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/misunderstanding.jpg&position=right&size=55% 100%
 
-#### Krav er mangelfulle, uklare eller direkte feil
+@snap[span-40 west]
+#### Krav er @color[orange](mangelfulle), @color[orange](uklare) eller @color[orange](direkte feil)
+@snapend
 
 Note:
-- kommer IKKE ferdigtygde, spesifikke krav eller brukerhistorier
+- kommer IKKE ferdigtygde, uansett om de er formet som spesifikke krav eller
+  brukerhistorier
 - årsakene er mange: 
 - kunden vet ikke hva kunden trenger
 - kunden vet ikke hvordan løsningen bør være
-- kunden tror de trenger noe annet
+- kunden tror de trenger noe annet enn det de faktisk behøver
 - kunden sier ikke tydelig hva som er viktig og hva som er detaljer
-- kunden er ikke trent i å skrive spesifikke krav
+- tar feil om hva som er viktig og hva som er detaljer
+- kunden er ikke trent i å skrive krav
 - kunden bruker upresist språk
-- Ta med noe om utviklingsprosessen
-  (interaksjonsdesign-grafisk-design-kravspek-utvikling) selv om krav går på
-  tvers av dette
-- Vi må vite: 
-- Hvem er brukerne?
-- Hvilke oppgaver skal kunne utføres?
-- Hvilken bruker skal utføre hvilken oppgave?
-- Hva er resultatet av hver utført oppgave?
-
-
----
-
-### Hvor kommer krav fra?
-
-Note: 
-- krav kommer fra kunden
-- hvorfor er krav så dårlige?
+- de som skriver kravene er ikke de som bruker systemet (mange har egne folk som
+  skriver anbud, dette er folk som kanskje aldri har tatt i domenet eller
+  problemet som skal løses)
+- hvilke problemer møter vi ofte på?
 
 
 --- 
 
-### Implementasjonsdetaljer 
+### Løsninger forkledd som behov
 
 Note: 
-- inneholder implementasjonsdetaljer
-- inneholder spesifikke løsninger/teknologier som skal brukes
-- Hvorfor er dette et problem?
+- inneholder spesifikke løsninger/teknologier i beskrivelse av behov
+- Eksempel: 
+- Som student vil jeg se en liste over alle fagene jeg tar
+- Liste? Hvorfor det? Ingen har behov for å se en liste. En oversikt kanskje. 
+- Hvorfor er dette et problematisk?
+- må skille mellom problem/behov, og en måte å løse det problemet på
 - krav skal omhandle problemet som skal løses, ikke hvordan det skal løses
+- kanskje liste ikke er beste måten å vise fag på? Hvis du har få fag, hva skal
+  du med en liste? Kanskje det er "kort" som Mitt UiB? 
 - ved å beskrive løsning, begrenser man hvilke løsninger man leter etter
 - kanskje løsningen kunden ser for seg ikke faktisk løser problemet de har?
-- kanskje løsningen ikke er den beste? 
+- kanskje løsningen ikke er den beste som finnes? Går man glipp av den beste
+  løsningen fordi vi ser på detaljer først? 
+
+
+---
+
+### Å skyte fra hoften
+
+Note: 
+- svare uten å tenke seg om
+- svarer kanskje på noe litt annet enn du egentlig spør om
+- mangler gjerne kontekst
+- mangler det store bildet 
 
 
 ---
@@ -175,9 +213,11 @@ Note:
 ### Manglende krav
 
 Note:
-- krav mangler
-- hvorfor skjer dette? Kanskje de ikke tenkte på det?
+- de fleste behov er komplekse, fordi verden er kompleks
+- de fleste klarer ikke å se alt som trengs
+- noen behov blir ikke tydelig før andre krav er oppfylt
 - kravet kan ha kommet til i etterkant
+- verden endrer seg
 - kunden har ikke klart å se alle detaljene rundt behovet de har
 
 
@@ -189,21 +229,27 @@ Note:
 - krav kan bety flere ting
 - de som skriver krav til et system er mennesker, og bruker språk, språk er
   upresist. Krever mye trening å skrive presist
+- Oppgave:
+- I bilutleie: Det skal være lett å bestille bil gjennom appen
+- Egentlig: Den som trenger bil skal lett kunne se hvilke biler som finnes og
+  når de er ledige og opptatte, fordi noen kan være fleksible og har mer behov
+  for en bestemt bil enn for et gitt tidspunkt
+
 
 ---
 
-### Mellom maskin og menneske
+
+### Maskiner og mennesker
 
 Note: 
 - krav, eller spesifikasjon, ligger akkurat i grenselandet mellom mennesker og
   maskiner
-- mennesker er upresise, uklare og antar en haug med ting
+- mennesker er upresise, uklare og gjør mange antagelser
 - maskiner er presise, veldefinerte, antar overhodet ingenting, må fortelles
   absolutt alt
 - som utviklere er det viktig å forstå begge disse verdenene. Vi må guide kunder
   (og oss selv) til å skrive krav på en slik måte at de gir mening i begge
   kontekster 
-- noen vanlige antipatterns
 
 
 ---
@@ -243,10 +289,22 @@ Note:
   Informasjon om foredragsholder? Hva om de sender inn flere foredrag, da
   trenger vi kanskje ikke samme info en gang til? Flere foredragsholdere på
   samme foredrag? Tekniske krav til foredrag? Påmeldt/Ikke påmeldt?
-- Problem: en enorm brukerhistorie som er 80% ferdig (kaaanskje??) er IKKE det
+- epic: et sett med brukerhistorier. Kalles også capability, feature, evt
+  feature set. 
+- Hvorfor er dette et problem?
+- Får ikke oversikt over alle detaljene
+- Vanskelig å vite når du er ferdig
+- Lett å gå seg vill i koden, ting tar plutselig veldig mye lenger tid fordi det
+  er for mange uavklarte detaljer
+- blir også problematisk i forhold til kunden: de forventer at du leverer. De
+  ser ikke hvor mye som egentlig gjemmer seg i denne og lurer på hvorfor du ikke
+  blir ferdig. 
+- en enorm brukerhistorie som er 80% ferdig (kaaanskje??) er IKKE det
   samme som 8/10 brukerhistorier som er 100% implementert. 
-- Hvordan fikser vi dette?
-- også eksempel: automatisk packer på slutten av en seksjon. 
+- Mindre brukerhistorier gir større forutsigbarhet for kunden og for teamet
+- Eksempel: 
+- automatisk pakning på slutten av et rør. 
+
 
 ---
 
@@ -255,6 +313,23 @@ Note:
 Note: 
 - Bryt opp. Grav i brukerhistoriene. Spesifiser bedre på hver historier
 - feedback på mindre historier kommer raskere, lettere å få gode prioriteringer
+- men husk: ikke bli som han som skulle lage kiste og endte opp med en
+  tannpirker 
+- brukerhistorier skal omhandle en spesifikk oppgave
+- epics, eller features, beskriver hovedfunksjonalitet, egentlig mer et sett av
+  brukerhistorier
+- Eksempel på feature set: en bruker skal kunne tweete
+- hvorfor er dette en epic? Det er mange veier til mål, kanskje mange måter å
+  tweete på, alle må beskrives. Finnes mange regler som skal oppfylles 
+- Oppgave: finne ut hvilke krav som egentlig ligger i denne
+- tweete tekst
+- tweete url
+- tweete bilde
+- hva hvis det er et system som genererer tweets?
+- tweete på bestemt tidspunkt?
+- tweete med tags
+- tweet som er svar på en annen tweet
+- tweet som kun er synlig for et subsett av brukere (DM?)
 
 
 --- 
@@ -292,13 +367,15 @@ Note:
 ### Ubiquituous language
 
 Note: 
-- hvis kunden snakker om sviskeindeks, da snakker dere også om sviskeindeksen
-- når dere snakker om kode, skal dere snakke om forretningslogikken på det
-  språket forretningssiden gjør
-- eks: to utviklere snakker om en implementasjonsdetalj i beregning av rente, en
-  forretningsekspert går forbi og hører hva de snakker om, og kan umiddelbart
-  greie ut i misforståelsen de har hatt fordi de beskriver det faktiske domenet
-  koden kjører i
+- hvis kunden snakker om flensehyse, da snakker dere også om flensehyse (OK, så
+  er kanskje rentesats mer reelt)
+- krav skal være på kundens og domenet sitt språk
+- dette skal overføres til kode også, slik at dere snakker på samme måte om krav
+  og forretningslogikk som om kode
+- eks: to utviklere snakker om en implementasjonsdetalj i beregning av
+  rentesats, en forretningsekspert går forbi og hører hva de snakker om, og kan
+  umiddelbart greie ut i misforståelsen de har hatt fordi de beskriver det
+  faktiske domenet koden kjører i
 - oppnår dette ved å snakke med brukerne og forretningseksperter gjennom hele
   prosjektet
 
