@@ -22,3 +22,7 @@ Fordypningsstoff:
 - [Git branching og hvordan commits lages](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell#ch03-git-branching)
 - [Vanlige gitkommandoer](https://www.robinwieruch.de/git-essential-commands/)
 - [Git cheat sheet](https://medium.com/@nendhruv/essential-git-commands-every-developer-should-know-1249d4d597b5)
+
+Learn by doing, online ressurser og 'oppgaver':
+- [Learn-git-branching](https://learngitbranching.js.org/)
+- [Visualizing Git](http://git-school.github.io/visualizing-git/)
