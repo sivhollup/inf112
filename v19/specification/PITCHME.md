@@ -360,6 +360,8 @@ Note:
 - Er det umulig å ta vekk noe fra den uten at den slutter å gi verdi?
 - Vil den gjøre forskjell for brukerne av systemet?
 - Inneholder ingen implementasjonsdetaljer?
+- Et godt krav har et tydelig språk som lett kan forstås på samme måte av både
+  kunde og teammedlem
 
 
 ---
@@ -367,17 +369,31 @@ Note:
 ### Ubiquituous language
 
 Note: 
+- et språk utviklet av kunde og team i samarbeid der alle ord har en klar
+  betydning, dere er enige om hva den betydningen er, og ordene som er brukt gir
+  mening i domenet/forretningslogikken
 - hvis kunden snakker om flensehyse, da snakker dere også om flensehyse (OK, så
   er kanskje rentesats mer reelt)
 - krav skal være på kundens og domenet sitt språk
 - dette skal overføres til kode også, slik at dere snakker på samme måte om krav
   og forretningslogikk som om kode
+- Hva oppnår vi med dette?
 - eks: to utviklere snakker om en implementasjonsdetalj i beregning av
   rentesats, en forretningsekspert går forbi og hører hva de snakker om, og kan
   umiddelbart greie ut i misforståelsen de har hatt fordi de beskriver det
   faktiske domenet koden kjører i
-- oppnår dette ved å snakke med brukerne og forretningseksperter gjennom hele
-  prosjektet
+- teamet må snakke med brukerne og forretningseksperter gjennom hele
+  prosjektet og videreutvikle språket
+- hvorfor er dette viktig? Det du navngir noe som er det du forestiller deg når
+  du tenker på det. Hvis du forestiller deg et annet konsept enn det faktisk er,
+  forstår du ikke konseptet riktig og dermed ikke domenet heller
+- kan gi subtile, men kritiske forskjeller (trenger ikke være rente vs saldo,
+  for den oppdages fort.)
+- finnes tilnærminger til utviklingsløp for prosjekter som bruker dette som
+  utgangspunkt, feks domain driven design (DDD). DDD brukes for å gi mening til
+  objekt-orienterte løsninger og knytte modell til domenet
+- Men OK. Nå har vi fine krav og god forståelse av domenet. Det mangler fortsatt
+  en bit
 
 
 ---
@@ -386,22 +402,40 @@ Note:
 
 Note: 
 - Krav skal formuleres slik at de kan verifiseres, helst med en test
-- Definition of done (handler ofte om mer tekniske aspekter også, som
-  kodekvalitet)
 - Jo mer presist, jo bedre, slik at det er lett å vite når man er ferdig
 - Spesifisitet er viktig, ellers skapes det usikkerhet rundt når man er ferdig
   med en oppgave, og hva en oppgave faktisk innebærer
+- Må alltid få godkjenning fra kunde før en oppgave faktisk er ferdig
+- Mange opererer med Definition of done (handler ofte om mer tekniske aspekter
+  også, som kodekvalitet)
+- teamet blir enige om hva som skal til for at en oppgave er ferdig
+- testdekning
+- kodekvalitetsmetrikker (statisk kildekodeanalyse, linting)
+- hvem som bestemmer når oppgaven er ferdig
+- hvordan skal funksjonalitet testes
 
 
 ---
 
-### Hva er mest viktig?
+### Bruk tid på spesifikasjon
 
 Note: 
-- prioritering av krav er kritisk, og må gjøres kontinuerlig
-- prioritering endrer seg
-- velg de med høyest risiko først, altså: hva MÅ systemet kunne gjøre?
-  Vanskeligst/mest virksomhetskritisk først
+- dyrt å ta feil i spesifikasjonsdelen
+- her opparbeider teamet seg domeneforståelse
+- viktig prosess som legger grunnlaget for at prosjektet blir en suksess
 
 
+---
 
+### Et krav kan endres
+
+Note:
+- en spesifikasjon er ikke skrevet i stein
+- endres underveis, noe legges til, noe tas vekk
+- spesifikasjon ender ofte i backlog (hvis historiene er gode nok til å
+  oversettes direkte til oppgaver)
+
+
+---
+
+### Årets prosjekt
