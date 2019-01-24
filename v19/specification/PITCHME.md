@@ -436,6 +436,45 @@ Note:
   oversettes direkte til oppgaver)
 
 
----
+---?image=https://academiccomputing.files.wordpress.com/2012/07/roborally.jpg&position=right&size=55% 100%
 
+@snap[span-40 west]
 ### Årets prosjekt
+@snapend
+
+Note: 
+- https://www.youtube.com/watch?v=sVJ6A3OsZig <-- halvtimes demo med forklaring
+  av regler og spillsesjon
+- https://youtu.be/rlK7tZk41BA <-- kortere demo, også med forklaring av reglene
+
+
+---?image=https://www.theboardgamefamily.com/wp-content/uploads/2013/03/RoboRallyLaser1.jpg&size=55%
+
+Note: 
+- du skal programmere en robot i et produksjonslokale. Det er satt ut flagg
+  ulike steder i lokalet
+- kort sagt: den som først kommer seg innom alle flaggene i riktig rekkefølge
+  vinner
+- roboten programmeres ved at du legger ned kort med bevegelser. Dette utgjør
+  programmet som roboten kjører etter den runden
+
+---?image=https://www.theboardgamefamily.com/wp-content/uploads/2013/03/RoboRallyCards.jpg
+
+Note:
+- enkle bevegelseskort, rotasjon høyre/venstre, 180grader, flytt bakover, flytt
+  fremover i ulike varianter
+- hvert kort har prioritet, høyest prioritet får bevege seg først
+- på brettene finnes samlebånd og tannhjul som roterer, disse vil flytte roboter
+  som står oppå på gitte tidspunkt
+
+---?image=https://i0.wp.com/www.luisescobarblog.com/wp-content/uploads/2014/05/Three-Reasons-Robo-Rally-is-a-Must-Own-Board-Game-2.jpg&size=60%
+
+Note:
+- masse flere regler og kompliserende faktorer, som at alle robotene har lasere
+  og skyter på andre roboter de kan se, roboter kan dette ned i hull og bli
+  ødelagt (eller gå av brettet og bli ødelagt)
+- legger ut et par lenker med gjennomganger av spillet, slik at dere kan få se
+  det i action
+- Vi må gjøre noen tilpasninger til reglene slik at det kan fungere digitalt
+- Gjennomgang av regler på tirsdag, og begynne planlegging
+
