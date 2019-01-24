@@ -2,7 +2,7 @@
 
 Note:
 - presentasjonsslides: 
-- https://bit.ly/2R1tZpT
+- https://gitpitch.com/sivhollup/inf112/master?p=v19/specification-04
 
 
 ---

@@ -2,6 +2,9 @@
 
 ## Versjonskontroll og git
 
+Note: 
+- denne presentasjonen: https://gitpitch.com/sivhollup/inf112/master?p=v19/git-02
+
 ---
 
 ### Verden uten versjonskontroll

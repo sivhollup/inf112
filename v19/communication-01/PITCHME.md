@@ -5,14 +5,7 @@
 #### Siv Midtun Hollup
 
 Note: 
-- intro/historie
-
----
-
-https://bit.ly/2QOIltm
-
-Note: 
-- denne presentasjonen
+- denne presentasjonen: https://gitpitch.com/sivhollup/inf112/master?p=v19/communication-01
 
 ---?image=https://images.pexels.com/photos/53987/tool-work-bench-hammer-pliers-53987.jpeg
 

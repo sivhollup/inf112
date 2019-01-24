@@ -1,13 +1,7 @@
----
-
-### Denne presentasjonen
-
-https://bit.ly/2Mq6Mgj
-
-
 ---?image=https://images.pexels.com/photos/1776134/pexels-photo-1776134.jpeg
 
 Note:
+- Denne presentasjonen: https://gitpitch.com/sivhollup/inf112/master?p=v19/project-03
 - Bilde: føtter på et barn som såvidt har lært seg å gå
 - byggebransjen har eksistert i tusenvis av år, vi er kvitt barnesykdommene
 - alle har et forhold til byggebransjen
