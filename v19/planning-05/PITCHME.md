@@ -68,17 +68,19 @@ Note:
 
 ---
 
-### Rekkefølge i spillmekanikk
+### Forretningsregler: spillmekanikk
 
 Note: 
 - en runde består av fem faser
-- før en runde skal et program på 5 faser legges ned
+- før runden begynner skal et program på 5 faser legges ned
 - alle roboter har en plassering på brettet før runden begynner
+- når du har godkjent kortene dine for en runde går det ikke an å endre dem
+- alle kortene byttes ut etter en runde med mindre de er låst pga skade
 - en fase: snu kortet i fasen
 - høyest prioritet flytter først
 - bevege samlebånd
 - bevege tannhjul
-- lasere skyter (både på brettet og de som robotene har)
+- lasere aktiveres (både på brettet og de som robotene har)
 - flytte backup og registrere flagg
 - totalt fem faser slik, så ved slutten av runde:
 - reparere skade hvis robot står på fastnøkkelrute
@@ -106,7 +108,7 @@ Note:
 
 ---
 
-### Forretningsregler for brettet
+### Forretningsregler: brett
 
 Note:
 - det kan kun være en robot pr rute
@@ -129,9 +131,11 @@ Note:
 Note: 
 - options-kort, som endrer reglene for deg (bad stuff for andre, good stuff for
   deg osv)
+- kunne lage større brett/sette sammen ulike brett
 - andre elementer på brettet
-- generere bret??
 - generere hvordan brett kobles sammen?
+- generere brett?
+- mulighet for å spille over Internet?
 
 
 ---
@@ -153,16 +157,16 @@ Note:
 - Hvis dere bommer på hvor mye arbeid det er, tenk på hvordan dere kan justere
   forventningene i neste iterasjon
 - husk første iterasjon er kort og en god del tid går med til å planlegge
-- bruk UML for å diskutere hvordan klassestrukturen utvikler seg der det gir
-  mening. Lag enkle skisser for å beskrive klassediagram, legg på nødvendig
-  informasjon som feks forhold mellom klassene (1-1, 1-mange mange-mange osv).
+- bruk gjerne enkel UML for å diskutere hvordan klassestrukturen utvikler seg
+  der det gir mening. Mest nyttig er sannsynligvis klassediagram, evt
+  objektdiagram. Legg på de detaljene dere trenger for å forstå designet deres.
   For å få oversikt over grunnleggende UML, se hvordan det er brukt i læreboken
   og bruk google. Her er en kort oversikt over ulike typer UML-diagrammer og hva
   de brukes til: https://tallyfy.com/uml-diagram/
-- dersom dere synes det gir verdi, bruk gjerne sekvensdiagram osv for å få på
-  plass logikken i spillet 
 - Mer detaljer rundt feks symboler brukt i UML kan dere finne litt nedover på
   siden her: https://www.smartdraw.com/uml-diagram/
+- Vise: hvordan kan klassediagram se ut
+- Vise: hvordan kan objektdiagram se ut
 
 
 ---
