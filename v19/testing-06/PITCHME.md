@@ -281,4 +281,26 @@ Note:
 - before, after, beforeclass, afterclass
 
 
+---
+
+### Test-drevet utvikling (TDD)
+
+Note:
+- Drive utvikling med tester. 
+- Testen skrives først, før det finnes noe som helst annen kode
+- Implementer kode etterhvert som det trengs, men aldri mer enn nødvendig for å
+  få testen til å gå gjennom 
+- Når testene går gjennom (blir grønne), kan man forbedre koden (refaktorere
+  koden)
+- Denne syklusen kalles red-green-refactor
+
+
+
+---?image=https://jfiaffe.files.wordpress.com/2014/09/redgreenrefacor.png
+
+Note: 
+- Refaktorere: å endre kodestruktur uten å endre funksjonalitet, det vil si at
+  testene skal kjøre både før og etter uten endringer
+
+
 
