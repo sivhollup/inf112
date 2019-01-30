@@ -287,9 +287,22 @@ Note:
 
 Note:
 - Drive utvikling med tester. 
-- Testen skrives først, før det finnes noe som helst annen kode
+- Testen skrives først, før det finnes noe som helst annen kode. Det er ikke lov
+  å skrive kode før det finnes en test
 - Implementer kode etterhvert som det trengs, men aldri mer enn nødvendig for å
   få testen til å gå gjennom 
+
+
+---
+
+### Testen skal feile først
+
+Note:
+- Hvis ikke testen feiler, vet du ikke at du tester det du tror du tester
+- Hvis testen er grønn fordi du har gjort en feil i testen, tror du feilaktig at
+  du har dekket oppførsel du ikke nødvendigvis har
+- Hvis du skriver tester for eksisterende kode, gå inn i koden og ødelegg slik
+  at du ser at testen feiler på riktig måte
 - Når testene går gjennom (blir grønne), kan man forbedre koden (refaktorere
   koden)
 - Denne syklusen kalles red-green-refactor
@@ -303,4 +316,39 @@ Note:
   testene skal kjøre både før og etter uten endringer
 
 
+---
 
+### Oppbygning av en test
+
+Given
+When
+Then
+
+Note: 
+- Given: Hvordan ser verden ut når du starter testen? Også kalt precondition
+- When: Oppførselen du tester
+- Then: Verifisere at resultatet av det du har gjort gir korrekt resultat
+  (postcondition)
+- Kalles ofte også Arrange, Act, Assert
+
+
+---
+
+### DRY
+
+Note: 
+- Don't repeat yourself: viktig kvalitetsperspektiv. Unngå duplisering, også i
+  tester. Gjøres ofte med @Before eller @BerforeClass
+- Metoder annotert med @Before kjøres før hver eneste test (brukes for felles
+  oppsett i tester)
+- Metoder annotert med @BeforeClass kjøres før testklassen, brukes til
+  kode-oppsett som ikke kan gjøres like ofte, feks å lage en database
+- Tilsvarende finnes @After og @AfterClass for opprydning av tester
+
+
+---
+
+### Demo: Palindrome kata
+
+Note: 
+- Et palindrom er et ord som leses likt om det leses fra høyre eller fra venstre
