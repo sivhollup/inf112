@@ -55,6 +55,24 @@ Note:
 
 ---
 
+```java
+package inf112.tdd;
+
+import org.junit.Test;
+import static org.junit.Assert.fail;
+
+public class PalindromeCheckerTest {
+
+    @Test
+    public void whatDoesTheTestVerify() {
+       ThingToTest ttt = new ThingToTest();
+       assertEquals("What you expect", ttt.methodToBeTested());;
+    }
+}
+```
+
+---
+
 ### Integrasjonstester
 
 Note:
@@ -315,6 +333,22 @@ Note:
 Note: 
 - Refaktorere: å endre kodestruktur uten å endre funksjonalitet, det vil si at
   testene skal kjøre både før og etter uten endringer
+- Noen ganger er ikke TDD eller testing veien å gå:
+
+
+
+---
+
+### Når skal vi ikke teste?
+
+Note:
+- prøve ut nye ting: hvis man ikke vet hvilken løsning man skal gå for, kan det
+  være greit å eksperimentere uten å teste, evt å la testen være utforskning.
+  POC kan være uten test, men produksjonskode er ikke uten test
+- hvis det er vanskelig å teste på en god måte. Må ta hensyn til i hvilken grad
+  funksjonalitet som testes er virksomhetskritisk
+- hvis tester gjør at endring av kode er vanskelig (men dette er typisk et tegn
+  på at noe er gale med koden din)
 
 
 ---
@@ -351,5 +385,3 @@ Note:
 
 ### Demo: kata
 
-Note: 
-- Et palindrom er et ord som leses likt om det leses fra høyre eller fra venstre
