@@ -59,17 +59,36 @@ Note:
 package inf112.tdd;
 
 import org.junit.Test;
-import static org.junit.Assert.fail;
 
 public class PalindromeCheckerTest {
 
     @Test
-    public void whatDoesTheTestVerify() {
+    public void whatTheTestShouldVerify() {
        ThingToTest ttt = new ThingToTest();
-       assertEquals("What you expect", ttt.methodToBeTested());;
+
+       Result result = ttt.methodToBeTested();
+
+       assertEquals(new Result(expected), result);
     }
 }
 ```
+
+
+---
+
+### Oppbygning av en test
+
+Given
+When
+Then
+
+Note: 
+- Given: Hvordan ser verden ut når du starter testen? Også kalt precondition
+- When: Oppførselen du tester
+- Then: Verifisere at resultatet av det du har gjort gir korrekt resultat
+  (postcondition)
+- Kalles ofte også Arrange, Act, Assert
+
 
 ---
 
@@ -349,22 +368,6 @@ Note:
   funksjonalitet som testes er virksomhetskritisk
 - hvis tester gjør at endring av kode er vanskelig (men dette er typisk et tegn
   på at noe er gale med koden din)
-
-
----
-
-### Oppbygning av en test
-
-Given
-When
-Then
-
-Note: 
-- Given: Hvordan ser verden ut når du starter testen? Også kalt precondition
-- When: Oppførselen du tester
-- Then: Verifisere at resultatet av det du har gjort gir korrekt resultat
-  (postcondition)
-- Kalles ofte også Arrange, Act, Assert
 
 
 ---
