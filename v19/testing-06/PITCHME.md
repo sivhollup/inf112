@@ -20,9 +20,7 @@ Note:
 ### Testing == Verifikasjon
 
 Note: 
-- Hva er formålet med testing av software?
 - sikkerhetsnett
-- Mer detaljert: 
 - verifisere funksjonalitet
 - sørge for at feil ikke oppstår igjen (etter en er oppdaget)
 - senke risiko for produksjonssetting
@@ -47,7 +45,9 @@ Note:
 ### Enhetstester
 
 Note: 
-- Tester funksjon av en spesifikk del av koden, gjerne en funksjon
+- engelsk: unit tests
+- Tester hvordan en spesifikk del av koden fungerer, gjerne en funksjon eller en
+  del av en funksjon
 - kjøres ofte (feks finnes det verktøy som kjører alle enhetstestene for deg
   hver gang du lagrer endringer i koden)
 - Skal være raske
@@ -76,7 +76,7 @@ Note:
   virke
 - Si at du har et system som det finnes en del funksjonalitet i. Du utvikler en
   ny feature. Regresjonstester er å teste at all den eksisterende
-  funksjonaliteten fortsatt virker etter at du har lagt på den nye features.
+  funksjonaliteten fortsatt virker etter at du har lagt på ny funksjonalitet.
   Hvis du ikke har automatiske tester, vil da de som tester manuelt teste både
   de nye featurene som har blitt lagt til, men også alle de gamle featurene som
   skal fortsette å virke. 
@@ -143,7 +143,7 @@ Note:
 
 ---
 
-### Sikkerhetstesting/penetrasjonstester
+### Sikkerhetstesting og penetrasjonstester
 
 Note:
 - Teste programvare for å se om systemet tilfredstiller sikkerhetskrav
@@ -161,7 +161,7 @@ Note:
 
 Note: 
 - testrammeverk som lar deg spesifisere intervaller du skal teste i, og kjører
-  mange (>100) tester med generert input basert på verdier du oppgir
+  mange (>100) tester med generert input basert på grenseverdier du oppgir
 - ofte brukt for å teste matematiske funksjoner/komplekse scenario der du
   trenger tilfeldigheter/mye ulik input
 - brukes ofte til å teste intervaller
@@ -189,15 +189,14 @@ Note:
   boksen skal du ikke teste. 
 - Eks: ikke test verdier på interne variabler i en klasse, kun det du får
   tilbake.
-- Dårlig eksempel: order.set(age, drink) etterfulgt av order.allowedPurchase, der
-  allowedPurchase er private member. 
+- Dårlig eksempel: order.set(age, drink) etterfulgt av order.allowedPurchase,
+  der allowedPurchase er private member. 
 - Godt eksempel: order.set(age, drink) etterfulgt av order.isValid(), der
-  isValid() er en public-metode som feks kan sjekke
-  order.allowedPurchase-variabelen
+  isValid() er en public-metode som sjekker order.allowedPurchase-variabelen
 - Om order.allowedPurchase byttes ut med noe annet påvirkes ikke den siste
   testen
 - Tester som tester implementasjonsdetaljer gjør kodeendring vanskelig over tid
-  (gir skjør kode (brittle)
+  (gir skjør kode (brittle))
 
 
 ---
@@ -279,6 +278,8 @@ Note:
   fornuftig
 - de fleste testrammeverk gir noen muligheter for å ta vekk duplisering: 
 - before, after, beforeclass, afterclass
+- Builder-pattern kan brukes for å gjøre det enklere å lage gode tester (vis
+  prosjekt)
 
 
 ---
@@ -309,7 +310,7 @@ Note:
 
 
 
----?image=https://jfiaffe.files.wordpress.com/2014/09/redgreenrefacor.png
+---?image=https://jfiaffe.files.wordpress.com/2014/09/redgreenrefacor.png&size=35%
 
 Note: 
 - Refaktorere: å endre kodestruktur uten å endre funksjonalitet, det vil si at
@@ -348,7 +349,7 @@ Note:
 
 ---
 
-### Demo: Palindrome kata
+### Demo: kata
 
 Note: 
 - Et palindrom er et ord som leses likt om det leses fra høyre eller fra venstre
