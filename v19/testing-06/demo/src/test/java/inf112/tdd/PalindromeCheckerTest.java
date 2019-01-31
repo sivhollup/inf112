@@ -4,11 +4,10 @@ import org.junit.Test;
 
 import static org.junit.Assert.fail;
 
-public class PalindromeTest {
+public class PalindromeCheckerTest {
 
     @Test
-    public void singleLetterWordIsAPalindrome() {
-        //TODO
+    public void firstTest() {
         fail("Not implemented yet");
     }
 }
