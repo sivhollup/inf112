@@ -247,3 +247,10 @@ Note:
 - byggserver kan settes opp til å deploye hver gang man merger til master (kan
   være risikabelt)
 
+
+---
+
+### Vanlig arkitekturdeling
+
+Note: 
+- 
