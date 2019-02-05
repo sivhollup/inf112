@@ -142,7 +142,7 @@ Note:
   det prosjektet bygger til)
 - gjør alle steg frem til og med install
 - clean må du kjøre selv, før du committer, så du vet at alt fungerer
-
+- demo!
 
 ---
 
@@ -169,8 +169,10 @@ Note:
 - alt frem til nå kan fint gjøres på egen maskin, men også på en byggserver
 - teamet må være trygg på at kodebasen i master fungerer, og alle skal være
   trygge på at prosjektet til en hver tid bygger
+- utviklere bruker ulike miljøer, bygg skal virke både lokalt og sentralt
 - sentral byggserver kan settes opp til å bygge hver gang noen pusher kode til
   det sentrale repositoriet
+- tegne: lokalt bygg på maskiner vs sentral byggserver, og kobling mot deploy
 - hva er en byggserver? En tjeneste som lytter på repositoriet ditt på github
   (eller andre public repositories) og bygger prosjektet for deg hver gang det
   kommer endringer i prosjektet
@@ -253,4 +255,32 @@ Note:
 ### Vanlig arkitekturdeling
 
 Note: 
-- 
+- Persistens-lager, back-end (hoveddel av forretningslogikk), front-end (grafisk
+  brukergrensesnitt)
+- hvorfor deles ofte applikasjonen opp slik? Ulike krav til respons fra ulike
+  deler av systemet fordi de oppfører seg ulikt under last
+- tegne enkel arkitektur og hvordan den kan skaleres ulikt
+- en del av koden krever mer maskinressurser enn andre, og må skaleres
+  annerledes
+- Kan være mange systemer som integrerer med både front-end og back-end
+- front-end og back-end kjører på hver sin webserver/applikasjonsserver
+- hvis de kjører på hver sine servere/teknologier kan det være lurt å separere
+  prosjektene i ulike repositories
+- alle er uavhengige entiteter og må kunne fungere (feile på en god måte) uten
+  de andre systemene
+- oppdatering skjer noen ganger uavhengig av hverandre, noen ganger samkjørt
+- Fordi om det står "vanlig arkitekturdeling" betyr det ikke at det alltid er
+  slik: det er avhengig av hvilket problem du prøver å løse
+- generelt er det kun ett prinsipp som teller når det gjelder arkitektur
+
+
+---
+
+### Separer ulike ansvarsområder 
+
+Note:
+- hvis du klarer dette, er sjansen større for at du har et lesbart og
+  vedlikeholdbart system over tid
+- arkitektur endrer seg også
+- hva betyr dette i praksis? 
+
