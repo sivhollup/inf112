@@ -257,18 +257,21 @@ Note:
 Note: 
 - Persistens-lager, back-end (hoveddel av forretningslogikk), front-end (grafisk
   brukergrensesnitt)
+- tegne enkel arkitektur og hvordan den kan skaleres ulikt
 - hvorfor deles ofte applikasjonen opp slik? Ulike krav til respons fra ulike
   deler av systemet fordi de oppfører seg ulikt under last
-- tegne enkel arkitektur og hvordan den kan skaleres ulikt
 - en del av koden krever mer maskinressurser enn andre, og må skaleres
   annerledes
+- ulike abstraksjonsnivåer: hvordan ting lagres har ingenting med hvordan ting
+  tegnes å gjøre
 - Kan være mange systemer som integrerer med både front-end og back-end
 - front-end og back-end kjører på hver sin webserver/applikasjonsserver
 - hvis de kjører på hver sine servere/teknologier kan det være lurt å separere
   prosjektene i ulike repositories
 - alle er uavhengige entiteter og må kunne fungere (feile på en god måte) uten
-  de andre systemene
+  de andre systemene: husk å ta med i designet og planlegging av systemet
 - oppdatering skjer noen ganger uavhengig av hverandre, noen ganger samkjørt
+  (feks om du endrer på interface)
 - Fordi om det står "vanlig arkitekturdeling" betyr det ikke at det alltid er
   slik: det er avhengig av hvilket problem du prøver å løse
 - generelt er det kun ett prinsipp som teller når det gjelder arkitektur
@@ -283,4 +286,81 @@ Note:
   vedlikeholdbart system over tid
 - arkitektur endrer seg også
 - hva betyr dette i praksis? 
+- påloggingstjeneste endres fordi organisasjonen du jobber opp mot endrer sin
+  innlogging. Eget konsept som holdes så separat fra koden som mulig gjør det
+  enklere å bytte ut spesifikk teknologi
+- håndtering av brukere gjøres ofte utenfor applikasjonen (stort og komplekst
+  felt)
+- Hva med alt som har med bygg og deploy å gjøre?
+- maven håndterer dependencies og bygg, så slipper du å tenke altfor mye på det
+- all konfigurasjon rundt dette holdes så separat som mulig fra resten av koden
+  (pom.xml)
+- byggserver håndterer det å bygge i riktig miljø, egen konfig for dette
+- så deployes den eksekverbare filen, vi får konfig av serveren den lever på
+- neste lag: hvor kjører serveren/tjenesten, og hva er kravene til feks oppetid
+  og respons?
+
+
+---
+
+### Skalering
+
+Note:
+- i dag er skytjenester nesten selvsagt for hosting av alt fra databaser til
+  webserveren din, til en liten kodesnutt/funksjon (lambda o.l.)
+- kjente skytjenester: AWS, Azure, Google Cloud
+- dette er hele økosystemer av tjenester, AWS har > 100 tjenester og enda flere
+  produkter
+- kan sette opp separate nett for flere virtuelle maskiner som kjører koden din,
+  databasen din osv. 
+- kan skalere for deg, feks: 
+- hvis backenden trenger mye CPU, bestill det
+- hvis frontenden får mange forespørsler, sett opp flere noder og sett en
+  lastbalanserer foran
+- hva hvis trafikk er ujevnt fordelt? Sett opp prod-miljøet til å skalere
+  dynamisk
+- Kubernetes er en teknologi som også kan brukes for å gjøre konfigurering av
+  sånt
+- Denne disiplinen kalles devops i dag, fordi mye av konfigurasjonen på
+  driftsmiljøet er kodebasert idag og dermed kan utvikles mer likt som kode
+
+
+---
+
+### Ulike miljøer
+
+Note: 
+- dev-miljø
+- testmiljø
+- akseptansetest
+- ulike nivåer av likhet til prodmiljø (bør være så likt som mulig) der hele
+  applikasjonsuniverset er tilgjengelig for mest mulig realistisk testing
+- kan spinnes opp der og da eller leve over tid
+- må tenke på hvilke type data som kan finnes der (skal det leve lenge, skal man
+  kunne importere proddata?)
+
+
+---
+
+### Virtualisering
+
+Note:
+- brukes ofte til lokal utforskning, og til å distribuere programvare på en
+  enklere måte
+- virtuelle maskiner feks gjennom VMWare, HyperV, VirtualBox
+- docker er en plattform for å distribuere applikasjonen din på riktig platform
+  med alle dependencies, ikke bare i bibliotekform, men i OS den kjører på. 
+- eks: database må installeres på riktig operativsystem og trenger en del
+  systemspesifikt oppsett
+- med docker kan dette gjøres en gang og gjøres tilgjengelig for andre
+- også mye brukt til lokal utforskning, feks fordi det kan gi deg reell database
+  uten at du trenger å installere db lokalt (ofte vanskelig eller umulig)
+- kjører feks et lite dockerimage for å serve systemet som lar meg bruke
+  gitpitch (tjenesten som leverer slides) lokalt i stedet for å måtte pushe til
+  github
+
+
+--- 
+
+### Neste: Kodekvalitet og Single Responsibility Principle
 
