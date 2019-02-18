@@ -263,6 +263,7 @@ Note:
   applikasjonsserver og hvordan alt henger sammen der
 - byggserver kan settes opp til å deploye hver gang man merger til master (kan
   være risikabelt)
+- enkel tjeneste hvis dere vil eksperimentere: Heroku
 
 
 ---
@@ -304,9 +305,10 @@ Note:
 - påloggingstjeneste endres fordi organisasjonen du jobber opp mot endrer sin
   innlogging. Eget konsept som holdes så separat fra koden som mulig gjør det
   enklere å bytte ut spesifikk teknologi
-- håndtering av brukere gjøres ofte utenfor applikasjonen (stort og komplekst
-  felt)
-- Hva med alt som har med bygg og deploy å gjøre?
+- håndtering av brukere og roller gjøres ofte utenfor applikasjonen (stort og
+  komplekst felt)
+- bygg og deploy er også et ansvarsområde, for uten dette virker ikke koden din
+  ordentlig
 - maven håndterer dependencies og bygg, så slipper du å tenke altfor mye på det
 - all konfigurasjon rundt dette holdes så separat som mulig fra resten av koden
   (pom.xml)
@@ -314,30 +316,6 @@ Note:
 - så deployes den eksekverbare filen, vi får konfig av serveren den lever på
 - neste lag: hvor kjører serveren/tjenesten, og hva er kravene til feks oppetid
   og respons?
-
-
----
-
-### Skalering
-
-Note:
-- i dag er skytjenester nesten selvsagt for hosting av alt fra databaser til
-  webserveren din, til en liten kodesnutt/funksjon (lambda o.l.)
-- kjente skytjenester: AWS, Azure, Google Cloud
-- dette er hele økosystemer av tjenester, AWS har > 100 tjenester og enda flere
-  produkter
-- kan sette opp separate nett for flere virtuelle maskiner som kjører koden din,
-  databasen din osv. 
-- kan skalere for deg, feks: 
-- hvis backenden trenger mye CPU, bestill det
-- hvis frontenden får mange forespørsler, sett opp flere noder og sett en
-  lastbalanserer foran
-- hva hvis trafikk er ujevnt fordelt? Sett opp prod-miljøet til å skalere
-  dynamisk
-- Kubernetes er en teknologi som også kan brukes for å gjøre konfigurering av
-  sånt
-- Denne disiplinen kalles devops i dag, fordi mye av konfigurasjonen på
-  driftsmiljøet er kodebasert idag og dermed kan utvikles mer likt som kode
 
 
 ---
@@ -353,6 +331,31 @@ Note:
 - kan spinnes opp der og da eller leve over tid
 - må tenke på hvilke type data som kan finnes der (skal det leve lenge, skal man
   kunne importere proddata?)
+
+
+---
+
+### Skalering
+
+Note:
+- i dag er skytjenester nesten selvsagt for hosting av alt fra databaser til
+  webserveren din, til en liten kodesnutt/funksjon (lambda o.l.)
+- før: servere som var tilkoblet nett hele tiden, nå er alt virtualisert
+- kjente skytjenester: AWS, Azure, Google Cloud, Heroku
+- dette er hele økosystemer av tjenester, AWS har > 100 tjenester og enda flere
+  produkter
+- kan sette opp separate nett for flere virtuelle maskiner som kjører koden din,
+  databasen din osv. 
+- kan skalere for deg, feks: 
+- hvis backenden trenger mye CPU, bestill det
+- hvis frontenden får mange forespørsler, sett opp flere noder og sett en
+  lastbalanserer foran
+- hva hvis trafikk er ujevnt fordelt? Sett opp prod-miljøet til å skalere
+  dynamisk
+- Kubernetes er en teknologi som også kan brukes for å gjøre konfigurering av
+  sånt
+- Denne disiplinen kalles devops i dag, fordi mye av konfigurasjonen på
+  driftsmiljøet er kodebasert idag og dermed kan utvikles mer likt som kode
 
 
 ---
