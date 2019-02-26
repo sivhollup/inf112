@@ -8,9 +8,15 @@ public class DatabaseConnection {
 
     public static DatabaseConnection getInstance() {
         if (INSTANCE == null) {
-            INSTANCE = new DatabaseConnection();
+            createInstance();
         }
         return INSTANCE;
+    }
+
+    private synchronized static void createInstance() {
+        if (null == INSTANCE) {
+            INSTANCE = new DatabaseConnection();
+        }
     }
 
     public boolean isActive() {
