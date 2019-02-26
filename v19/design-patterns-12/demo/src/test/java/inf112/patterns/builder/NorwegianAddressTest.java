@@ -8,17 +8,23 @@ public class NorwegianAddressTest {
 
     @Test
     public void canCreateValidAddress() {
-        NorwegianAddress address = new NorwegianAddress("Leilighetsveien", "17b", "3456", "Suburbia", "Norge");
+        NorwegianAddress.Builder builder = new NorwegianAddress.Builder();
+        NorwegianAddress address = builder.build();
 
-        assertEquals("Leilighetsveien", address.getStreetName());
-        assertEquals("17b", address.getHouseNumber());
-        assertEquals("3456", address.getZipCode());
-        assertEquals("Suburbia", address.getZipArea());
-        assertEquals("Norge", address.getCountry());
+        assertEquals(address.getStreetName(), builder.getStreetName());
+        assertEquals(address.getHouseNumber(), builder.getHouseNumber());
+        assertEquals(address.getZipCode(), builder.getZipCode());
+        assertEquals(address.getZipArea(), builder.getZipArea());
+        assertEquals(address.getCountry(), builder.getCountry());
     }
 
-    @Test
-    public void shouldHaveFourDigitsInZipCode() {
+    @Test(expected = IllegalArgumentException.class)
+    public void shouldHaveZipCode() {
+        new NorwegianAddress.Builder().zipCode(null).build();
+    }
 
+    @Test(expected = IllegalArgumentException.class)
+    public void shouldHaveZipArea() {
+        new NorwegianAddress.Builder().zipArea(null).build();
     }
 }
