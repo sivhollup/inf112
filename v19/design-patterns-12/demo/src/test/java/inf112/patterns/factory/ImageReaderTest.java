@@ -1,5 +1,8 @@
 package inf112.patterns.factory;
 
+import inf112.patterns.factory.reader.GifReader;
+import inf112.patterns.factory.reader.ImageReader;
+import inf112.patterns.factory.reader.JpegReader;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -31,11 +34,11 @@ public class ImageReaderTest {
 
     }
 
+    // factory method: don't care about which reader it is, as long as you get the right result and can read the file
     private ImageReader getImageReader(ImageReader reader, String imageFileName) {
         if (imageFileName.endsWith(".gif")) {
             reader = new GifReader(imageFileName);
-        }
-        else if (imageFileName.endsWith(".jpeg")) {
+        } else if (imageFileName.endsWith(".jpeg")) {
             reader = new JpegReader(imageFileName);
         }
         return reader;
