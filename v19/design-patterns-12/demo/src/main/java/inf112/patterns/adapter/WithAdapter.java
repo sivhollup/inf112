@@ -14,11 +14,17 @@ public class WithAdapter {
     }
 }
 
+/**
+ * Innfører Shape-interface som definerer hvordan adapterne skal oppføre seg (hva som er felles)
+ */
 interface Shape {
     void draw(int x, int y, int z, int j);
 }
 
-
+/**
+ * Alle adapter-klassene implementerer riktig interface og har ansvar for å lime samme ønsket funksjonalitet med
+ * hvordan reell implementasjonsklasse virker
+ */
 class LineAdapter implements Shape {
     private Line adaptee;
 
@@ -41,10 +47,14 @@ class RectangleAdapter implements Shape {
 
     @Override
     public void draw(int x1, int y1, int x2, int y2) {
+        /**
+         * Kode for å tilpasse til ønsket funksjonalitet
+         */
         int x = Math.min(x1, x2);
         int y = Math.min(y1, y2);
         int width = Math.abs(x2 - x1);
         int height = Math.abs(y2 - y1);
+
         adaptee.draw(x, y, width, height);
     }
 }
