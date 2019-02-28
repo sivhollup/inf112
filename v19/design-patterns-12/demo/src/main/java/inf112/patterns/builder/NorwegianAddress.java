@@ -7,7 +7,18 @@ public class NorwegianAddress {
     private final String zipArea;
     private final String country;
 
-    public NorwegianAddress(String streetName, String houseNumber, String zipCode, String zipArea, String country) {
+    /**
+     * Privat konstruktør slik at alle som ønsker å opprette en instans må bruke builder-klassen.
+     * Trenger kun full konstruktør med alle parametre, builder tar seg av alle optional-varianter og ulike
+     * sammensetninger av parametre
+     *
+     * @param streetName
+     * @param houseNumber
+     * @param zipCode
+     * @param zipArea
+     * @param country
+     */
+    private NorwegianAddress(String streetName, String houseNumber, String zipCode, String zipArea, String country) {
 
         validate(streetName, houseNumber, zipCode, zipArea, country);
         this.streetName = streetName;
@@ -48,8 +59,14 @@ public class NorwegianAddress {
         return country;
     }
 
+    /**
+     * Builderklasse som bygger riktig adresse-objekt
+     */
     public static class Builder {
 
+        /**
+         * Setter standardverdier, særlig nyttig i testsammenheng
+         */
         private String streetName = "Standardgaten";
         private String houseNumber = "1";
         private String zipCode = "1234";
@@ -59,6 +76,12 @@ public class NorwegianAddress {
         public Builder() {
         }
 
+        /**
+         * Endrer gatenavn i builderen til streetName
+         *
+         * @param streetName
+         * @return builder-objektet slik at det kan bygges videre på eller kalle build()-metoden
+         */
         public Builder streetName(String streetName) {
             this.streetName = streetName;
             return this;
@@ -84,6 +107,12 @@ public class NorwegianAddress {
             return this;
         }
 
+        /**
+         * Bygger objektet vi egentlig er på jakt etter med alle oppgitte parametre. Kaller den private konstruktøren
+         * i adresse-klassen
+         *
+         * @return en instans av NorwegianAddress
+         */
         public NorwegianAddress build() {
             return new NorwegianAddress(streetName, houseNumber, zipCode, zipArea, country);
         }

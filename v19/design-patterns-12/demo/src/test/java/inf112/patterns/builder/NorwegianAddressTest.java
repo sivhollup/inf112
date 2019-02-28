@@ -8,6 +8,9 @@ public class NorwegianAddressTest {
 
     @Test
     public void canCreateValidAddress() {
+        /**
+         * Opprettelsen av default-objekt tar veldig lite plass og skaper ikke støy for testen.
+         */
         NorwegianAddress.Builder builder = new NorwegianAddress.Builder();
         NorwegianAddress address = builder.build();
 
@@ -20,6 +23,10 @@ public class NorwegianAddressTest {
 
     @Test(expected = IllegalArgumentException.class)
     public void shouldHaveZipCode() {
+        /**
+         * Kompakt kode som er lett å lese. Kan kun ta med det viktige i testen, heller enn å gjemme det vekk i alle
+         * detaljer som også må til for å opprette en ellers gyldig adresse
+         */
         new NorwegianAddress.Builder().zipCode(null).build();
     }
 
