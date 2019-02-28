@@ -36,6 +36,7 @@ public class ToPNGConverter {
          * Implisitt strategy pattern, vi bruker reader og writer som strategier her. Converter vet ikke om
          * implementasjonene, kun den generelle oppførselen disse konseptene har
          */
+
         Converter converter = new Converter(reader, writer);
         converter.convert();
     }
