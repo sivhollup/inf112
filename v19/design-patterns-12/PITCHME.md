@@ -149,7 +149,8 @@ Note:
   hvilken klasse som skal instansieres, mens resten av koden bare forholder seg
   til interface-metodene. 
 - Ref eksempelet over: hva hvis det ikke skal være noen ventil? Kan lage Null
-  Object
+  Object 
+- Kodeeksempel: strategy-pakken i demo-prosjektet
 
 
 ---
@@ -170,7 +171,7 @@ Note:
   gi bedre håndtering av null i koden. 
 - hva betyr null? Er det en feil eller er det ok? Må håndteres alle steder det
   objektet hentes i koden (bryter flere SOLID-prinsipper). 
-
+- Kodeeksempel: strategy-pakken i demo-prosjektet (NoDiscountStrategy)
 
 ---
 
@@ -185,21 +186,26 @@ Note:
 ### Adapter
 
 Note:
+- Hva er Adapter?
 - Legge et nytt lag med programvare for å få konsepter (klasser) med ulike
   tenkemåter til å kunne fungere på samme måte 
 - tenk: ulike typer strømadaptere, må legge noe i mellom for å kunne bruke dine
   elektriske duppedingser i ulike land med ulike standarder
-- hvilket problem løser Adapter:
+- Hvilket problem løser Adapter:
 - lar kode som allerede er laget virke sammen sømløst for klienten sin del. 
 - isolerer kompabilitetsendringer og gjør det lettere for alle andre
 - viser at ulike konsepter er relaterte og kan brukes om hverandre (selv om de
   feks kommer fra ulike biblioteker)
-- Eksempel: samme gui-logikk for ulike gui-rammeverk: får en Adapter definerer
-  felles oppførsel, hver implementasjon limer sammen felles funksjonalitet med
-  detaljer fra hver rammeverk
+- Eksempel: samme gui-logikk for ulike gui-rammeverk: får en Adapter som
+  definerer felles oppførsel, hver implementasjon limer sammen felles
+  funksjonalitet med detaljer fra hver rammeverk
 - Også mye brukt i testing for å injisere tester der det finnes funksjonalitet
   som ikke under noen omstendigheter må kalles
 - Eksempel: 
 - Testing av atomvåpen-software: vi har ikke lyst til å faktisk sende avgårde et
   atomvåpen, men vi må teste at systemet virker
+- Kodeksempel: 
+- https://sourcemaking.com/design_patterns/adapter/java/1
+- Kodeeksempel på hvordan vi kan gjøre klart for å bruke adapter: 
+- https://github.com/nerdschoolbergen/all-about-testing-code/tree/master/exercise-5
 
