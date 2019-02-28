@@ -48,7 +48,8 @@ class RectangleAdapter implements Shape {
     @Override
     public void draw(int x1, int y1, int x2, int y2) {
         /**
-         * Kode for å tilpasse til ønsket funksjonalitet
+         * Kode for å tilpasse til ønsket funksjonalitet. Dette ønsker vi å samle et sted slik at resten av koden
+         * ikke trenger å forholde seg til disse detaljene.
          */
         int x = Math.min(x1, x2);
         int y = Math.min(y1, y2);
