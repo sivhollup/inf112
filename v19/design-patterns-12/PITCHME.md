@@ -6,6 +6,9 @@ Note:
 - Vanlige, etablerte løsninger på velkjente problemer innen programvareutvikling
 - Typisk en klasseoppdeling med navnekonvensjon i realiteten
 - Konkrete fremgangsmåter for å følge SOLID-prinsippene
+- En god ressurs i tillegg til læreboken:
+  https://sourcemaking.com/design_patterns (inneholder korte forklaringer på
+  mange ulike design patterns og hvordan de brukes, samt kodeeksempler)
 
 ---
 
@@ -19,12 +22,12 @@ Note:
 ### Singleton
 
 Note:
-- hva er singleton?
-- En måte å bare opprette et objekt på
-- hvilket problem løser singleton?
+- Hva er singleton?
+- En måte å bare opprette *ett* objekt på
+- Hvilket problem løser singleton?
 - når vi ikke kan ha mange instanser av en klasse liggende
-- feks: databasekoblinger, vi vil ikke ha en ny kobling til databasen hver gang
-  en request kommer inn, da slutter alt å virke
+- feks: tilstandsobjekt for et spill, hvis vi har flere tilstandsmaskiner blir
+  tilstand i spillet udefinert 
 - mer generelt: hvis en instans av et objekt kan knyttes direkte til ressursbruk
   (minne, CPU, koblinger over nett osv), kan dette være et tegn på at mengden
   instanser skal begrenses
@@ -32,16 +35,20 @@ Note:
   kan føre til race conditions eller ugyldige tilstander i programmet)
 - alle i systemet må få tilgang til instansen
 - kan styre når instansen skal tilordnes og initialiseres
-- hvordan implementerer vi en singleton?
-- klasse (<navn>Singleton), har private static variabel for instans som skal
+- hvis man feks bruker Spring-rammeverket vil den håndtere å lage Singletons for
+  deg, du kan bruke annotasjoner i koden for å oppgi hva som skal være
+  singleton. Opprettes da ved oppstart av systemet. 
+- Hvordan implementerer vi en singleton?
+- klasse (<navn>Singleton), har private static feltvariabel for instans som skal
   være singleton
 - klassen har privat konstruktør (dette gjør at ingen kan kalle den, og den kan
   heller ikke subklasses)
-- public static-metode for å hente ut instansen getInstance() som oppretter
-  instans når den trengs og ellers returnerer instansen
+- public static-metode for å hente ut instansen, ofte kalt getInstance(), som
+  oppretter instans når den trengs og ellers returnerer instansen
 - singleton brukes gjerne av mer avanserte designmønstre
-- alternativ til implementasjon: lag en enum med bare en type (som er instansen
+- alternativ implementasjon: lag en enum med bare en type (som er instansen
   du skal opprette)
+
 
 ---
 

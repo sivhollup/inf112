@@ -1,12 +1,12 @@
 package inf112.patterns.singleton;
 
-public class DatabaseConnection {
+public class GameStateSingleton {
 
-    private static DatabaseConnection INSTANCE;
+    private static GameStateSingleton INSTANCE;
 
-    private DatabaseConnection() {}
+    private GameStateSingleton() {}
 
-    public static DatabaseConnection getInstance() {
+    public static GameStateSingleton getInstance() {
         if (null == INSTANCE) {
             createInstance();
         }
@@ -15,11 +15,11 @@ public class DatabaseConnection {
 
     private synchronized static void createInstance() {
         if (null == INSTANCE) {
-            INSTANCE = new DatabaseConnection();
+            INSTANCE = new GameStateSingleton();
         }
     }
 
-    public boolean isActive() {
+    public boolean isInitial() {
         return true;
     }
 }
