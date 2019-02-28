@@ -111,6 +111,7 @@ Note:
   opererer på, får den lov å kalle den private konstruktøren i klassen)
 - Litt mer å forstå, men mye mer fleksibel bruk
 - gir mulighet for objekter som ikke kan endres, immutable objects
+- Kodeeksempel i builder-pakken i demo-prosjektet
 
 
 ---
@@ -127,13 +128,6 @@ Note:
 ### Strategy
 
 Note: 
-- eksempel: 
-- Fagsystem for produksjon av vinduer (lage tekniske beskrivelser av hvordan
-  vinduer skal settes sammen). Noen vinduer har ventiler, men plassering av
-  ventil avhenger av hvilken vindustype det er 
-- alle vindustyper har sin måte å beregne på, lager en klasse for hver måte
-  (hver sin algoritme), hver av disse er en Strategy (VentilStrategy). Velge
-  runtime hvilken som er riktig
 - Hva er Strategy?
 - mye tilsvarende til Factory, men for algoritmer
 - Hvilket problem løser Strategy: 
@@ -143,6 +137,13 @@ Note:
 - kunne laget alle algoritmene i en stor if-else med metoder for de ulike
   algoritmene, men det er vanskelig å vedlikeholde over tid (og bryter med
   open/closed-principle)
+- eksempel: 
+- Fagsystem for produksjon av vinduer (lage tekniske beskrivelser av hvordan
+  vinduer skal settes sammen). Noen vinduer har ventiler, men plassering av
+  ventil avhenger av hvilken vindustype det er 
+- alle vindustyper har sin måte å beregne på, lager en klasse for hver måte
+  (hver sin algoritme), hver av disse er en Strategy (VentilStrategy). Velge
+  runtime hvilken som er riktig
 - Hvordan implementerer vi Strategy?
 - Lag et interface, en Strategy, alle klasser implementerer denne. Velg runtime
   hvilken klasse som skal instansieres, mens resten av koden bare forholder seg
@@ -158,13 +159,15 @@ Note:
 Note:
 - designmønster som definerer ingen-oppførsel
 - Hvis vindu ikke skal ha ventil, så kan det lages en Strategy-implementasjon
-  for ingen ventil
+  for ingen ventil som rett og slett ikke gjør noe som helst
 - blir en egen implementasjonsklasse som da gjerne ikke gjør noe beregning eller
   på annet vis gir en bra (og definert!) behandling av hva som skal skje i
   ikke-tilfellet
+- forteller leseren av koden eksplisitt at i dette tilfellet skal det ikke
+  gjøres noe
 - særlig i Java er null et "eget konsept" som ikke egentlig er et objekt, men
   som kan returneres i stedet for ett. Null object er en vei rundt dette, for å
-  gi bedre håndtering i kode av null. 
+  gi bedre håndtering av null i koden. 
 - hva betyr null? Er det en feil eller er det ok? Må håndteres alle steder det
   objektet hentes i koden (bryter flere SOLID-prinsipper). 
 
