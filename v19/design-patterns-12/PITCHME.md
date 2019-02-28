@@ -48,6 +48,7 @@ Note:
 - singleton brukes gjerne av mer avanserte designmønstre
 - alternativ implementasjon: lag en enum med bare en type (som er instansen
   du skal opprette)
+- Kodeeksempel: singleton-pakken i demo-prosjektet
 
 
 ---
@@ -59,24 +60,26 @@ Note:
 - Hvilket problem løser Factory?
 - lar høynivåklasser få tilgang til subklasser uten å måtte avhenge av de
   spesifikke subklassene
-- dependency inversion: klasser skal avhenge av abstrakte klasser, ikke
-  spesifikke implementasjoner (klasser skal avhenge av konsepter heller enn
-  konkrete eksempler)
-- finnes flere varianter av denne, vi går gjennom klassisk Factory
+- dependency inversion: klasser skal avhenge av abstrakte klasser eller
+  interfaces, ikke spesifikke implementasjoner (klasser skal avhenge av
+  konsepter)
+- finnes flere varianter av denne, klassisk Factory, Factory method m.fl.
 - Hvordan implementerer vi Factory?
 - lager et interface som heter <navn>Factory
 - lag en metode for hver konkrete klasse som finnes
 - disse metodene implementeres i en konkret Factory-klasse. Hver metode
-  returnerer et objekt av den konkrete klassen som ønskes
+  returnerer en instans av den konkrete klassen som ønskes
 - metodene returnerer supertypen (feks Shape), slik at toppklassen som kaller
   metoden ikke trenger å forholde seg til hvilken konkret implementasjon som
   brukes
 - eksempel på dette: Collection i java
-- Relatert til dette: Factory Method, som også har med å instansiere objekter av
-  konkrete klasser å gjøre. Men: implementert litt annerledes, hvor du avgjør
-  hvilken implementasjon som skal returneres der og da (feks basert på filnavn
-  eller andre attributter). I dette tilfellet har du bare en metode, men den må
+- Factory Method: instansiere objekter av
+  konkrete klasser, men finner ut hvilken konkret klasse som skal returneres på
+  egen hånd. Kan være basert på filnavn, oppgitt enum eller en eller annen
+  egenskap 
+- I dette tilfellet har du bare en metode, men den må
   utvides/endres hver gang en ny klasse kommer til eller faller fra
+- Kodeeksempel: factory-pakken i demo-prosjektet
 
 
 ---
