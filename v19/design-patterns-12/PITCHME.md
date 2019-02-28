@@ -87,25 +87,25 @@ Note:
 ### Builder
 
 Note:
-- hva er builder?
+- Hva er builder?
 - en måte å lage objekter på som frakobler parametre fra konstruktør
-- hvilket problem løser Builder?
-- opprettelse av objekt der du trenger mange konstruktører for å kunne ta høyde
-  for alle varianter av kombinasjoner av parametre
+- Hvilket problem løser Builder?
+- opprettelse av objekt med mange parametre som kan kombineres på ulike måter 
 - opprette objekter der det er mange optional-parametre
-- brukes typisk der det er mange parametre
+- brukes ofte i forbindelse med testing
 - må lage egen klasse, så kontekstuelt litt mer avansert å forholde seg til, men
   kan gi større klarhet i kode fordi det er lett å lage objekter med riktige
   parametre som ikke gjemmes vekk for andre som leser koden (hvis man feks må
   oppgi 10 parametre mens det egentlig bare er fem som er viktige for den
   instansen)
-- brukes ofte i forbindelse med testing
 - Hvordan gjøres dette?
-- Du lager en privat konstruktør i klassen din
+- Du lager en privat konstruktør i klassen din (hvis du vil tvinge frem bruk av
+  builderen). Husk: ingen subklassing hvis privat konstruktør
 - Du lager en Builder-klasse inne i klassen din
 - Du kaller konstruktøren til Builder-klassen, og den returnerer et
   Builder-objekt 
-- Du kan så kalle metoder på builder-objektet for å sette nødvendige parametre
+- Kall metoder på builder-objektet for å sette nødvendige parametre. Disse
+  metodene skal returnere builder-objektet
 - Til slutt kaller du build-metoden på Builder-objektet, og denne returnerer
   objektet du egentlig vil lage (siden Builder-klassen er inne i klassen du
   opererer på, får den lov å kalle den private konstruktøren i klassen)

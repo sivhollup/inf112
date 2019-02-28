@@ -7,7 +7,7 @@ public class NorwegianAddress {
     private final String zipArea;
     private final String country;
 
-    public NorwegianAddress(String streetName, String houseNumber, String zipCode, String zipArea, String country) {
+    private NorwegianAddress(String streetName, String houseNumber, String zipCode, String zipArea, String country) {
 
         validate(streetName, houseNumber, zipCode, zipArea, country);
         this.streetName = streetName;
