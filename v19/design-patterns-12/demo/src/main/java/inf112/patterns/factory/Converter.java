@@ -13,10 +13,8 @@ public class Converter {
         this.writer = writer;
     }
 
-    public void convert(String filename) {
-
+    public void convert() {
         writer.write(reader);
-
     }
 
 

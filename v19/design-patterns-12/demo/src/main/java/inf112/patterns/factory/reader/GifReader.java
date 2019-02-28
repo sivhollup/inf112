@@ -5,8 +5,8 @@ import inf112.patterns.factory.DecodedImage;
 public class GifReader implements ImageReader {
     private DecodedImage decodedImage;
 
-    public GifReader(String image) {
-        this.decodedImage = new DecodedImage(image);
+    public GifReader(String filepath) {
+        this.decodedImage = new DecodedImage(filepath);
     }
 
     @Override
