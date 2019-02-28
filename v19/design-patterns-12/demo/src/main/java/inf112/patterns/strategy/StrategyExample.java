@@ -5,6 +5,10 @@ import java.text.DecimalFormat;
         import java.util.List;
         import java.util.stream.Collectors;
 
+/**
+ * Eksempelprogram hvor en ordre gis (hardkodet i dette tilfellet), og så skrives den ut.
+ * Har også mulighet for å gi rabatt.
+ */
 class StrategyExample {
     public static void main(String[] args) {
 
@@ -15,9 +19,16 @@ class StrategyExample {
 
         System.out.println(order.toString());
 
+        /**
+         * I virkeligheten ville strategien vi velger kommet fra brukergrensesnitt eller annen input som bestemmes runtime
+         */
         //order.setDiscountStrategy(new PercentDiscountStrategy(10));
         //order.setDiscountStrategy(new FixedDiscountStrategy(2));
 
+        /**
+         * Legg på rabatt på ordre, uavhengig av om rabatten endrer totalsum. Hvis vi ikke har satt rabattstrategi brukes
+         * defaultstrategien som er satt i Order-klassen
+         */
         order.applyDiscount();
 
         System.out.println(order.toString());
@@ -28,7 +39,11 @@ class Order {
     DecimalFormat decimalFormat = new DecimalFormat("#,##0.00");
 
     private List<OrderLine> lines = new ArrayList<>();
+    /**
+     * En ordre har i utgangspunktet en strategi for rabatt: ingen rabatt
+     */
     private DiscountStrategy discountStrategy = new NoDiscountStrategy();
+
 
     public void setDiscountStrategy(DiscountStrategy discountStrategy) {
         this.discountStrategy = discountStrategy;
@@ -39,6 +54,9 @@ class Order {
     }
 
     public void applyDiscount() {
+        /**
+         * Sender inn seg selv til rabattstrategien, slik at den kan legge på ordrelinje med rabatten den beregner
+         */
         discountStrategy.applyDiscount(this);
     }
 
@@ -62,8 +80,6 @@ class Order {
         result.append("==========================").append("\n");
         return result.toString();
     }
-
-
 }
 
 
@@ -109,6 +125,11 @@ class FixedDiscountStrategy implements DiscountStrategy {
     }
 }
 
+/**
+ * Default-tilfelle for ingen rabatt, altså ingen endring i ordre.
+ * Sier eksplisitt hva som skal skje (ingenting) og tillater programmet å ikke måtte
+ * spesialhåndtere dette tilfellet
+ */
 class NoDiscountStrategy implements DiscountStrategy {
     @Override
     public void applyDiscount(Order order) {
