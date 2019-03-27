@@ -6,6 +6,7 @@ Note:
 - juss og etikk
 - introdusere ulike juridiske begreper 
 
+
 ---
 
 ### Personvernforordningen
@@ -50,11 +51,26 @@ Note:
 
 ---
 
+### Hva er hensikten med GDPR?
+
+Note:
+- gi mer rettigheter til brukere, fysiske personer, for å kunne håndtere og
+  kontrollere data om seg selv
+- vite hvilken informasjon som samles inn
+- hva brukes informasjonen til
+- mulighet til å bli slettet
+- mulighet til å korrigere data
+- kontrollere hvem som får tilgang til informasjon
+- HVORFOR? Dine data er verdifulle. FB har bygget et helt imperie på dine
+  personopplysninger. 
+
+---
+
 ### Når gjelder GDPR?
 
 Note:
-- når personopplysninger skal behandles av det offentlige eller private i EU og
-  EØS. 
+- når persotnopplysninger skal behandles av det offentlige eller private i EU og
+  EØS.
 - i praksis: hele Internet, alle steder du lager en konto 
 - enhver operasjon (handling) som gjøres med personopplysninger (ved bruk av IT
   eller ikke) og
@@ -75,3 +91,57 @@ Note:
 - løsninger vi lager skal ha innebygd personvern
 - løsninger skal oppfylle krav til dokumentasjon
 - alle som behandler personopplysninger skal ha databehandleravtale
+
+---
+
+### Hva har du krav på?
+
+Note:
+- rett til innsyn
+- innsyn 1: om opplysninger behandles
+- innsyn 2: hvilke opplysninger behandles, til hvilket formål, hvor lenge skal
+  data lagres, hvem data evt deles med
+- rett til korrigering: du kan kreve korreksjoner i data, som må etterkommes og
+  spres til alle som data deles med (innen rimelighetens grenser)
+- rett til begrensning av behandling (innsigelser, behandling er ulovlig,
+  behandlingsansvarlig trenger ikke opplysninger lenger)
+- rett til utlevering av informasjon innen 1 mnd, må utleveres elektronisk
+  dersom forespørsel kommer elektronisk
+- rett til overføring (dataportabilitet), strukturert, maskinlesbart, alminnelig
+  format
+- rett til sletting
+
+
+---
+
+### Plikter for databehandler
+
+---
+
+### Samtykke
+
+---
+
+### Databehandler
+
+--- 
+
+### Databehandleravtale
+
+
+--- 
+
+### Behandlingsansvarlig
+
+--- 
+
+### Innebygget personvern 
+
+Note:
+- standardinnstilling
+- vise eksempler på gode og dårlige måter å justere feks cookies på
+
+
+---
+
+### Dokumentasjon
