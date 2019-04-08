@@ -83,6 +83,7 @@ Note:
 - Straffedommer og lovovertredelser kan kun behandles under offentlig
   myndighetskontroll.
 - lovverket som regulerer personopplysninger heter personvernforordningen (GDPR)
+- General Data Protection Regulation
 
 
 
@@ -189,7 +190,24 @@ Note:
 - dokumentasjon på hvordan lovverket etterfølges
 - alle rutiner skal dokumenteres, feks hva de gjør når noen ber om sletting
   eller utlevering (kan være manuelle rutiner)
-- 
+
+
+---
+
+### Dokumentasjon
+
+Note:
+- oversikt over hvilken informasjon som samles inn
+- hvilke aktiviteter disse dataene brukes til
+- hvor lenge de brukes
+- hvem som ha tilgang til dataene
+- rutiner for varsling ved brudd på personopplysningssikkerheten
+- rutiner for å vise at GDPR etterfølges
+- konsekvens-vurdering (ROS-analyse)
+- rutiner for lagring, oppbevaring, behandling
+- rutiner for portabilitet osv. 
+- klart og tydelig språk
+-
 - når kan data samles inn? 
 
 
@@ -204,6 +222,22 @@ Note:
 - utvetydig (tydelig når du har sagt ja med bekreftelse)
 - informert (skal være tydelig hva man har sagt ja til), språk må være tydelig
 - må kunne trekkes tilbake like enkelt som samtykke gis
+- Eksempel på dette fra telefonsalg
+- Først: hvor mange vet hva Kontakt-og-reservasjonsregisteret er? 
+- Kontakt-og-reservasjonsregisteret leveres av Brønnøysundsregisterne og lar
+  deg reservere deg mot telefonsalg og å motta direkte adressert reklame i posten
+- https://www.dinside.no/okonomi/fjordkraft-har-kontaktet-kunder-som-er-reserverte-mot-telefonsalg/70170850
+- Fjordkraft får bot fordi de har brukt informasjon brukt til strømsalg til å
+  selge mobiltelefonitjenester 
+- noen av deres strømkunder er registrert i Kontakt-og-reservasjonsregisteret
+  mot telefonsalg 
+- du kan ikke motsette deg salg når du er eksisterende kunder, men dette gjelder
+  bare for tilsvarende produkt som det du allerede har kjøpt
+- telefoni er ikke strømsalg, ergo ikke lovlig
+- som utvikler må du gjerne integrere mot reservasjonsregisteret for å sikre at
+  du ikke sender informasjon til personer som har motsatt seg dette. Dette er
+  private aktører sitt ansvar å sjekke (men gjelder bare for privatpersoner,
+  bedrifter kan ikke registrere seg i reservasjonsregisteret)
 
 
 --- 
@@ -211,23 +245,86 @@ Note:
 ### Innebygget personvern 
 
 Note:
-- standardinnstilling
+- standardinnstillinger skal være til fordel for brukeren
+- bygg funksjonalitet slik at tjenesten virker både med og uten samtykke
+- standard: uten samtykke, bruker må da ta aktivt valg om å være med
 - vise eksempler på gode og dårlige måter å justere feks cookies på
+- Konkrete ting vi skal gjøre: 
+- opt-in for ekstra ting
+- like lett å slette som å legge inn
+- brukergrensesnitt som er enkle å forstå (hva har du sagt ja til, *har* du sagt
+  ja)
+- kunne utlevere informasjon som er samlet inn om en bruker, både for oversikt
+  (brukeren ber om data), men også for overføring til andre systemer. EKS:
+  Digital postutsendelse i Norge, leveres av to aktører, Digipost og E-boks. Du
+  skal kunne bytte mellom dem og få med deg dataene dine. 
+- alltid tenke gjennom hvilke data som faktisk trengs
+- vi som utviklere bygger disse systemene, det er ikke OK å bygge hva som helst. 
+- for å trekke det litt langt: Vi er soldatene. Det er ikke godt nok å si
+  "jammen sjefen sa", man må tenke selv. Vi har ofte bedre oversikt på
+  konsekvenser enn de som skal ha systemet vi bygger
+- demoer på gode og dårlige løsninger på feks cookies: 
+- ok: https://blogs.oracle.com/oraclemagazine/on-top-n-and-pagination-queries
+- (må klikke en gang, men veldig tydelig og opt-in, fornuftig setting)
+- mindre OK: https://www.sas.no (bitteliten lenke for å endre, vegg av tekst.)
+- ikke ok (i mine øyne). https://www.norwegian.no (ingen info?? Og så helt
+  nederst, informasjonskapsler. Ingen mulighet til opt-out, alle er skrudd på
+  per default, trusler og ansvarsfraskrivelse om at de ikke kan stilles til
+  rette hvis du skrur av noen cookies)
+- Nesten greit: https://www.dagbladet.no (ekstra klikk, opt-out, men gode
+  forklaringer på hva de ulike kapslene brukes til)
+- ikke så ok: https://www.kode24.no/ (hinsides mye tekst, ikke enkelt å justere,
+  mange sites å navigere seg gjennom. Dette får ikke hvemsomhelst til å bruke)
+- 
+- Men er dette så farlig? Dette dreier seg jo mye om reklame. Men CA/FB-saken
+  viser at informasjon kan brukes til helt andre ting enn reklame. 
 
 
----
+---?image=https://timedotcom.files.wordpress.com/2016/11/edward-snowden.jpg&size=80%
 
-### Dokumentasjon
-
----
-
-### Hvem andre samler inn data?
+@snap[south-east]
+@size[small](Photo from Reuters)
+@snapend
 
 Note: 
+- hvor mange kjenner til Edward Snowden?
+- ble kjent da han tok med seg tusenvis av dokumenter fra amerikansk
+  etterretning
+- jobbet for et privat selskap som hadde kontrakt med myndigheten i USA
+- jobbet sammen med en gruppe journalister fra flere land for å eksponere
+  ulovlig innsamling av informasjon om privatpersoner
+- USAs etterretning samlet inn metadata om personer: hvem de har sendt eposter
+  til, når, fra hvor, til hvor, samme for telefonsamtaler og chat (kommunikasjon
+  generelt)
+- all data som passerte landegrensene, men det gjelder veldig mye pga servere i
+  utlandet, og dermed veldig mye informasjon om amerikanere, og ikke bare
+  potensielle terrorister som de sa de skulle overvåke
+- Svar fra myndighetene: det er *bare* metadata. 
+- Metadata: kontakt med kreftlege, fagforering, journalister, psykiatere osv. 
 - USAs etterretning (og andre lands etterretningstjenester) samler inn ALT DE
   KAN av metadata om personer, lovlig eller ikke, fordi det har verdi
 - https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)
 - _()
-- I Norge: Digitalt grenseforsvar (overvåkning av kommunikasjon inn og ut av
-  landet for å avdekke trusler mot nasjonal sikkerhet)
+- Norge ønsker å innføre tilsvarende, forsøkt innført flere ganger de siste
+  årene. Nå kalles det Digitalt grenseforsvar (overvåkning av kommunikasjon inn
+  og ut av landet for å avdekke trusler mot nasjonal sikkerhet).
+- Vi vet at større grad av overvåkning har nedkjølende effekt på hva folk tør å
+  kommunisere
+- Er dette OK? 
+
+
+---
+
+### Hva slags ansvar har vi?
+
+Note:
+- Vi skal forme morgendagens tjenester og digitale samfunn. 
+- Vi må tenke på hva som er greit og ikke, hva konsekvensene er. 
+- Hvor lett er det å forstå hva som foregår? 
+- Hvor lett er det å bruke tjenesten?
+- Hvor lett er det å misbruke tjenesten?
+- Hvor lett er det å bruke tjenesten feil? 
+- Hva skjer hvis noen misbruker tjenesten eller informasjonen som hentes inn?
+- Hvordan kan vi ivareta sikkerhet og integritet i tjenestene våre? 
+- Hvordan kan vi hjelpe brukere (feks når det gjelder rett til sletting osv)
 
