@@ -275,6 +275,9 @@ Note:
   forklaringer på hva de ulike kapslene brukes til)
 - ikke så ok: https://www.kode24.no/ (hinsides mye tekst, ikke enkelt å justere,
   mange sites å navigere seg gjennom. Dette får ikke hvemsomhelst til å bruke)
+- et par eksempler til: 
+- https://www.zettasphere.com/gdpr-consent-opt-in-examples/
+- https://econsultancy.com/best-practice-ux-gdpr-marketing-consent/
 - 
 - Men er dette så farlig? Dette dreier seg jo mye om reklame. Men CA/FB-saken
   viser at informasjon kan brukes til helt andre ting enn reklame. 
@@ -306,8 +309,9 @@ Note:
 - https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)
 - _()
 - Norge ønsker å innføre tilsvarende, forsøkt innført flere ganger de siste
-  årene. Nå kalles det Digitalt grenseforsvar (overvåkning av kommunikasjon inn
-  og ut av landet for å avdekke trusler mot nasjonal sikkerhet).
+  årene. Forrige gang: Datalagringsdirektivet fra EU
+- Nå kalles det Digitalt grenseforsvar (overvåkning av kommunikasjon inn
+  og ut av landet for å avdekke trusler mot nasjonal sikkerhet), norsk initiativ
 - Vi vet at større grad av overvåkning har nedkjølende effekt på hva folk tør å
   kommunisere
 - Er dette OK? 
@@ -318,8 +322,6 @@ Note:
 ### Hva slags ansvar har vi?
 
 Note:
-- Vi skal forme morgendagens tjenester og digitale samfunn. 
-- Vi må tenke på hva som er greit og ikke, hva konsekvensene er. 
 - Hvor lett er det å forstå hva som foregår? 
 - Hvor lett er det å bruke tjenesten?
 - Hvor lett er det å misbruke tjenesten?
@@ -327,4 +329,23 @@ Note:
 - Hva skjer hvis noen misbruker tjenesten eller informasjonen som hentes inn?
 - Hvordan kan vi ivareta sikkerhet og integritet i tjenestene våre? 
 - Hvordan kan vi hjelpe brukere (feks når det gjelder rett til sletting osv)
+- Hva skjer med informasjonen om 10 år? 20? 
+- Hva skjer når nye tjenester samler data fra enda flere kilder? Hva skjer hvis
+  forsikringsselskap får fatt i metadata om hvem du har kontaktet? 
+- Vi må tenke på hva som er greit og ikke, hva konsekvensene er. 
+- Vi kjenner teknologien. Ta samfunnsansvar og sett deg inn i lover,
+  reguleringer og hva innsamlet data faktisk brukes til. Vær aktiv i debatten!
+- Vi skal forme morgendagens tjenester og digitale samfunn. 
+- Mange har de beste intensjoner, men det gjør ikke de reelle konsekvensene
+  mindre reelle eller alvorlige
+- Vi må utdanne og forklare, sette andre i stand til å forstå
 
+
+---
+
+### Denne presentasjonen
+
+https://bit.ly/2OWs1HT
+
+Note:
+- https://gitpitch.com/sivhollup/inf112/master?p=v19/gdpr-etikk-15
