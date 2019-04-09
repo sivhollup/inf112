@@ -1,6 +1,9 @@
 # INF112 V19 -- Øvrig lesestoff
 
-Pensum merkes spesielt, øvrig fordypningsstoff er også listet opp her. 
+Pensum merkes spesielt, øvrig fordypningsstoff er også listet opp her. Husk at
+for noen av forelesningene finnes det kodeeksempler dere kan se på, de ligger
+samme katalog som forelesningsnotatene gjør i katalogen demo. 
+
 
 ## Kommunikasjon (01)
 
@@ -49,3 +52,37 @@ Forelesningsnotater og innhold fra boken på testing og TDD.
 
 Forelesningsnotater og kap. 5 i læreboken. 
 
+## Build og deploy (08)
+
+Forelesningsnotater
+
+## Kodekvalitet og Single Responsibility Principle (09)
+
+Forelesningsnotater og kap. 8 i boken
+
+## OLID-prinsippene (10)
+
+Open/Closed principle, Liskov Substitution Principle, Interface Segregation
+principle og Dependency-Inversion Principle: Kap 9-12 i boken og
+forelesningsnotater. 
+
+## Åndsverk, patenter og lovverk (11)
+
+Forelesningsnotater
+
+## Designmønstre (12)
+
+Forelesningsnotater og Kap 14, 16, 17, 21 og 25 (vekt på de mønstrene vi gikk
+gjennom på forelesning)
+
+## Lisenser (13)
+
+Forelesningsnotater
+
+## Sikkerhet og brukbarhet (14)
+
+Forelesningsnotater
+
+## Personvern og etikk (15)
+
+Forelesningsnotater
