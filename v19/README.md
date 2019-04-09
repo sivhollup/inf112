@@ -1,4 +1,4 @@
-# INF112 V19 -- Øvrig lesestoff
+# INF112 V19 -- Lesestoff
 
 Pensum merkes spesielt, øvrig fordypningsstoff er også listet opp her. Husk at
 for noen av forelesningene finnes det kodeeksempler dere kan se på, de ligger
@@ -73,7 +73,7 @@ Forelesningsnotater
 ## Designmønstre (12)
 
 Forelesningsnotater og Kap 14, 16, 17, 21 og 25 (vekt på de mønstrene vi gikk
-gjennom på forelesning)
+gjennom på forelesning). Kan også anbefale [SourceMaking](https://sourcemaking.com/) for læringsressurs for designmønstre. 
 
 ## Lisenser (13)
 
