@@ -1,4 +1,4 @@
-# INF112 V19 -- Øvrig lesestoff
+# INF112 V19 -- Lesestoff
 
 Pensum merkes spesielt, øvrig fordypningsstoff er også listet opp her. Husk at
 for noen av forelesningene finnes det kodeeksempler dere kan se på, de ligger
