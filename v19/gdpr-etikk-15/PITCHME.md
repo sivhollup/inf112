@@ -140,7 +140,7 @@ Note:
 ### Når gjelder GDPR?
 
 Note:
-- når persotnopplysninger skal behandles av det offentlige eller private i EU og
+- når personopplysninger skal behandles av det offentlige eller private i EU og
   EØS.
 - enhver operasjon (handling) som gjøres med personopplysninger (ved bruk av IT
   eller ikke) og
@@ -361,3 +361,12 @@ https://bit.ly/2OWs1HT
 
 Note:
 - https://gitpitch.com/sivhollup/inf112/master?p=v19/gdpr-etikk-15
+
+---
+
+### Oversikt over lesestoff: 
+
+https://bit.ly/2WUMVtK
+
+Note:
+- https://github.com/sivhollup/inf112/blob/master/v19/README.md
