@@ -46,18 +46,30 @@ Note:
 Note:
 - Facebook samler inn så mye data om brukere de kan
 - vært utydelig hva de samler inn, hvor ofte, og hva det brukes til
+- FB sin forretningsmodell er personlig data. Koster ingenting for brukere å
+  være med, da finnes det en annen kostnad
+- vært et utydelig skille mellom hvilken informasjon som deles med andre parter,
+  og lite oversikt over hvilken verdi denne informasjonen har
 - Cambridge Analytica laget i 2013? en app: thisismydigitallife
 - appen betalte brukere for å ta en personlighetstest, men krevde tilgang til
   fb-profil OG dine kontakter sine profiler
+- fb designet slik at man kan dele *andre* sin personlige informasjon
 - under 300 000 tok quizen, men CA fikk tilgang til over 50 millioner
   brukerprofiler
 - CA påsto de bare skulle bruke dataene for forskning, men hadde oppdrag fra
   politikere, feks trump sin presidentkampanje, og sannsynligvis også
   Brexit-politikere i 2016  (målet: påvirke velgere i USA, potensielt også i UK) 
+- nok informasjon til å lage profiler og forslag til hvilken type reklame som
+  har størst sjans for å påvirke spesifikke brukere. Feks i USA er det små
+  marginer ved valg, den type informasjon er uvurderlig
+- både FB og CA har prøvd å snakke ned konsekvenser og hvilken informasjon som
+  faktisk er delt
 - hvorfor er dette et problem? Vi er mye lettere å påvirke enn vi tror
 - med dagens lovverk er slike operasjoner ulovlige (feks GDPR)
 - oversikt over CA/FB-saken og den implikasjoner:
   https://dig.watch/trends/cambridge-analytica
+- wiki: https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal
+
 
 
 
