@@ -133,13 +133,13 @@ Note:
 - For å være effektiv må vi kommunisere godt
 
 
----?image=https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/misunderstanding.jpg&position=right&size=55% 100%
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication-01/img/misunderstanding.jpg&position=right&size=55% 100%
 
 @snap[span-45 west] 
 #### Mye vanligere enn du tror
 @snapend
 
----?image=https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/understanding.jpg&position=right&size=55% 100%
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication-01/img/understanding.jpg&position=right&size=55% 100%
 
 @snap[span-45 west]
 #### Hva er vellykket kommunikasjon?
@@ -478,15 +478,15 @@ Note:
 ---
 
 @snap[west span-10]
-![Tardis](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/tardis.png)
+![Tardis](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication-01/img/tardis.png)
 @snapend
 
 @snap[midpoint span-10]
-![C3PO](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/c3po.png)
+![C3PO](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication-01/img/c3po.png)
 @snapend
 
 @snap[east span-10]
-![Cylon](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/cylon.png)
+![Cylon](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication-01/img/cylon.png)
 @snapend
 
 Note: 
