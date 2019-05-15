@@ -60,7 +60,7 @@ Note:
 ### Mavens katalogstruktur
 
 ```
-projectDirectory
+projectName
  -> pom.xml
  -> src/
     -> main
@@ -72,14 +72,9 @@ projectDirectory
 ```
 
 Note: 
-- Alle ressurser som trengs til programmet ditt legges i src/main/resources
-- eksempler på slike filer: database-migrering, db-skjema, db-spørring,
-  config-filer
-- maven genererer en target-katalog i projectDirectory-katalogen
+- maven genererer en target-katalog i projectName-katalogen
 - du må ha kildekode organisert etter det maven krever, ellers finner den ikke
   filer og ressurser den trenger for å bygge
-- maven kan generere denne strukturen for deg ved å generere archetype-prosjekt,
-  maler for ulike typer prosjekter
 - men først: 
 
 
@@ -102,9 +97,14 @@ Note:
   dependencies (oppdatere versjoner, slette ting som ikke brukes lenger osv)
 - Ikke last ned jar selv, legg til dependency i pom.xml (IKKE gjennom IntelliJ,
   manuelt), la maven laste ned
-- triks: åpne maven-prosjekt i IntelliJ vha new --> project from existing
-  sources --> dobbelklikk på pom
 
+
+---
+
+mvn compile
+
+Note: 
+- kompilerer alle .java-filene i src/main/java til .class og linker inn
 
 ---
 
@@ -367,7 +367,7 @@ Note:
   enklere måte
 - virtuelle maskiner feks gjennom VMWare, HyperV, VirtualBox
 - docker er en plattform for å distribuere applikasjonen din på riktig platform
-  med alle dependencies, ikke bare i bibliotekform, men i OS den kjører på. 
+  med alle dependencies, ikke bare i bibliotekform, men i OS den kjører på.
 - eks: database må installeres på riktig operativsystem og trenger en del
   systemspesifikt oppsett
 - med docker kan dette gjøres en gang og gjøres tilgjengelig for andre
@@ -378,7 +378,6 @@ Note:
   github
 
 
---- 
+---
 
 ### Neste: Kodekvalitet og Single Responsibility Principle
-

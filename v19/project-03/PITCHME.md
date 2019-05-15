@@ -114,7 +114,7 @@ Note:
 
 ---
 
-Individuals and interactions over processess and tools
+Individuals and interactions over processes and tools
 
 Note:
 - uten folk er det ikke noe prosjekt. 
