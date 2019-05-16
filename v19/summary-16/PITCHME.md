@@ -391,12 +391,12 @@ Note:
 - Dette er kjente oppskrifter for å få kode som har god kvalitet 
 - mange av disse er direkte manifesteringer av SOLID-prinsippene
 - 3 hovedkategorier av designmønstre: creational, behavioral og structural
-- creatial: mønstre som handler om hvordan vi oppretter objekter
+- creational: mønstre som handler om hvordan vi oppretter objekter
 - Singleton, når du bare trenger en
 - Factory, når du ikke vil eksponere alle mulige implementasjoner
 - builder, når du vil kunne bygge komplekse objekter og definere
   defaultoppførsel
-Behavioural: mønstre som handler om å å håndtere oppførsel
+- Behavioural: mønstre som handler om å å håndtere oppførsel
 - Strategy: handler om å velge oppførsel (algoritme), mye likt som factory.
   Brukes for å bestemme hvilken oppførsel som skal brukes uten å eksponere
   detaljer til resten av koden
@@ -424,3 +424,6 @@ Note:
 
 
 
+---
+
+### Lykke til!
