@@ -62,7 +62,7 @@ Note:
 @snapend
 
 @snap[west span-35]
-![Hovedbok](image=https://raw.githubusercontent.com/sivhollup/inf112/master/v20/01-communication/img/pensumbok.jpg)
+![Hovedbok](image=https://raw.githubusercontent.com/sivhollup/inf112/master/v20/01-communication/img/pensumbok.png)
 @snapend
 
 @snap[east span-35]
@@ -80,7 +80,7 @@ Note:
 
 ### Forelesningsnotater og kode
 
-https://bit.ly/39Nc54W
+https://bit.ly/2Njfdfe
 
 Note: 
 - https://github.com/sivhollup/inf112/tree/master/v20
