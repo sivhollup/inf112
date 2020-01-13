@@ -61,11 +61,11 @@ Note:
 ### Lærebok
 @snapend
 
-@snap[west span-35]
-![Hovedbok](image=https://raw.githubusercontent.com/sivhollup/inf112/master/v20/01-communication/img/pensumbok.png)
+@snap[west span-20]
+![Hovedbok](https://raw.githubusercontent.com/sivhollup/inf112/master/v20/01-communication/img/pensumbok-s.png)
 @snapend
 
-@snap[east span-35]
+@snap[east span-20]
 ![Tilleggsbok](https://images-na.ssl-images-amazon.com/images/I/61jkT88rRML.jpg)
 @snapend
 
