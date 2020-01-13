@@ -53,6 +53,8 @@ Note:
 
 Note: 
 - Dere blir tildelt team innenfor den gruppen dere er påmeldt
+- Derfor den faste inndelingen. Er mulig å endre, men ta kontakt med
+  undervisningsass. 
 
 
 ---
@@ -74,6 +76,9 @@ Note:
 - eksempler i Java og C++
 - online bok om Kanban og Scrum
 - forelesningsnotater og noen artikler på nett
+- kommer til å snakke om ting som står i boken, men prøver bevisst å gi andre
+  perspektiver enn det som står i læreboken for at det skal være reelt nyttig å
+  komme på forelesning
 
 
 ---
@@ -103,6 +108,9 @@ Note:
 - Mye av det som trengs for å drive med programvareutvikling. 
 - Skraper såvidt i overflaten, kunne nok laget et fag basert på hver eneste
   forelesning. 
+- Hvordan jobbe sammen
+- Tekniske verktøy for å lage større programvaresystem
+- Metoder som gir god kodekvalitet
 
 
 ---
@@ -116,10 +124,11 @@ Note:
 - Gi feedback til foreleser, gruppeledere og hverandre
 - Hjelp medstudenter
 - Jobbe jevnt
-- Dere får mest ut av faget ved å være aktive
 - Jeg er: Faglig oppdatert
 - Jeg er: Lydhør
 - Jeg er: Engasjert
+- Jeg er: faglig oppdatert i forhold til hva som brukes i bransjen
+
 
 ---?image=https://images.pexels.com/photos/1120344/pexels-photo-1120344.jpeg
 
@@ -135,6 +144,7 @@ Note:
 - Hva er de bare dypt konsentrerte og engasjerte?
 - Er de likeverdige?
 - Kommunikasjon er vanskelig og krever trening
+- Basisferdigheter
 
 
 ---
@@ -210,11 +220,12 @@ Note:
 Note: 
 - for andres tid
 - for andres oppmerksomhet
-- for andres forståelse (eller mangel på forståelse)
-- tilstrekkelig mengde informasjon: nok til å forstå, ikke mer enn nødvendig
-- alle er travle
 - alle blir frustrerte over ting uten nytteverdi, vær kritisk til hvem som blir
   inkludert
+- tilstrekkelig mengde informasjon: nok til å forstå, ikke mer enn nødvendig
+- alle er travle
+- for andres forståelse 
+- for andres mangel på forståelse <-- ikke for å være vanskelig
 
 
 ---
@@ -252,7 +263,7 @@ Note:
 - Uenighet og diskusjon
 - Ubalanse i maktforhold mellom deltagere
 - Kan bruke teknikker for å åpne for konstruktiv diskusjon og tilbakemelding
-- Øvelse! Dette er vanskelig. 
+- Øvelse! Dette blir bedre med erfaring 
 
 
 ---
@@ -311,12 +322,22 @@ Note:
 - forklar kontekst så kort som mulig
 - Agenda: ALLTID
 - Må noen forberede? Gi dem tid til det. Respekter andres tid. 
-- Kroppsspråk: ikke invader andres personlige område
-- Kroppsspråk: bakoverlent med kryssede armer/ben: negativ
-- Kroppsspråk: fremoverlent antyer interessert
 - Etter møtet: Referat hvis nødvendig. Veldig kort bakgrunn/sett kontekst. Hva ble bestemt?
   Hvem skal gjøre evt oppgaver? Hva er tidsfrist? Når skal neste aktivitet
   skje?
+
+
+---
+
+### Kroppsspråk
+
+Note: 
+- ikke invader andres personlige område
+- bakoverlent med kryssede armer/ben: negativ
+- fremoverlent antyder interessert
+- skuldre: høye, lave?
+- nervøs?
+- avslappet?
 
 
 ---?image=https://images.pexels.com/photos/845451/pexels-photo-845451.jpeg
@@ -423,10 +444,12 @@ Note:
 - ofte nyttig å tenke på konsepter på ulike måter
 - Andre typer figurer:
 
+
 ---?image=https://images.pexels.com/photos/1537008/pexels-photo-1537008.jpeg
 
 Note: 
 - arkitektur, detaljer/oversikt
+
 
 ---?image=https://images.pexels.com/photos/1181346/pexels-photo-1181346.jpeg
 
@@ -434,6 +457,7 @@ Note:
 - oversikt over kode (nyttig bruk av UML)
 - oversikt over oppgaver
 - brukergrensesnitt
+
 
 ---?image=https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg
 
