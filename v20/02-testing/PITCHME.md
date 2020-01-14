@@ -75,7 +75,7 @@ Note:
 - kjøres ofte (feks finnes det verktøy som kjører alle enhetstestene for deg
   hver gang du lagrer endringer i koden)
 - Skal være raske
-- Tegne på tavlen: stack for testing, enhetstest laveste nivå
+- Tegne på tavlen: boks: klasse/modul
 - se på et generelt eksempel på hvordan en test kan se ut
 
 
@@ -107,7 +107,8 @@ Note:
 - testklasser er public
 - testmetoder er public void, testrammeverket sørger for riktig oppførsel (hva
   som feiler)
-- metoder uten annotasjon kan lages for støtte (hjelpefunksjoner)
+- metoder uten annotasjon kan lages for støtte (hjelpefunksjoner), typisk
+  private-metoder
 - forklar hensikt i metodenavn
 - grupper gjerne linjene for given, when, then slik at det er lett å se forskjell på de
   ulike delene av koden
@@ -178,6 +179,8 @@ Note:
   kjører
 - kan også brukes for å redusere mengden integrasjonstester som kreves (OBS:
   krever vedlikehold)
+- https://github.com/nerdschoolbergen/all-about-testing-code <-- exercise 5
+  handler om mocking med mockito, prøv det! 
 
 
 ---
@@ -198,6 +201,23 @@ Note:
 - 1) Oppfører alle delene seg som forventet mot hverandre? 
 - 2) Hva skjer hvis en del av systemet går ned? (spesifikk feiltesting)
 - 3) Er responstid akseptabel ved forventet bruk?
+
+
+---
+
+### Ytelsestester
+
+Note: 
+- Tester som utforsker hva grensene til et system er
+- Bør ha kjørende system (kan gjøres på integrasjonstestnivå også)
+- Genererer reelle (eller enda større) last på systemet
+- eksempel på verktøy: gatling
+- Kjører opp mange tråder og sender forespørsler til systemet, måler responstid
+- Designer gjerne dette for å stadig øke presset på systemet for å undersøke
+  hvordan oppførsel endrer seg med last (hvor knekker det, og hvordan?)
+- Brukes ofte sammen med analyseverktøy for å se hvordan lasten fordeler seg i
+  systemene og hvordan enkeltmoduler oppfører seg med last (kan være
+  minne/CPU-bruk osv)
 
 
 ---
@@ -324,7 +344,6 @@ Note:
 Note: 
 - Refaktorere: å endre kodestruktur uten å endre funksjonalitet, det vil si at
   testene skal kjøre både før og etter uten endringer
-- Noen ganger er ikke TDD eller testing veien å gå:
 
 
 ---
