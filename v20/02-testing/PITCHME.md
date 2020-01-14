@@ -515,5 +515,5 @@ Note:
 ---
 
 ### Denne presentasjonen
-https://gitpitch.com/sivhollup/inf112/master?p=v19/testing-06
+https://gitpitch.com/sivhollup/inf112/master?p=v20/02-testing
 
