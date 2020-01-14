@@ -358,6 +358,8 @@ Note:
 Note: 
 - Annotasjoner for funksjoner som skal sette opp felles testmiljø og deretter
   rydde opp 
+- velkjent designprinsipp: DRY (Don't repeat yourself), hvis noe opptrer flere
+  ganger, gjem det vekk i en funksjon så du slipper duplisering
 - Finnes ulike varianter, @before, @beforeeach, @beforeclass osv. (og
   tilsvarende for @after)
 - Varierer med testrammeverk, men hensikten med de ulike er det samme
@@ -508,20 +510,6 @@ Note:
   funksjonalitet som testes er virksomhetskritisk
 - hvis tester gjør at endring av kode er vanskelig (men dette er typisk et tegn
   på at noe er gale med koden din)
-
-
----
-
-### DRY
-
-Note: 
-- Don't repeat yourself: viktig kvalitetsperspektiv. Unngå duplisering, også i
-  tester. Gjøres ofte med @Before eller @BerforeClass
-- Metoder annotert med @Before kjøres før hver eneste test (brukes for felles
-  oppsett i tester)
-- Metoder annotert med @BeforeClass kjøres før testklassen, brukes til
-  kode-oppsett som ikke kan gjøres like ofte, feks å lage en database
-- Tilsvarende finnes @After og @AfterClass for opprydning av tester
 
 
 ---
