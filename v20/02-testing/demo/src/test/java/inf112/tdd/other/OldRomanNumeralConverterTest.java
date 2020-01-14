@@ -1,4 +1,4 @@
-package inf112.tdd;
+package inf112.tdd.other;
 
 import org.junit.Before;
 import org.junit.Test;
