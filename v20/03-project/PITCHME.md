@@ -1,7 +1,6 @@
 ---?image=https://images.pexels.com/photos/1776134/pexels-photo-1776134.jpeg
 
 Note:
-- Denne presentasjonen: https://gitpitch.com/sivhollup/inf112/master?p=v19/project-03
 - Bilde: føtter på et barn som såvidt har lært seg å gå
 - byggebransjen har eksistert i tusenvis av år, vi er kvitt barnesykdommene
 - alle har et forhold til byggebransjen
@@ -539,18 +538,59 @@ Note:
 
 ---
 
-### Programvareutvikling er vanskelig
+### Prosjektmetodikk legger til rette for at alle i teamet forstår domenet
 
 Note: 
+- programvareutvikling er vanskelig
+- domene er vanskelig å forstå, krever mye innsikt
 - vi lever i krysningen mellom mennesker og maskiner og må gjøre konkret mening
   og presise regler ut av uklare og uferdige ideer
 - ulike personer har ulik oppfatning av verden og hvilke problemer som skal
   løses, hvordan de skal løses osv. 
+- Eksempel: innsiktsworkshop på tre dager i forb. med nytt team og nytt prosjekt
+- møte brukerne, sørge for at vi vet hvem vi skal prate med og at de vet hvem vi
+  er
+- komme frem til hva dagens arbeidsprosess faktisk er
+- sjekke at brukerne forstår prosessen på samme måte
+- sjekke at vi forstår prosessen
+- bli enige om grove linjer for hvor vi tror vi skal
+- stake ut umiddelbar kurs (hvor begynner vi)
+- sjekke at alle har samme mål (hva er forretningsmålet)
+
+
+---
+
+#### Prosjektmetodikk legger til rette for rask feedback
+
+Note: 
+- begrens arbeidsmengdene til envher tid
+- prioriter på nytt etter feedback
 
 
 --- 
 
-### Programvare skal leveres ofte
+#### Prosjektmetodikk legger til rette for å kunne endre kurs raskt
+
+Note:
+- lær av fortiden, og lær av det du har fått feedback på
+
+
+---
+
+#### Prosjektmetodikk legger til rette for å levere verdi raskt
+
+Note:
+- ved å levere hurtig, får kunden verdi raskt (flip side av å oppdage feil
+  tidlig!)
+
+
+--- 
+
+#### Prosjektmetodikk legger til rette for å kunne jobbe verdibasert
+
+Note: 
+- effekt-basert
+- impact-basert
 
 
 ---
@@ -560,27 +600,12 @@ Note:
 
 ---
 
-### Begrens arbeidsmengde
-
-
----
-
-### Prioriter ofte
-
-
----
-
 ### Bruk riktig verktøy
 
 
 ---
 
-### Lær av fortiden
-
-
----
-
-### Neste: Spesifisering
+### Neste: Versjonskontroll
 
 
 --- 
