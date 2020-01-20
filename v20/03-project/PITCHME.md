@@ -48,8 +48,6 @@ Note:
 - livssyklus for et softwareprosjekt er akkurat som prosjekter i andre domener,
   faktisk er software-utviklingen bare en del av et prosjekt (vi prøver å løse
   et overordnet problem)
-- for softwareprosjekter: de er levende (aktive) eller døde (ingen bruker det
-  mer og tjenesten er ikke tilgjengelig/ data slettet)
 - historie på et par minutter for å sette kontekst
 
 
@@ -86,7 +84,7 @@ Note:
 
 Note:
 - Oppgave: når er software ferdig utviklet? Vil svaret variere avhengig av
-  hvilket domene systemet lever i? (offenetlig/helse/politi/skole/olje/bank osv)
+  hvilket domene systemet lever i? (offentlig/helse/politi/skole/olje/bank osv)
   4 min diskusjon
 - Mange tenker på software som ferdigprodukt man kan kjøpe (trenger
   ikke vedlikehold eller endring over tid).
@@ -114,6 +112,8 @@ Note:
   (autopilot)
 - Ligner mer på produktutvikling (nye prototyper leveres og testes med jevne
   mellomrom)
+- for softwareprosjekter: de er levende (aktive) eller døde (ingen bruker det
+  mer og tjenesten er ikke tilgjengelig/ data slettet)
 
 
 
@@ -159,7 +159,7 @@ Note:
 Note:
 - handler om hvordan vi vil jobbe, og om hva som egentlig er viktig i et
   utviklingsprosjekt
-- inneholder 4 påstander om hva som er viktig når vi utvikler programvaree
+- inneholder 4 påstander om hva som er viktig når vi utvikler programvare
 
 ---
 
@@ -167,7 +167,7 @@ Individuals and interactions over processes and tools
 
 Note:
 - Bakgrunn: å bygge software ble sett på som å sette sammen et fysisk objekt,
-  deer alle delene var like
+  der alle delene var like
 - uten folk er det ikke noe prosjekt. 
 - En person i et prosjektteam er ikke en ressurs. Har unik kompetanse, bakgrunn,
   kontekst og synspunkter. Vi trenger prosesser og verktøy også, men det er
@@ -186,6 +186,12 @@ Note:
 - Bakgrunn: mange krevde "ryggdekning" i form av dokumentasjon
 - software kunne bli levert med enorme avhandlinger av dokumentasjon
 - Dokumentasjon lyver ofte, særlig hvis det er mye av det.
+- eks: kravspek. Enorme mengder arbeid lagt ned i å lage detaljert kravspek, og
+  så endrer verden seg. 
+- eks: test script: manuelle beskrivelser av hvordan teste systemet
+- eks: endringsønsker: i veldig rigide strukturer blir det å be om endringer i
+  forhold til planen en stor oppgave
+- skal ikke bruke mer tid på å skrive dokumentasjon enn å lage kode
 - Vær kritisk: hva er viktig dokumentasjon? Hvorfor er en spesifikk løsning
   valgt. Ikke hva skjer her: det burde være beskrevet i kode.
 - Hvis løsningen krever dokumentasjon for å være brukbar, symptom på annet
@@ -252,7 +258,6 @@ Note:
 - følger smidig-manifestet, men ble etablert før agile manifesto ble publisert
 - felles for smidige prosjektmetodikker:
 - ikke planlegge altfor langt frem i tid
-- empiriske: lære av det som allerede er gjort
 - teamene er selvorganiserende og i stor grad autonome
 - lag de viktigste tingene først (reduserer risiko i forhold til finansiering,
   gir brukbart system fortere. I tillegg gir bruktbart system raskere feedback
@@ -262,56 +267,6 @@ Note:
 - holde på med oppgaver som er godt beskrevet. Disse skal også være prioritert i
   samarbeid med kunden (konkrete arbeidsoppgaver er lette å jobbe med)
 - alle i teamet må skjønne hva som foregår (alle i samme båt)
-- samarbeid viktig --> kunnskapsoverføring, bedre løsninger, færre feil 
-- integrere endringene dine med andres så ofte som mulig, ikke seile sin egen
-  sjø (ikke bare unngå mergekonflikt, men sørge for at din kode fungerer med
-  resten av kodebasen. Alle andre må vite at deres kode virker med dine
-  endringer like mye som at din kode må virke med andres endringer)
-- nok kunnskap i teamet til å kunne fullføre ide til realitet
-- jevnlig tilbakemelding fra kunder og brukere. Dette oppnås ved hyppige
-  leveranser
-- viktig å sette av tid til å vurdere retningen på prosjektet (og teamet), lære
-  underveis og gjøre endringer utfra de erfaringene teamet har gjort seg
-- det finnes mange smidige prosjektmetodikker, vi skal se på
-
-
-
----?image=https://images.pexels.com/photos/1437540/pexels-photo-1437540.jpeg
-
-@snap[north-west]
-### @color[#F6C59A](Retrospektiv)
-@snapend
-
-Note: 
-- Bilde: engasjerte, aktive teammedlemmer
-- Handler om å gå gjennom de erfaringene teamet gjør seg i et prosjekt og
- lære av dem, og endre oppførsel for å få teamet til å fungere bedre
-- viktig prinsipp: alle har gjort det som der og da så ut som den beste
-  løsningen, og alle har gjort så godt de kan
-- prinsippet er viktig fordi retrospektiv ikke handler om å legge skyld for
-  eventuelle problemer
-- fokus skal være på forbedringer og løsninger på problemer (løsningsorientert i
-  stedet for problemorientert)
-- et møte der hele teamet er med, varer typisk 1 - 1 1/2 time
-- et teammedlem (eller noen utenfra) fasiliteter møtet (styrer øvelsene,
-  tidsbruk, sørger for god og konstruktiv tone osv)
-- går gjennom en eller flere "øvelser" for å vurdere hvordan perioden har vært
-- ender som oftest med forslag til forbedringer, endringer i hva man skal
-  fokusere på osv
-- teamet blir sammen enige om hva som skal endres på for å få bedre samarbeid
-- noen vanlige ting å fokusere på i retrospektiv: 
-- hva har vært bra i sist periode?
-- hva ønsker teamet å slutte med?
-- hva ønsker teamet å begynne med?
-- hva hindrer teamet?
-- praktisk gjennomføring: 
-- bruker ofte post-its og mye tavleplass
-- alle skriver ned det de kommer på på lapper og henger dem opp
-- alle lapper gjennomgås, lignende/like lapper grupperes
-- alle i teamet stemmer på hva som er mest viktig og blir sammen enige om noen
-  få punkter som skal endres/gjennomføres frem til neste retrospektiv
-- husk: hold god stemning, vil helst ende opp med god-feeling etter retro
-
 
 
 ---?image=https://images.pexels.com/photos/1157859/pexels-photo-1157859.jpeg
@@ -359,6 +314,66 @@ Note:
 
 ---
 
+### Smidige prosjektmetodikker
+
+Note:
+- nok kunnskap i teamet til å kunne fullføre ide til realitet
+- empiriske: lære av det som allerede er gjort
+- samarbeid viktig --> kunnskapsoverføring, bedre løsninger, færre feil 
+- integrere endringene dine med andres så ofte som mulig, ikke seile sin egen
+  sjø (ikke bare unngå mergekonflikt, men sørge for at din kode fungerer med
+  resten av kodebasen. Alle andre må vite at deres kode virker med dine
+  endringer like mye som at din kode må virke med andres endringer)
+- jevnlig tilbakemelding fra kunder og brukere. Dette oppnås ved hyppige
+  leveranser
+- viktig å sette av tid til å vurdere retningen på prosjektet (og teamet), lære
+  underveis og gjøre endringer utfra de erfaringene teamet har gjort seg
+- dette innebærer ulike ting, som å justere kursen sammen med kunden, men også
+  hvordan teamet fungerer i seg selv
+
+
+
+---?image=https://images.pexels.com/photos/1437540/pexels-photo-1437540.jpeg
+
+@snap[north-west]
+### @color[#F6C59A](Retrospektiv)
+@snapend
+
+Note: 
+- Bilde: engasjerte, aktive teammedlemmer
+- Handler om å gå gjennom de erfaringene teamet gjør seg i et prosjekt og
+ lære av dem, og endre oppførsel for å få teamet til å fungere bedre
+- viktig prinsipp: alle har gjort det som der og da så ut som den beste
+  løsningen, og alle har gjort så godt de kan
+- prinsippet er viktig fordi retrospektiv ikke handler om å legge skyld for
+  eventuelle problemer
+- fokus skal være på forbedringer og løsninger på problemer (løsningsorientert i
+  stedet for problemorientert)
+- et møte der hele teamet er med, varer typisk 1 - 1 1/2 time, men kan også være
+  kontinuerlig fokus
+- et teammedlem (eller noen utenfra) fasiliteter møtet (styrer øvelsene,
+  tidsbruk, sørger for god og konstruktiv tone osv)
+- går gjennom en eller flere "øvelser" for å vurdere hvordan perioden har vært
+- ender som oftest med forslag til forbedringer, endringer i hva man skal
+  fokusere på osv
+- teamet blir sammen enige om hva som skal endres på for å få bedre samarbeid
+- noen vanlige ting å fokusere på i retrospektiv: 
+- hva har vært bra i sist periode?
+- hva ønsker teamet å slutte med?
+- hva ønsker teamet å begynne med?
+- hva hindrer teamet?
+- praktisk gjennomføring: 
+- bruker ofte post-its og mye tavleplass
+- alle skriver ned det de kommer på på lapper og henger dem opp
+- alle lapper gjennomgås, lignende/like lapper grupperes
+- alle i teamet stemmer på hva som er mest viktig og blir sammen enige om noen
+  få punkter som skal endres/gjennomføres frem til neste retrospektiv
+- husk: hold god stemning, vil helst ende opp med god-feeling etter retro
+- intro til spesifikke metodikker
+
+
+---
+
 #### Extreme Programmring (XP), Scrum og Kanban
 
 Note:
@@ -399,7 +414,7 @@ Note:
 Note:
 - Aktivitet (særlig begynnelsen av prosjektet): få ned historier som er mest
   viktige. Ikke altfor nøye, men må ha oversikt på overordnede mål der og da.
-- Denne aktiviteten gjentas/følges opp hver 2. til 3. måned
+- Denne aktiviteten gjentas/følges opp hver 2. til 3. måned --> releaseplan
 - Aktivitet: bryte ned oppgaver til noenlunde fornuftig størrelse (ikke for
   store, ikke for små), gjøres ved begynnelsen på en iterasjon. Dette er en
   teknisk planlegging. Hver oppgave skal være omtrent 1-2 dagers arbeid. 
@@ -410,7 +425,6 @@ Note:
 - planlegge release (hver 2. til 4. måned). Husk at dette ikke betyr at software
   leveres bare hver 2. til 4. måned, software leveres ved slutten av hver
   iterasjon
-- andre regler i XP:  
 
 
 
