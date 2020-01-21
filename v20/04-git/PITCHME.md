@@ -109,6 +109,7 @@ Note:
 
 Note: 
 - vise dette live
+- demoI
 - installer git på maskinen
 - lag et repository av en katalog du har lokalt: git init
 - ls -la viser .git-katalog (.git/objects/ inneholder basis og alle endringer
@@ -168,7 +169,7 @@ Note:
 - working directory er en samling av endringer på toppen av en commit
 - sjekk hvilken commit du er på med git log -1
 - hvis du sjekker ut en annen commit eller branch, endres working directory
-- Eksempel: vis i nerdschool-repo all-about-testing
+- DemoII: vis i nerdschool-repo all-about-testing
 - endrer filene på disk
 - på toppen av commit kommer dine endringer
 
@@ -346,6 +347,7 @@ Note:
 - git push -u origin master (-u setter upstream repository url, push dytter til
   en remote)
 - sjekk at filene er kommet opp på github
+- DemoIII
 
 
 ---
@@ -388,7 +390,7 @@ Note:
 - et repository kan ha mange branches
 - enkleste: commit direkte til trunk (altså master-branch)
 - Tegne på tavlen: trunk based commit linje
-- Demo: git-kata (a-e)
+- DemoIV: git-kata (a-b)
 
 
 ---
@@ -410,7 +412,7 @@ Note:
 - for å bytte mellom grener: git checkout <branchname>
 - når du er klar for å ta den nye funksjonaliteten inn er det to måter å samle
   grenene på: merge og rebase
-
+- DemoIV: git-kata (c-f)
 
 
 ---?image=https://git-scm.com/book/en/v2/images/basic-merging-2.png&size=65%
@@ -454,7 +456,8 @@ Note:
 - git er et veldig nyttig virkemiddel, men det er mye rom for å skyte seg selv i
   foten
 - vise merge-konflikt
-- demo: f -> i 
+- demoIV: g -> j 
+
 
 ---
 
@@ -470,6 +473,7 @@ Note:
 - kan velge mellom å ta inn alle commits i en PR eller samle dem (squashe) til
   en. 
 - kan lage en PR fra en branch du har commitet, eller fra en fork
+- Demo V: lag branch og PR for fizzbuzz-delen
 
 
 ---
@@ -492,14 +496,17 @@ Note:
 
 Note:
 - ulike arbeidsflyter har gode og dårlige sider
-- trunk: veldig enkelt, men høy risiko
-- trunk: gir mange commits
-- trunk: alle endringer er synlige i master, kan være forvirrende
+- trunk: veldig enkelt
+- trunk: alle endringer er synlige i master
 - trunk: fordel tidlig i prosjektet? Veldig kort feedbackloop
+- trunk: færre steder ting kan gå galt
+- trunk: krever litt mer å jobbe parallelt (i hvor stor grad skal man jobbe
+  parallelt?)
 - branching: lar deg arbeide "i fred" på større features uten å ha
   ikke-fungerende funksjonalitet i master/prod. Kan jobbe rundt dette med
   feature toggling, men introduserer ekstra kompleksitet i koden
-- branching: må passe på å merge/rebase ofte
+- branching: må passe på å merge/rebase ofte: god kotyme er å merge inn master i
+  branchen din minst en gang for dagen (litt avhengig av aktivitet i master)
 - branching: må passe på å ikke ha lengelevende brancher
 - PR: tidlig i prosjektet kan PR-måten å jobbe på være tungvint fordi
   feedback-loop blir lang (alle sitter og venter på endringer i oppsett)
@@ -508,8 +515,8 @@ Note:
 - PR: gir andre enn team-medlemmene (de som har skriverettigheter til
   repositoriet) mulighet til å bidra til åpne prosjekter
 - PR: komplekst prosjektoppsett med hovedrepository og forks
-- PR: må passe på å holde egen fork oppdatert med commits fra remote (Jeg henter
-  alle commits fra upstream og rebaser på dem og dytter det til min fork på
+- PR: må passe på å holde egen fork oppdatert med commits fra remote (Jeg hentet
+  alle commits fra upstream og rebaset på dem og dyttet det til min fork på
   github)
 
 
