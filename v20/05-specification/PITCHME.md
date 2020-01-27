@@ -510,19 +510,6 @@ Note:
 - Må alltid få godkjenning fra kunde før en oppgave faktisk er ferdig
 
 
---- 
-
-### Definition of Done
-
-Note:
-- Mange opererer med Definition of done (handler ofte om mer tekniske aspekter
-  også, som kodekvalitet)
-- testdekning
-- kodekvalitetsmetrikker (statisk kildekodeanalyse, linting)
-- hvem som bestemmer når oppgaven er ferdig
-- hvordan skal funksjonalitet testes
-
-
 ---
 
 ### Bruk tid på spesifikasjon
@@ -588,4 +575,5 @@ Note:
   det i action
 - Vi må gjøre noen tilpasninger til reglene slik at det kan fungere digitalt
 - Gjennomgang av regler neste uke, og begynne planlegging
+- Spillet vil om kort tid være tilgjengelig på lesesalen (echo har bestilt inn)
 
