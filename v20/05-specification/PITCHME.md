@@ -6,9 +6,9 @@ Note:
 - beskrivelse av en løsning på et problem
 - beskrivelse av en eller flere oppgaver
 - Poenget: 
-- Handler om å finne ut HVEM vi lager en løsning for
-- Handler om å finne ut HVORFOR vi løser et problem
-- Handler om å finne ut HVILKET problem vi prøver å løse
+- HVEM vi lager en løsning for
+- HVORFOR vi løser et problem
+- HVILKET problem vi prøver å løse
 - Sånn sett: Handler om det å finne ut HVA som skal lages, men det er et
   resultat av punktene over
 
