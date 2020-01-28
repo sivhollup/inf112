@@ -119,7 +119,9 @@ Note:
 
 ---?image=https://www.theboardgamefamily.com/wp-content/uploads/2013/03/RoboRallyCards.jpg
 
-### Fem faser i en runde
+@snap[north-east]
+#### @color[white](Fem faser i en runde)
+@snapend
 
 Note:
 - 1: Programkort utføres, høyest prioritet først 
@@ -203,7 +205,9 @@ Note:
 
 ---?image=https://www.theboardgamefamily.com/wp-content/uploads/2013/03/RoboRallyLaser1.jpg&size=55%
 
-### Forretningsregler: brett
+@snap[north]
+#### Detaljer brett
+@snapend
 
 Note:
 - det kan kun være en robot pr rute
@@ -224,7 +228,9 @@ Note:
 
 ---?image=https://i0.wp.com/www.luisescobarblog.com/wp-content/uploads/2014/05/Three-Reasons-Robo-Rally-is-a-Must-Own-Board-Game-2.jpg&size=60%
 
-### Krav for Roborally 
+@snap[north]
+#### Krav for Roborally 
+@snapend
 
 Note: 
 - ha et spillebrett
