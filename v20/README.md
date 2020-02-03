@@ -42,6 +42,8 @@ Fordypningsstoff:
 - [Git branching og hvordan commits lages](https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell#ch03-git-branching)
 - [Vanlige gitkommandoer](https://www.robinwieruch.de/git-essential-commands/)
 - [Git cheat sheet](https://medium.com/@nendhruv/essential-git-commands-every-developer-should-know-1249d4d597b5)
+- [Hvordan .git-katalogen
+  virker](https://www.daolf.com/posts/git-series-part-1/)
 
 Learn by doing, online ressurser og 'oppgaver':
 - [Learn-git-branching](https://learngitbranching.js.org/)
@@ -64,7 +66,14 @@ Pensum:
 ## 07: Fra krav til arbeidsoppgaver
 
 Pensum: 
-- Forelesningsnotater og relevant innhold i boken
+- Forelesningsnotater og relevant innhold i boken (UML detaljeres i Appendix A,
+  dere skal kunne lage klassediagram og objektdiagram. Flytdiagram kan også være
+  nyttig.)
+- Om akseptansekrav: https://www.altexsoft.com/blog/business/acceptance-criteria-purposes-formats-and-best-practices/
+
+Fordypningsstoff: 
+- https://tallyfy.com/uml-diagram/
+- https://www.smartdraw.com/uml-diagram/
 
 
 ## 08: Refaktorering
@@ -74,7 +83,7 @@ Pensum:
 - kap. 5 i boken
 
 
-## 09: Build og deploy
+## 09: Build, deploy og arkitektur
 
 Pensum: 
 - Forelesningsnotater
