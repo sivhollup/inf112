@@ -88,6 +88,10 @@ Pensum:
 Pensum: 
 - Forelesningsnotater
 
+Fordypningsstoff: 
+- Om pom.xml: http://maven.apache.org/pom.html
+- Om livssyklusen til maven: http://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html
+
 
 ## 10: Personvern og etikk
 
