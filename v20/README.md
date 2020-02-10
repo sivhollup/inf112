@@ -98,6 +98,12 @@ Fordypningsstoff:
 Pensum: 
 - Forelesningsnotater
 
+Fordypningsstoff:
+- https://www.bt.no/nyheter/lokalt/i/naJQmL/her-er-feilene-som-foerte-til-vigilo-skandalen
+- https://www.bt.no/nyheter/i/OpB3AV/vigilo-sjef-tar-selvkritikk-etter-skandalen
+- https://www.forbrukerradet.no/undersokelse/no-undersokelsekategori/report-out-of-control/
+- https://www.nytimes.com/2020/01/13/technology/grindr-apps-dating-data-tracking.html
+
 
 ## 11: Kodekvalitet og Single Responsibility Principle
 
