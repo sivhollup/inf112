@@ -8,7 +8,7 @@ Note:
 - koden demonstrerer spesifikk oppførsel/eksperiment/analyse e.l.
 - koden er gjerne bruk og kast
 - koden har ikke særlige krav til kodekvalitet
-- kjøres oftee reett i kommandolinje/REPL
+- kjøres ofte rett i kommandolinje/REPL
 - POC-kode er ok til sitt formål, brukes ofte for å gjøre eksperimenter i
   bransjen
 
@@ -581,7 +581,7 @@ Note:
 
 ---
 
-### Arkitektur påvirkes av behov
+### Arkitektur påvirkes av brukerbehov
 
 Note:
 - hvorfor deles ofte applikasjonen opp slik? 
@@ -664,7 +664,7 @@ Note:
 
 ---
 
-### Arkitekturdeling påvirker arbeidet
+### Arkitektur påvirker koden
 
 Note: 
 - alle er uavhengige entiteter og må kunne fungere (feile på en god måte) uten
