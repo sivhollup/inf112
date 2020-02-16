@@ -35,6 +35,7 @@ være ferdige.
 ## Deloppgave 3: kode
 
 * Dere må dokumentere hvordan prosjektet bygger, testes og kjøres, slik at det er lett for gruppelderne å bygge, teste og kjøre koden deres. Under vurdering kommer koden også til å brukertestes.
+* Prosjektet skal kunne bygge, testes og kjøres på Linux, Windows og OSX.
 * Kodekvalitet og testdekning vektlegges. Merk at testene dere skriver skal brukes i produktet.
 * Utførte oppgaver skal være ferdige.
 * Lever klassediagram. (Hvis det er veldig mange klasser, lager dere for de viktigste.)
