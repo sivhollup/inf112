@@ -4,7 +4,6 @@
 Krig og fred og politikk og sånn
 
 Note:
-- hva er en personlig opplysning/data?
 - hvor mange har Fb-konto?
 - hvor mange av dere har kontroll på hvilke data fb samler inn om deg?
 - hvor mange har kontroll på hva dataene dine brukes til?
@@ -51,21 +50,31 @@ Note:
 - vært et utydelig skille mellom hvilken informasjon som deles med andre parter,
   og lite oversikt over hvilken verdi denne informasjonen har
 - Cambridge Analytica laget i 2013? en app: thisismydigitallife
-- appen betalte brukere for å ta en personlighetstest, men krevde tilgang til
-  fb-profil OG dine kontakter sine profiler
-- fb designet slik at man kan dele *andre* sin personlige informasjon
+- appen betalte brukere for å ta en personlighetstest
 - under 300 000 tok quizen, men CA fikk tilgang til over 50 millioner
   brukerprofiler
+- appen krevde tilgang til fb-profil OG dine kontakter sine profiler
+- fb designet slik at man kan dele *andre* sin personlige informasjon
 - CA påsto de bare skulle bruke dataene for forskning, men hadde oppdrag fra
   politikere, feks trump sin presidentkampanje, og sannsynligvis også
   Brexit-politikere i 2016  (målet: påvirke velgere i USA, potensielt også i UK) 
 - nok informasjon til å lage profiler og forslag til hvilken type reklame som
-  har størst sjans for å påvirke spesifikke brukere. Feks i USA er det små
-  marginer ved valg, den type informasjon er uvurderlig
+  har størst sjans for å påvirke spesifikke brukere. 
+  
+
+---
+
+### Det er jo bare reklame?
+  
+Note:
+- Hva er reklame? Reklame for salg og reklame for politiske partier og
+  kandidater er ikke det samme
+- Hva annet gjøres?
+- Fake news: forfalskede nyheter, memes og sitater
+- Feks i USA er det små marginer ved valg, den type informasjon er uvurderlig
 - både FB og CA har prøvd å snakke ned konsekvenser og hvilken informasjon som
   faktisk er delt
-- hvorfor er dette et problem? Vi er mye lettere å påvirke enn vi tror
-- med dagens lovverk er slike operasjoner ulovlige (feks GDPR)
+- med dagens lovverk er dennee type deling i stor grad ulovlig (feks GDPR)
 - oversikt over CA/FB-saken og den implikasjoner:
   https://dig.watch/trends/cambridge-analytica
 - wiki: https://en.wikipedia.org/wiki/Facebook%E2%80%93Cambridge_Analytica_data_scandal
@@ -76,6 +85,7 @@ Note:
 ### Vi er lette å påvirke
 
 Note:
+- hvorfor er dette et problem? Vi er mye lettere å påvirke enn vi tror
 - Psykologi, biologi, forskning på hvordan hjernen virker gjøres i større og
   større grad
 - Vi tror vi ikke lar oss påvirke, men vi gjør det. 
@@ -349,14 +359,14 @@ Note:
   viser at informasjon kan brukes til helt andre ting enn reklame. 
 
 
----?image=https://timedotcom.files.wordpress.com/2016/11/edward-snowden.jpg&size=80%
+---?image=https://www.wired.com/wp-content/uploads/2014/08/03_Cnt3_Fr8-_crop1.jpg
 
 @snap[south-east]
-@size[small](Photo from Reuters)
+@size[small](Photo from Wired)
 @snapend
 
 Note: 
-- hvor mange kjenner til Edward Snowden?
+- _hvor mange kjenner til Edward Snowden?
 - ble kjent da han tok med seg tusenvis av dokumenter fra amerikansk
   etterretning
 - jobbet for et privat selskap som hadde kontrakt med myndigheten i USA
@@ -373,8 +383,7 @@ Note:
 - USAs etterretning (og andre lands etterretningstjenester) samler inn ALT DE
   KAN av metadata om personer, lovlig eller ikke, fordi det har verdi
 - https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)
-- _()
-- Norge ønsker å innføre tilsvarende, forsøkt innført flere ganger de siste
+- _Norge ønsker å innføre tilsvarende, forsøkt innført flere ganger de siste
   årene. Forrige gang: Datalagringsdirektivet fra EU
 - Nå kalles det Digitalt grenseforsvar (overvåkning av kommunikasjon inn
   og ut av landet for å avdekke trusler mot nasjonal sikkerhet), norsk initiativ

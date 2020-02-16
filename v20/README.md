@@ -97,6 +97,8 @@ Fordypningsstoff:
 
 Pensum: 
 - Forelesningsnotater
+- Oppsummering om Personvernforordningen: personvernforordningen.pdf i
+  fillageret på Mitt UiB
 
 Fordypningsstoff:
 - https://www.bt.no/nyheter/lokalt/i/naJQmL/her-er-feilene-som-foerte-til-vigilo-skandalen
