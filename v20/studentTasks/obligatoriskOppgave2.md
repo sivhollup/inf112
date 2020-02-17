@@ -13,7 +13,7 @@ fungerer på?
 handle om prosjektstruktur, ikke kode. Dere kan selvsagt diskutere kode, men dette handler ikke om
 feilretting, men om hvordan man jobber og kommuniserer.
 * Under vurdering vil det vektlegges at alle bidrar til kodebasen. Hvis det er stor forskjell i hvem som
-committer, må dere legge ved en kort forklaring for hvorfor det er sånn. husk å committe alt. (Også
+committer, må dere legge ved en kort forklaring for hvorfor det er sånn. Husk å committe alt. (Også
 designfiler)
 * Referat fra møter siden forrige leveranse skal legges ved.
 * Bli enige om maks tre forbedringspunkter fra retrospektivet, som skal følges opp under neste sprint.
@@ -26,17 +26,17 @@ designfiler)
 * Forklar kort hvordan dere har prioritert oppgavene fremover
 * Forklar kort hvilke hovedkrav dere anser som en del av MVP og hvorfor. Hvis det er gjort endringer i rekkefølge utfra hva som er gitt fra kunde, hvorfor er dette gjort?
 * Oppdater hvilke krav dere har prioritert, hvor langt dere har kommet og hva dere har gjort siden forrige
-gang
+gang. 
+* Husk å skrive hvilke bugs som finnes i de kravene dere har utført (dersom det finnes bugs). 
 * Kravlista er lang, men det er ikke nødvendig å levere på alle kravene hvis det ikke er realistisk. Det er
-viktigere at de oppgavene som er utført holder høy kvalitet. Jamf deloppgave 4: Utførte oppgaver skal
-være ferdige.
+viktigere at de oppgavene som er utført holder høy kvalitet. Utførte oppgaver skal være ferdige.
 
 
 ## Deloppgave 3: kode
 
 * Dere må dokumentere hvordan prosjektet bygger, testes og kjøres, slik at det er lett for gruppelderne å bygge, teste og kjøre koden deres. Under vurdering kommer koden også til å brukertestes.
 * Prosjektet skal kunne bygge, testes og kjøres på Linux, Windows og OSX.
-* Kodekvalitet og testdekning vektlegges. Merk at testene dere skriver skal brukes i produktet.
+* Kodekvalitet og testdekning vektlegges. Merk at testene dere skriver skal brukes i produktet. Det kan være smart å skrive manuelle tester for å teste det som er grafisk. 
 * Utførte oppgaver skal være ferdige.
 * Lever klassediagram. (Hvis det er veldig mange klasser, lager dere for de viktigste.)
 * Hvis dere tester manuelt: lever beskrivelser av hvordan testen foregår, slik at gruppeleder kan utføre testen selv.
@@ -46,7 +46,7 @@ være ferdige.
 
 * I denne leveransen blir det ingen presentasjon.
 * Om teamet ønsker, kan all tekst leveres på engelsk.
-* Vurderingskriterier vil bli publisert før deadline.
+* Vurderingskriterier ligger på Mitt.Uib
 
 **Innleveringsfrist: 28. februar 2020, klokken 16.00**
 
@@ -68,5 +68,8 @@ For å få oppdraget godkjent, må hvert lagmedlem:
 **Vektlegging:** Denne leveransen teller 12,5% av sluttkarakteren.
 
 ## Tips
-Mockito kan være et bra mock-rammeverk i tillegg til JUnit. Generelt sett er det også mulig å skrive manuelle
+* Husk å lese gjennom retteskjema for å få med alle punktene vi gir poeng for. 
+* Mockito kan være et bra mock-rammeverk i tillegg til JUnit. Generelt sett er det også mulig å skrive manuelle
 tester. Husk at testene dere skriver skal brukes. (Som nevnt i deloppgave 3)
+* Travis og Codacy kan være til god hjelp for å sjekke at koden bygger før dere pusher til master.
+* Husk å kjøre programmet før dere lager en tag til levering slik at dere vet at det kjører. 
