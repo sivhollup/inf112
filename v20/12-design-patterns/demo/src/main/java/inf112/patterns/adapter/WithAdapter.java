@@ -18,7 +18,7 @@ public class WithAdapter {
  * Innfører Shape-interface som definerer hvordan adapterne skal oppføre seg (hva som er felles)
  */
 interface Shape {
-    void draw(int x, int y, int z, int j);
+    void draw(int x1, int y1, int x2, int y2);
 }
 
 /**

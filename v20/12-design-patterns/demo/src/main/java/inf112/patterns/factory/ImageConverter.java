@@ -13,7 +13,7 @@ import inf112.patterns.factory.writer.ImageWriterFactory;
  * Et program som bruker biblioteker for å lese og skrive bilder.
  * Generelt: ofrer "kjapp" implementasjon med alle detaljer på plass for lesbarhet og riktige abstraksjonsnivå
  */
-public class ToPNGConverter {
+public class ImageConverter {
 
     public static void main(String[] args) {
         String filename = args[0];

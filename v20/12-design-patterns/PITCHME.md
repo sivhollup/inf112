@@ -191,24 +191,24 @@ Note:
 - Hvilket problem løser Factory?
 - lar høynivåklasser få tilgang til subklasser uten å måtte avhenge av de
   spesifikke subklassene (dependency inversion i praksis)
-- tegne på tavlen: toppklasse og avhengigheter nedover i hierarkiet
 - finnes flere varianter av denne, klassisk Factory, Factory method m.fl.
-- Hvordan implementerer vi Factory?
-- lager et interface som heter <navn>Factory
-- lag en metode for hver konkrete klasse som finnes
-- disse metodene implementeres i en konkret Factory-klasse. Hver metode
-  returnerer en instans av den konkrete klassen som ønskes
-- metodene returnerer supertypen (feks Shape), slik at toppklassen som kaller
-  metoden ikke trenger å forholde seg til hvilken konkret implementasjon som
-  brukes
-- eksempel på dette: Collection i java
 - Factory Method: instansiere objekter av
   konkrete klasser, men finner ut hvilken konkret klasse som skal returneres på
   egen hånd. Kan være basert på filnavn, oppgitt enum eller en eller annen
   egenskap 
 - I dette tilfellet har du bare en metode, men den må
   utvides/endres hver gang en ny klasse kommer til eller faller fra
-- Kodeeksempel: factory-pakken i demo-prosjektet
+- Kodeeksempel: factory.reader i demo-prosjektet
+- tegne på tavlen: klassestruktur for reader (med og uten factory)
+- Hvordan implementerer vi Factory?
+- lager en klasse som heter <navn>Factory
+- lag en metode for hver konkrete klasse som finnes
+- disse metodene implementeres i en konkret Factory-klasse. Hver metode
+  returnerer en instans av den konkrete klassen som ønskes
+- metodene returnerer supertypen (feks ImageWriter), slik at toppklassen som kaller
+  metoden ikke trenger å forholde seg til hvilken konkret implementasjon som
+  brukes
+- tegne på tavlen: ImageWriter-klassehierarki
 
 
 ---
@@ -240,14 +240,10 @@ Note:
   opererer på, får den lov å kalle den private konstruktøren i klassen)
 - Litt mer å forstå, men mye mer fleksibel bruk
 - gir mulighet for objekter som ikke kan endres, immutable objects
+- hvis et programmeringsspråk tilbyr named paramters er builder-mønsteret
+  overflødig
 - Kodeeksempel i builder-pakken i demo-prosjektet
-
-
----
-
-### Behavioural patterns
-
-Note: 
+- nå: oppførselsmønstre (behavioural)
 - handler om å gjøre det enklere å velge riktig type oppførsel ved å innkapsle
   oppførsel i klassestrukturer, eller å regulerer hvordan klasser/objekter
   kommuniserer med hverandre
@@ -302,13 +298,8 @@ Note:
 - hva betyr null? Er det en feil eller er det ok? Må håndteres alle steder det
   objektet hentes i koden (bryter flere SOLID-prinsipper). 
 - Kodeeksempel: strategy-pakken i demo-prosjektet (NoDiscountStrategy)
-
----
-
-### Structural patterns
-
-Note: 
-- handler om å få ulike entiteter til å oppføre seg på en enhetlig måte
+- så strukturelle mønster: handler om å få ulike entiteter til å oppføre seg på
+  en enhetlig måte
 
 
 ---

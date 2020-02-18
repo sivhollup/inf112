@@ -30,6 +30,13 @@ public class NorwegianAddressTest {
         new NorwegianAddress.Builder().zipCode(null).build();
     }
 
+    /**
+     * Testene måtte ellers vært skrevet på formen:
+     * NorwegianAddress address = new NorwegianAddress("vei", "nummer", null, null, null)
+     * og vi må på magisk vis huske hva rekkefølgen på parametrene er.
+     * I tillegg gjemmer vi vekk hva som er viktig, er det "vei"? "Nummer"?
+     */
+
     @Test(expected = IllegalArgumentException.class)
     public void shouldHaveZipArea() {
         new NorwegianAddress.Builder().zipArea(null).build();

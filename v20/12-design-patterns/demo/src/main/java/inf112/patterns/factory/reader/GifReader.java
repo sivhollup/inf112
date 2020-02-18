@@ -7,6 +7,7 @@ public class GifReader implements ImageReader {
 
     public GifReader(String filepath) {
         this.decodedImage = new DecodedImage(filepath);
+        System.out.println("Read GIF image from: " + filepath);
     }
 
     @Override
