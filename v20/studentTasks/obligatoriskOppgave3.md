@@ -7,13 +7,12 @@
 * Er det noen erfaringer enten team-messig eller mtp prosjektmetodikk som er verdt å nevne? Synes teamet
 at de valgene dere har tatt er gode? Hvis ikke, hva kan dere gjøre annerledes for å forbedre måten teamet
 fungerer på?
-* Hvordan er gruppedynamikken?
 * Gjør et kort retrospektiv hvor dere vurderer hva dere har klart til nå, og hva som kan forbedres. Dette skal
 handle om prosjektstruktur, ikke kode. Dere kan selvsagt diskutere kode, men dette handler ikke om
 feilretting, men om hvordan man jobber og kommuniserer.
 * Bli enige om maks tre forbedringspunkter fra retrospektivet, som skal følges opp under neste sprint.
 * Forklar kort hvordan dere har prioritert oppgavene fremover. Legg ved skjermdump av project board ved innlevering
-* Hvordan fungerer kommunikasjonen for dere?
+* Hvordan fungerer gruppedynamikken og kommunikasjonen?
 
 
 ## Deloppgave 2: Krav
