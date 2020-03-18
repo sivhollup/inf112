@@ -3,11 +3,15 @@
 ### Kvalitet i kode
 
 Note:
+- hvor mange av dere er fornøyde med første utkast av en tekst? 
 - dere har hørt om refaktorering, testing, testdrevet utvikling, kodekvalitet,
   single responsibility principle ... 
-- men hva er dårlig kvalitet? og hva er god kvalitet? 
+- kode må ofte skrives om: gjøres ofte i bransjen, men ikke på langt nær så ofte
+  som man burde
+- hvorfor? første utkast ofte dårlig (tanker oversatt direkte til tekst)
 - korte, meningsfulle funksjoner, dele opp ulike abstraksjonsnivåer
 - god navngiving
+- enkle prinsipper som dette har mye mer å si enn dere tror
 - men det finnes da mer? 
 - hva slags problemer finner vi i kode? 
 
@@ -34,6 +38,7 @@ Note:
 ### SOLID på 1 2 3
 
 Note:
+- noen som vet hva solid står for? 
 - Single Responsibility Principle: hver bit av koden har kun et ansvarsområde
   (dette gjelder på alt fra funksjons- til klasse, til pakkenivå). Skill
   abstraksjonsnivå og ulike ansvarsområder
@@ -67,6 +72,10 @@ Note:
 - ugjennomsiktig kode: det er vanskelig å forstå hva koden gjør, språket er for
   generelt, generaliseringen er tatt for langt (opacity)
 - Kan være utfordrende å finne middelveien her. 
+- Hva skjer i realiteten? 
+- Vi har dårlig tid
+- Vi antar noe som viser seg senere å ikke være riktig
+- Verden endrer seg
 
 
 ---
@@ -74,17 +83,15 @@ Note:
 ### Teknisk gjeld
 
 Note: 
-- Hva skjer i realiteten? 
-- Vi har dårlig tid
-- Vi antar noe som viser seg senere å ikke være riktig
-- Verden endrer seg
-- Teknisk gjeld: summen av alt som hindrer oss i vedlikeholde koden sånn som vi
-  ønsker
+- Teknisk gjeld: summen av alt som hindrer oss i vedlikeholde og videreutvikle
+  koden sånn som vi ønsker
 - Omtrent alle prosjekter har teknisk gjeld. Det er ikke noe problem i seg selv,
   men som all gjeld påløper det renter, feks ved at endringer tar mer tid å
   implementere
 - Gjelden må håndteres og det er lurt å betale tilbake litt etter litt 
 - Leirplass-prinsippet: litt renere enn da du kom
+- Selv om det ofte er nok å flytte på noen funksjoner, og kanskje opprette noen
+  klasser, finnes det også større strukturelle utfordringer å ta tak i
 
 
 ---

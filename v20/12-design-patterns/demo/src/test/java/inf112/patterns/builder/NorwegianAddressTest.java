@@ -41,4 +41,9 @@ public class NorwegianAddressTest {
     public void shouldHaveZipArea() {
         new NorwegianAddress.Builder().zipArea(null).build();
     }
+
+    @Test
+    public void foobar() {
+        new NorwegianAddress.Builder().zipArea("Blomsterdalen").streetName("Fineveien").build();
+    }
 }
