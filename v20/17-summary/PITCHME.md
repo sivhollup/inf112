@@ -1,4 +1,4 @@
-### Oppsummering V2019
+### Oppsummering V2020
 
 Note:
 - Da jeg begynte som utvikler ble jeg veldig overrasket over forskjellen på det
@@ -118,9 +118,7 @@ Note:
 
 ### Brukerhistorier, akseptansekriterier og arbeidsoppgaver
 
-Som @color[green](spiller) trenger jeg @color[green](å velge programkort i
-bestemt rekkefølge fra de jeg har fått utdelt) slik at @color[green](roboten kan
-beveges mot målet i løpet av en runde)
+Som @color[green](spiller) trenger jeg @color[green](å velge programkort i bestemt rekkefølge fra de jeg har fått utdelt) slik at @color[green](roboten kan beveges mot målet i løpet av en runde)
 
 Note:
 - Dere kommer til å få spørsmål om brukerhistorier, akseptansekriterier og
@@ -438,6 +436,8 @@ Note:
 - er det mye trafikk: neste lag er skalering, feks med lastbalanserer
 - alt som settes opp av arkitektur er også en del av systemet og bør behandles
   på samme måte som kode
+- kunne tegne arkitektur både i kode og i systemer. Litt UML (se
+  forelesningsnotater, klassediagram og objektdiagram)
 - nå skal vi snakke om viktige verktøy for å hjelpe oss å skrive kode og
   kommunisere behov gjennom kode
 
@@ -459,6 +459,8 @@ Note:
 - hvilke typer tester finnes? enhet, integrasjon, regresjon, system, akseptanse,
   GUI, sikkerhets/penetrasjonstest, utforskende testing, ytelsestest osv
 - kort om hva poenget med de ulike typene tester er
+- hvordan forholder de ulike typene test seg til systemet ditt? (hvilken del av
+  appen tester de ulike typene test)
 - hva er en god test? Tester oppførsel, tester en ting, avslører antagelser du
   gjør. Test oppførsel, ikke implementasjonsdetaljer
 - skriv tester som knekker når oppførsel endrer seg uten at koden følger med. 
@@ -553,7 +555,7 @@ Note:
 
 --- 
 
-### Tips om eksamen
+### Tips om eksamensoppgaver
 
 Note: 
 - Kan få kode: vurdere kvalitet? Foreslå forbedringer, finne ut hva koden gjør
@@ -563,9 +565,49 @@ Note:
 - åpen bok, så vil få mer spørsmål om evaluering av prinsipper
 - kanskje dere får påstander dere må vurdere
 - fordeler/ulemper med ulike løsninger
+- forklare klassedigram/objektdiagram
 - like sannsynlig med spørsmål fra gjesteforelesninger som de jeg har holdt
 - les pensumboken
-- lest forelesningsnotater
+- les forelesningsnotater
+
+
+---
+
+### Tips til eksamensdagen
+
+Note:
+- gjør eksamen til den formelle hendelsen det er
+- du kan manipulere hjernen din, selv om du vet at du gjør det
+- forbered eksamenslokalet dagen i forveien, enten dette er en pult eller et
+  spisebord. Er bordet for høyt? Finn en pute å sitte på. Er bordet for lavt?
+  Kanskje du har noen bøker eller andre ting du kan bygge opp bordet med så du
+  får en bedre sittestilling på eksamen. Fjern gjerne ting som kan distrahere
+  deg under eksamen, slik at du ikke sitter og ser på det. 
+- Har du ikke egnet lokale? Sjekk på forhånd om du kan sitte et annet sted, og
+  test oppsettet i forveien
+- Bor du i fellesskap? Sett opp en liste over hvem som har eksamen når, og heng
+  opp “Eksamen pågår”-skilt slik at andre tar hensyn til eksamen.
+- Nervøs for det tekniske oppsettet før eksamen? Fortvil ikke! I forkant kan du
+  teste på vurdering.uib.no. I tillegg vil det være flinke driftsfolk på
+  vakt under eksamen, slik at du kan få hjelp dersom det skulle knipe.
+- Dette går bra! Eksamen kan være stress, men du har lest, gjort oppgaver og
+  forberedt deg så godt du kan. Eksamener blir nå åpen bok, men det betyr ikke
+  at du har tid til å lese deg frem til svaret. Bruk lærebøker og notater for å
+  verifisere, men behandle eksamen som om det er lukket bok. Jo mer du øver på
+  forhånd, jo bedre sitter stoffet! 
+- Ta ordentlige pauser under eksamen. Reis deg og gå ut i 5 minutter hver time.
+  Hodet virker bedre etter fysisk aktivitet, som en liten gåtur. Bor du sammen
+  med noen som kan være “eksamensvakt” og gå en liten pausetur med deg? Det å
+  snakke med noen er også en fin måte å gi hodet litt pause på.
+- Pakk litt niste og ta med i sekken. Nøtter, gulrøtter, sukkererter eller andre
+  sunne snacks med næringsinnhold. 
+- Eksamensmorgen: Dusj, spis frokost, puss tenner og ta på ytterklær. Gå til
+  eksamenslokalet. Forbered en sløyfe som tar 15-20 minutter å gå, kanskje dette
+  går via et sted du kan ta med deg en varm kopp drikke fra? Du ankommer
+  eksamenslokalet i god tid før eksamen starter, og har fått tid til å forberede
+  deg mentalt. 
+- Sjekkliste før eksamen: laptop og fungerende lader. Mobil og lader. Blanke
+  ark, skrivesaker. Sunn og god snacks. Drikke, enten varm eller kald.
 
 
 
