@@ -174,7 +174,8 @@ Note:
   det. MVP: det ABSOLUTTE minimum, ikke ferdig system. 
 - kunne MVP i prosjektet kunne vært gjort annerledes? Er det nødvendig å ha
   belter for å kunne gå i prod?
-- mange ulike faktorer påvirker systemet og kan utgjøre krav
+- mange ulike faktorer påvirker systemet og kan utgjøre krav, hatt forelesninger
+  om jus, sikkerhet, brukbarhet og design
 
 
 
@@ -255,48 +256,42 @@ Note:
 
 
 Note: 
-- Generelt sett: om å gjøre å komme seg i produksjon så snart som mulig
-- for alle krav: hva er det minste, rent programmeringsmessig, som skal til for
+- Uavhengig av hvilke krav systemet har: gå i produksjon så tidlig som mulig
+- for alle krav: hvordan har du tenkt å teste funksjonalitet slik at du kan si
+  at oppgaven er ferdig? (Dette er akspetansekriterier) 
+- hva er det minste, rent programmeringsmessig, som skal til for
   å kunne realisere oppgaven? Hvor mye brukergrensesnitt må egentlig til? Hvor
-  mye forretningslogikk? 
-- i hvilken rekkefølge må oppgaver løses?
+  mye forretningslogikk? (Dette er arbeidsoppgaver)
 - hvilke oppgaver er kritisk for å oppfylle behovet? Begynn med disse, slik at
-  du får erfaring med dem
-- hvordan har du tenkt å teste funksjonalitet slik at du kan si at oppgaven er
-  ferdig? 
+  du får erfaring med dem. Implementer det som er nødvendig for at dette skal
+  kunne gå
 - når features tas i bruk kan funksjonalitet utvides og forfines til det er godt
   nok
 - For en oppgave: hva skal til rent teknisk? Hver oppgave skal ikke være altfor
   stor, kan være greit å planlegge rent teknisk hva som skal til for å løse en
-  oppgave
-- Bruk project board/oppgavetavle til å holde oversikt på status på oppgaver,
-  både ventende, i gang og ferdige
+  oppgave. Alle skal kunne forstå hva som må designes/kodes for å realisere
+  oppgaven. Dere jobber som et team, bruk prosjekttavle til å holde hverandre
+  oppdatert. 
 
 
 ---
 
-### Kommunikasjon
+### Project board
 
 Note:
-- hva er hensikten? forstå hverandre. Løse de rette problemene. Unngå problemer.
-- løse de rette problemene
-- fortelle andre om hva vi holder på med (hvorfor og hvordan)
-- unngå misforståelser
-- kunnskapsdeling og kunnskapsoverføring
-- viktigste verktøyet vi har som utviklere
-- god kommunikasjon gir bedre samarbeid, mer avslappet team, og løsninger
-  som er mer kreative og har høyere kvalitet
-- finne ut hva som er problemer/behov (hva vi trenger å løse for kunden)
-- finne løsning på problemer
-- Hvilke kommunikasjonskanaler finnes? epost, chat, issue tracking, ansikt til
-  ansikt, møter, telefon, video, figur, tekst
-- når brukes de ulike kanalene og hvordan skal vi bruke dem på en god måte?
-- hva er god kommunikasjon? beskjed er nyttig og betyr det samme for avsender og
-  mottager
-- dette inkluderer kode, som også er en form for kommunikasjon (mellom utvikler
-  og maskin, men også mellom utviklere)
-- hvordan ordlegge seg i en ubehagelig setting? Hvordan samarbeide to og to?
-  Hvordan bruke kroppsspråk og ansiktsmimikk?
+- Hensikt: Holder oversikt på hvem som gjør hva, hvilke oppgavers om er ferdige,
+  og hvilke oppgaver som skal løses
+- Kommunikasjon mellom teammedlemmer: hvem gjør hva (pågående)
+- Kommunikasjon mellom team og kunde: hvilke oppgaver er løst (ferdig)
+- Prioritering: hva er rekkefølge på de neste oppgavene som skal løses
+  (todo/prioritert)
+- hva har vi valgt å ikke fokusere på (backlog) i denne fasen
+- avklar hvem som har ansvar for å flytte kort fra en kolonne til en annen
+- avklar hvem som kan legge inn kort i backlog, og hvem som kan flytte oppgaver
+  inn i prioritert
+- ulike prosjektmetodikker setter ulike begrensninger på project board: dvs de
+  setter begrensninger på hvordan teamene jobber (eks: kanban begrenser antall
+  saker som er åpne samtidig, scrum begrenser antall totalsaker i en iterasjon)
 
 
 ---
@@ -304,16 +299,15 @@ Note:
 ### Prosjektmetodikk
 
 Note: 
-- hensikt: 
-- organisere arbeid: hva skal gjøres, hvem skal gjøre hva, prioriteringer (også
-  opp mot økonomi)
+- hensikt: organisere arbeid. 
+- hva skal gjøres, hvem skal gjøre hva, prioriteringer (også opp mot økonomi)
 - organisere mennesker: teammedlemmer, kunder, interessenter 
 - organisere interaksjon mellom ulike "flater", mennesker, maskiner, behov,
   krav, økonomi
 - håndtere endringer både strukturelt i organisasjon, i team, i hva som skal
   lages, hvordan det skal lages
 - håndtere risiko
-- agile manifesto:
+- vi fokuserer på smidige metodikker som følger The Agile Manifesto:
 - 1: individuals and interactions over processes and tools
 - 2: working software over comprehensive documentation
 - 3: customer collaboration over contract negotiation
@@ -328,14 +322,46 @@ Note:
   for dem og hva som skiller dem. Feks at XP handler mye om hvilke aktiviteter
   som skal gjøres (av utviklerne) for at prosjektet skal bli vellykket, men
   Kanban er veldig lite begrensende og kun begrenser påbegynt arbeid
+- hva må dere kunne?
 - reflektere rundt hvilke elementer som er fornuftige og at det går an å sette
   sammen ulike verktøy i fra de ulike metodikkene
 - begrense arbeid som gjøres på en gang
 - vite vanlige roller i softwareteam (teamlead, kundekontakt, testleder)
 - prosjekttavle: hvilke elementer, hvordan brukes den i de ulike metodikkene
-- lære av fortiden: retro. Hva er viktig, feks at man ikke legger skyld, velger
-  noen få ting å forbedre seg på, demokratisk møte
+- lære underveis: retrospektiv. Ikke legger skyld, velger noen få ting å
+  forbedre seg på, demokratisk møte
 - teamstørrelse (ikke for store team)
+
+
+---
+
+### Kommunikasjon
+
+Note:
+- hva er hensikten? forstå hverandre. Løse de rette problemene. Unngå problemer.
+  Være trygge på hverandre slik at man kan yte sitt beste
+- fortelle andre om hva vi holder på med (hvorfor og hvordan)
+- unngå misforståelser
+- kunnskapsdeling og kunnskapsoverføring
+- viktigste verktøyet vi har som utviklere, krever mye trening. Det er ikke
+  selvsagt at dette virker som forventet. 
+- god kommunikasjon gir bedre samarbeid, mer avslappet team, og løsninger
+  som er mer kreative og har høyere kvalitet
+- finne ut hva som er problemer/behov (hva vi trenger å løse for kunden)
+- finne løsning på problemer
+- Hvilke kommunikasjonskanaler finnes? epost, chat, issue tracking, ansikt til
+  ansikt, møter, telefon, video, figur, tekst
+- hva må dere kunne?
+- når brukes de ulike kanalene og hvordan skal vi bruke dem på en god måte?
+- hva er god kommunikasjon? beskjed er nyttig og betyr det samme for avsender og
+  mottager
+- dette inkluderer kode, som også er en form for kommunikasjon (mellom utvikler
+  og maskin, men også mellom utviklere)
+- hvordan ordlegge seg i en ubehagelig setting? Hvordan samarbeide to og to?
+  Hvordan bruke kroppsspråk og ansiktsmimikk?
+- reflektere rundt kommunikasjon
+- resten av forelesningen handler om teknisk kommunikasjon i form av prosjekt og
+  kode
 
 
 ---
@@ -355,7 +381,11 @@ Note:
 - ulike kommandoer i git, hva de gjør
 - forskjell på git vs github
 - hvordan utnytte git og github til å jobbe på en god måte: 
-- branching vs PR feks, visuelle verktøy for å gjøre review/endringshåndtering
+- trunk-based utvikling vs branching: fordeler og ulemper
+- trunk-based: alle er oppdatert på koden til envher tid
+- branching: kan isolere endringer, men risiko for større merge-konflikter.
+  Andre tar ikke hensyn til din kode, for de vet ikke om den
+- forskjell på branch og PR
 - forstå hvordan git påvirker arbeidsflyten din og hvordan versjonskontroll gjør
   hverdagen din tryggere og mer effektiv
 
@@ -370,29 +400,51 @@ Note:
 - hvorfor? Mange steg, kjedelig, stor risiko for feil (bygg og deploy) vanskelig
   å gi folk tilgang til laptopen din
 - samme skal skje hver gang vi bygger, også på ulike maskiner (trygghet)
-- automatisere: reduserer risiko for feil, raskere prosess
+- automatisering reduserer risiko for feil, raskere prosess
 - trygg, forutsigbar deploy av produksjonskode
 - hvilke steg finnes i bygg og deploy-kjeden? (hente dependencies, kompilere,
-  teste, lage artefakt (jar)
-- hvilke verktøy finnes? fokus her på java og det vi har brukt, maven
+  teste, lage artefakt (jar), kvalitetssjekke kode, deploye artefakt
+- finnes mange verktøy for ulike språk: java har to: maven eller gradle
+- hva mer må dere kunne? 
 - maven: hvordan er katalogstrukturen, hvordan henger pom.xml sammen, hvordan
   virker de ulike kommandoene? Hvordan bruker du maven til feks å legge til en
   ny dependency, hvilke steg må da gjøres om igjen for at du skal kunne bruke
   biblioteket? 
+- hva er en byggserver? Hvilke problem løser en byggserver for deg? Hva er
+  forskjell på å bygge lokalt eller sentralt? 
 - hva er en god arbeidsflyt? Lage mindre, men veldefinerte endringer som henger
   sammen (feks en bit med funksjonalitet) og teste og deploye dette
-- grovt om arkitektur: hva er poenget med arkitektur? Hvilke nivåer har vi?
-  (både kodemessig og bygg/deploymessig)
-- hva slags ulike miljøer er en god ide? dev/test/prod, hva testes i de ulike
-  miljøene?
-- skalering og virtualisering: hva er dette, hvorfor kan det være nødvendig?
-- nå skal vi tilbake til kommunikasjon, mer spesifikt kommunikasjon ved hjelp av
-  kode
+- sammenheng mellom bygg/Deploy-pipeline, verktøy (maven, git) og arkitektur
+  (lokal utvikling, byggserver, testmiljø, prod)
+
+
+
+--- 
+
+### Arkitektur
+
+Note:
+- arkitektur har mange nivåer: feks hvor mange steder systemet ditt kan
+  kjøres/deployes, hvordan det bygges
+- hensikt: å separere ulike deler av systemet som trengs til ulike deler
+- testing i prod er ikke lurt
+- utvikling i testmiljø som mange bruker er ikke lurt
+- begrensninger i prod er ikke noen god ide i test
+- neste nivå av arkitektur: ulike måter å sette sammen et system på (feks i test
+  eller prod)
+- hva kan et system bestå av? Feks frontend, backend, persistens-lag
+- er det kun en eksekverbar, eller kan det være flere? Hvilken arkitektur følger
+  de? p2p, client-server. Avhenger av hvilke behov systemet skal løse.  
+- er det mye trafikk: neste lag er skalering, feks med lastbalanserer
+- alt som settes opp av arkitektur er også en del av systemet og bør behandles
+  på samme måte som kode
+- nå skal vi snakke om viktige verktøy for å hjelpe oss å skrive kode og
+  kommunisere behov gjennom kode
 
 
 ---
 
-### Testing 
+### Verifikasjon (testing)
 
 Note:
 - Hva er hensikten? verifisere funksjonalitet, slik at vi vet at koden gjør det
@@ -408,7 +460,8 @@ Note:
   GUI, sikkerhets/penetrasjonstest, utforskende testing, ytelsestest osv
 - kort om hva poenget med de ulike typene tester er
 - hva er en god test? Tester oppførsel, tester en ting, avslører antagelser du
-  gjør
+  gjør. Test oppførsel, ikke implementasjonsdetaljer
+- skriv tester som knekker når oppførsel endrer seg uten at koden følger med. 
 - Test-drevet utvikling (TDD): Hva er det, hvordan virker det og hvordan
   påvirker det måten vi jobber på? Hva er hensikten? TDD: test først mot
   ikke-eksisterende kode som du skriver etterhvert. Alltid enkleste løsning,
@@ -434,42 +487,34 @@ Note:
   nye klasser for å trekke ut funksjonalitet som hører sammen
 
 
-
 ---
 
-### SOLID
+### Kodekvalitet og Single responsibility principle
 
 Note:
-- hva er SOLID? Fem prinsipper som hjelper til med å skrive god kvalitet kode
-  som er vedlikeholdbar over tid. 
-- Hva er kvalitet? Kan bety ulike ting: tenk over hva kvalitet kan innebære.
+- kodekvalitet øker vedlikeholdbarhet og lesbarhet over tid, blant annet ved å
+  håndtere kompleksitet
+- Hva er kvalitet? 
+- færrest mulig wtf/min
+- Kan bety ulike ting: tenk over hva kvalitet kan innebære.
   Kan være lesbar kode, kode som eksekverer kjapt, kode som ikke har noe særlig
   feil osv. Krav til kvalitet endrer seg over tid også
 - hensikt? Forbedre kvalitet og lesbarhet, senker frustrasjonsnivå og
   usikkerhet. Øker vedlikehodbarhet
-- hva er SOLID-prinsippene?
-- Single Responsibility Principle: en klasse (eller en bit med kode) har bare
-  ansvar for en ting (et abstraksjonsnivå også). Kode må være tydelig, slik at
-  det er lett å forstå hva koden gjør (tenk: lese en godt skrevet artikkel vs en
-  dårlig skrevet artikkel. All informasjon er der, men er ikke like lett å
-  forstå)
-- Open/Closed principle: koden er åpen for utvidelser, men lukket for
-  modifikasjon. Dvs: trenger ikke gjøre noe annet enn å legge til isolert
-  funksjonalitet for at resten av koden kan håndtere utvidelsen. I praksis:
-  innfør et interface, slik at resten av koden ikke bryr seg om konkret
-  implementasjon
-- Liskov Substitution Principle: en subtype av en klasse skal kunne byttes ut
-  med basetypen. I praksis: bruk interface. Alle metoder tar inn
-  interface-klassen, og så sendes det inn reell implementasjon
-- Dependency Inversion: høynivå-moduler skal ikke avhenge av lavnivåmoduler.
-  Abstraksjoner skal ikke måtte forholde seg til detaljer. Typisk: interface som
-  skiller lagene --> fjerner kobling
-- Interface segregation: Klienter (brukere av interfaces) skal ikke måtte
-  avhenge av metoder de ikke bruker. I praksis: del opp i ulike interfaces som
-  er mindre. 
+- hva er Single Responsibility Principle?
+- en klasse (eller en bit med kode) har bare ansvar for en ting (et
+  abstraksjonsnivå også). Kode må være tydelig, slik at det er lett å forstå hva
+  koden gjør (tenk: lese en godt skrevet artikkel vs en dårlig skrevet artikkel.
+  All informasjon er der, men er ikke like lett å forstå)
+- hvert konsept finnes på et sted (ett sted å endre)
+- hver bolk med kode gjør en ting (oversikt over konsekvenser ved endring)
 - OBS: Dette er ikke en fasit, og vær obs på tegn på dårlig kvalitet som unødig
   kompleskitet og ugjennomsiktighet (opacity), altså kode som er vanskelig å
   forstå. 
+- Keep it simple, stupid (KISS): ikke lag noe mer komplekst enn du må
+- DRY: Don't repeat yourself 
+- ikke finn opp hjulet på nytt: hvis noen har laget et bibliotek som er mye
+  brukt, vurder å bruke dette så du slipper å lage absolutt alt selv
 
 
 
@@ -482,10 +527,11 @@ Note:
 - Hva er et designmønster? Kjente metoder for å løse vanlige problemer i kode. 
 - Hensikt: løse problemer. Øke lesbarhet og vedlikeholdbarhet
 - Dette er kjente oppskrifter for å få kode som har god kvalitet 
-- mange av disse er direkte manifesteringer av SOLID-prinsippene
+- mange av disse er direkte manifesteringer av SOLID-prinsippene (dere har kun
+  lært om S)
 - 3 hovedkategorier av designmønstre: creational, behavioral og structural
 - creational: mønstre som handler om hvordan vi oppretter objekter
-- Singleton, når du bare trenger en
+- Singleton, når du garantere at du bare har en instans
 - Factory, når du ikke vil eksponere alle mulige implementasjoner
 - builder, når du vil kunne bygge komplekse objekter og definere
   defaultoppførsel
@@ -514,6 +560,12 @@ Note:
 - Kan få spørsmål om de ulike delene av pensum (hva er de ulike konseptene, hva
   er hensikt, når skal det brukes osv)
 - Kan få spørsmål om prosjektet, både teknisk og organisatorisk 
+- åpen bok, så vil få mer spørsmål om evaluering av prinsipper
+- kanskje dere får påstander dere må vurdere
+- fordeler/ulemper med ulike løsninger
+- like sannsynlig med spørsmål fra gjesteforelesninger som de jeg har holdt
+- les pensumboken
+- lest forelesningsnotater
 
 
 
