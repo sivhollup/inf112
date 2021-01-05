@@ -45,7 +45,7 @@ designfiler)
 * Om teamet ønsker, kan all tekst leveres på engelsk.
 * Vurderingskriterier ligger på Mitt.Uib
 
-**Innleveringsfrist: 27. mars 2020, klokken 16.00**
+**Innleveringsfrist: 26. mars 2021, klokken 16.00**
 
 For å få oppgaven godkjent, må gruppen:
 * Skrive fornuftige Commit meldinger når endringer lastes opp i gruppens repo.

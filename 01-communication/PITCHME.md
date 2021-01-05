@@ -1,6 +1,6 @@
 ---?image=https://images.pexels.com/photos/53987/tool-work-bench-hammer-pliers-53987.jpeg
 @snap[north]
-## @color[#1D1F20](Systemkonstruksjon)
+## @color[#1D1F20](Innføring i systemutvikling)
 @snapend
 
 Note: 

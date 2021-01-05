@@ -48,7 +48,7 @@ viktigere at de oppgavene som er utført holder høy kvalitet. Utførte oppgaver
 * Om teamet ønsker, kan all tekst leveres på engelsk.
 * Vurderingskriterier ligger på Mitt.Uib
 
-**Innleveringsfrist: 28. februar 2020, klokken 16.00**
+**Innleveringsfrist: 05. mars 2021, klokken 16.00**
 
 For å få oppgaven godkjent, må gruppen:
 * Skrive fornuftige Commit meldinger når endringer lastes opp i gruppens repo.
