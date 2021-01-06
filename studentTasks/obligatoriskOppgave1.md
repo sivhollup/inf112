@@ -65,6 +65,8 @@ og mulighet for å spille flere sammen.
 Dere skal lage en spesifikasjon som inneholder:
 * En kort beskrivelse av det overordnede målet for applikasjonen
 * En liste over brukerhistorier til systemet basert på MVP-kravene.
+* For hver brukerhistorie, skal dere ha akseptansekriterier og arbeidsoppgaver,
+* samt beskrivelse av hvilke krav brukerhistorien oppfyller (dette lager dere kun for historier dere er ferdige med, holder på med, eller skal til å begynne med)
 * En prioritert liste over hvilke brukerhistorier dere vil ha med i første iterasjon (altså frem til levering av denne oppgaven, se [deloppgave 4](#deloppgave-4-kode) for forslag).
 
 ## Deloppgave 4: Kode
