@@ -24,7 +24,7 @@ Dere skal lage en digital versjon av RoboRally. Denne versjonen skal inkludere d
 Dere skal lage en spesifikasjon som inneholder:
 * En kort beskrivelse av det overordnede målet for applikasjonen
 * En liste over krav til systemet basert på høynivåkravene gjennomgått i forelesning.
-* En prioritert liste over hvilke krav dere vil ha med i første iterasjon (altså frem til levering av denne oppgaven, se [deloppgave 4](#deloppgave-4:-kode) for forslag).
+* En prioritert liste over hvilke krav dere vil ha med i første iterasjon (altså frem til levering av denne oppgaven, se [deloppgave 4](#deloppgave-4-kode) for forslag).
 
 ## Deloppgave 3: Velg og tilpass en prosess for laget
 
