@@ -1,4 +1,4 @@
----?image=https://images.pexels.com/photos/53987/tool-work-bench-hammer-pliers-53987.jpeg
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/tool.jpeg
 @snap[north]
 ## @color[#1D1F20](Innføring i systemutvikling)
 @snapend
@@ -14,14 +14,14 @@ Note:
 - Når brukes de ulike verktøyene? 
 
 
----?image=https://images.pexels.com/photos/1068523/pexels-photo-1068523.jpeg
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/hands_collaboration.jpeg
 
 Note:
 - Dette faget handler om hvordan vi jobber, og mer viktig: jobber sammen for å utvikle programvare
 - Kommunikasjon er det viktigste verktøyet vi har, derfor den lille historien 
 
 
----?image=https://images.pexels.com/photos/54216/pexels-photo-54216.jpeg
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/clay_craft.jpeg
 
 Note: 
 - Heter innføring i systemutvikling, men kunne også vært kalt utviklingshåndverk
@@ -72,6 +72,7 @@ Note:
 
 @snap[east span-20]
 ![Tilleggsbok](https://images-na.ssl-images-amazon.com/images/I/61jkT88rRML.jpg)
+![Tilleggsbok](https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/kanban_scrum.jpg)
 @snapend
 
 Note: 
@@ -246,7 +247,7 @@ Note:
   med de muntlige
 
 
----?image=https://images.pexels.com/photos/935949/pexels-photo-935949.jpeg
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/communication_open_relaxed.jpeg
 
 @snap[north-west]
 ### @color[#1D1F20](Ansikt til ansikt)
@@ -301,7 +302,7 @@ Note:
 
 
 
----?image=https://images.pexels.com/photos/1157859/pexels-photo-1157859.jpeg
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/meeting_project_board.jpeg
 
 @snap[south-west]
 ### @color[#F6C59A](Møter)
@@ -348,6 +349,7 @@ Note:
 
 
 ---?image=https://images.pexels.com/photos/845451/pexels-photo-845451.jpeg
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/video_meeting.jpeg
 
 @snap[north-west]
 ### @color[#1D1F20](Telefon og video)
@@ -433,7 +435,7 @@ Note:
 
 
 
----?image=https://images.pexels.com/photos/1043514/pexels-photo-1043514.jpeg
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/figure.jpeg
 
 @snap[north-east]
 ### @color[#1D1F20](Figurer)
@@ -454,21 +456,20 @@ Note:
 - Andre typer figurer:
 
 
----?image=https://images.pexels.com/photos/1537008/pexels-photo-1537008.jpeg
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/building_architecture_plan.jpeg
 
 Note: 
 - arkitektur, detaljer/oversikt
 
 
----?image=https://images.pexels.com/photos/1181346/pexels-photo-1181346.jpeg
-
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/code_architecture.jpeg
 Note: 
 - oversikt over kode (nyttig bruk av UML)
 - oversikt over oppgaver
 - brukergrensesnitt
 
 
----?image=https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/two_people_coding.jpeg
 
 @snap[north-east]
 ### @color[#F6C59A](Kode)
