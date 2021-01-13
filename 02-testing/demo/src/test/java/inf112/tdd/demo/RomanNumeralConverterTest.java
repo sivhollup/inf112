@@ -1,15 +1,16 @@
 package inf112.tdd.demo;
 
-import org.junit.Before;
-import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class RomanNumeralConverterTest {
 
     RomanNumeralConverter converter;
 
-    @Before
+    @BeforeEach
     public void setUp() throws Exception {
         converter = new RomanNumeralConverter();
     }
