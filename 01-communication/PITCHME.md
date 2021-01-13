@@ -4,9 +4,9 @@
 @snapend
 
 Note: 
-- Intro: misforståelse om byggeprosjekt: tegne hull og vise plassering av
-  bunnsvill. Hva har dette med programvareutvikling å gjøre? Det finner dere
-  snart ut av. 
+- Intro: alle sitter remote i mye større grad enn før
+- kommunikasjon som faktor for trivsel og effektivitet (men kun intro til første
+  forelesning, hva med faget som helhet?)
 - intro Siv: ansatt 20% for å forelese dette faget, jobber ellers som konsulent
   i kantega. Arrangerer også Nerdschool. 
 - Dette faget handler om verkøyene vi bruker for å utvikle programvare
@@ -24,7 +24,7 @@ Note:
 ---?image=https://images.pexels.com/photos/54216/pexels-photo-54216.jpeg
 
 Note: 
-- Heter systemkonstruksjon, men burde vært kalt utviklingshåndverk
+- Heter innføring i systemutvikling, men kunne også vært kalt utviklingshåndverk
 - Litt som sjakk: lære grunnreglene er enkelt, spille på en god måte: vanskelig
 - Lære om håndverket gjennom forelesninger og prosjektarbeid i team
 - Praktisk fag, praktisk fokus
@@ -38,8 +38,8 @@ Note:
 - Forelesninger i første halvdel av kurset, prosjektarbeid resten
 - Oppgaver for å lære verktøy og å lære seg å jobbe sammen og bruke ulike
   verktøy
-- Totalt fire obliger, disse teller 50% av karakteren. Dere skal lage et
-  program, og alle innleveringene omhandler dette systemet. Begynner om noen
+- Totalt fire obliger, disse angir 50% av poengene før karaktergiving. Dere skal lage et
+  system, og alle innleveringene omhandler dette systemet. Begynner om noen
   uker.  
 
 
@@ -49,12 +49,15 @@ Note:
 
 - Meld dere på grupper selv
 - Gruppene er faste
-- Undervisningsassistenter: Thomas Trautner og Eric Mörth
+- Undervisningsassistent: Kenneth Langedal
 
 Note: 
+- Alle jobber i team omtrent hele semesteret. 
 - Dere blir tildelt team innenfor den gruppen dere er påmeldt
 - Derfor den faste inndelingen. Er mulig å endre, men ta kontakt med
   undervisningsass. 
+- Noen som kun er med remote? Gi beskjed til Kenneth, han anbefaler en gruppe
+  for remote-folk
 
 
 ---
@@ -64,7 +67,7 @@ Note:
 @snapend
 
 @snap[west span-20]
-![Hovedbok](https://raw.githubusercontent.com/sivhollup/inf112/master/v20/01-communication/img/pensumbok-s.png)
+![Hovedbok](https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/pensumbok.png)
 @snapend
 
 @snap[east span-20]
@@ -85,10 +88,10 @@ Note:
 
 ### Forelesningsnotater og kode
 
-https://bit.ly/2Njfdfe
+https://bit.ly/35PMZC7
 
 Note: 
-- https://github.com/sivhollup/inf112/tree/master/v20
+- https://github.com/sivhollup/inf112/tree/master
 
 
 ---
@@ -130,7 +133,7 @@ Note:
 - Jeg er: faglig oppdatert i forhold til hva som brukes i bransjen
 
 
----?image=https://images.pexels.com/photos/1120344/pexels-photo-1120344.jpeg
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/communication_ok_or_not.jpg
 
 @snap[north-west]
 ### Kommunikasjon
@@ -160,7 +163,7 @@ Note:
 - For å være effektiv må vi kommunisere godt
 
 
----?image=https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication-01/img/misunderstanding.jpg&position=right&size=55% 100%
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/misunderstanding.jpg&position=right&size=55% 100%
 
 @snap[span-45 west] 
 #### Mye vanligere enn du tror
@@ -179,7 +182,7 @@ Note:
 
 
 
----?image=https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication-01/img/understanding.jpg&position=right&size=55% 100%
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/understanding.jpg&position=right&size=55% 100%
 
 @snap[span-45 west]
 #### Hva er vellykket kommunikasjon?
@@ -327,9 +330,13 @@ Note:
   skje?
 
 
----
+---?image=https://https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/body_language.png
 
-### Kroppsspråk
+@snap[north]
+### @color[black](Kroppsspråk)
+@snapend
+
+
 
 Note: 
 - ikke invader andres personlige område
@@ -425,6 +432,7 @@ Note:
 - informasjon som ikke endres ofte (enn feks chat eller ansikt-til-ansikt)
 
 
+
 ---?image=https://images.pexels.com/photos/1043514/pexels-photo-1043514.jpeg
 
 @snap[north-east]
@@ -432,6 +440,7 @@ Note:
 @snapend
 
 Note: 
+- FIXME: Bilde (bruk eget)
 - bilde av figur med personer og piler
 - informasjon om domenet
 - informasjon om kode
@@ -644,15 +653,15 @@ Note:
 ---
 
 @snap[west span-10]
-![Tardis](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication-01/img/tardis.png)
+![Tardis](https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/tardis.png)
 @snapend
 
 @snap[midpoint span-10]
-![C3PO](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication-01/img/c3po.png)
+![C3PO](https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/c3po.png)
 @snapend
 
 @snap[east span-10]
-![Cylon](https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication-01/img/cylon.png)
+![Cylon](https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/cylon.png)
 @snapend
 
 Note: 
@@ -676,18 +685,13 @@ Note:
 
 ---
 
-https://gitpitch.com/sivhollup/inf112/master?p=v20/01-communication
+### Discord
 
----
-
-### Slack
-
-https://bit.ly/39FEw4t
+https://discord.gg/RbCEuKM3ZJ
 
 
 Note: 
-- satt opp et slack-workspace til faget. Diskuter fag, lag
+- satt opp en discord-server til faget. Diskuter fag, lag
   prosjektkanal/gruppekanal. Spør meg der eller send epost. 
-- bruk uib.no-adressen din og lag en konto. Husk å oppgi fullt navn slik at det
-  er lett for oss som er admin å hjelpe og holde folk fra hverandre
-- gode grunner til å ikke bruke uib.no-adressen? Gi beskjed til undassene. 
+- bruk fullt navn som nickname og et ordentlig bilde, slik at det er lett å se
+  hvem som er hvem
