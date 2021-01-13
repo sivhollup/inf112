@@ -71,8 +71,7 @@ Note:
 @snapend
 
 @snap[east span-20]
-![Tilleggsbok](https://images-na.ssl-images-amazon.com/images/I/61jkT88rRML.jpg)
-![Tilleggsbok](https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/kanban_scrum.jpg)
+![Tilleggsbok](https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/kanban_scrum_book.jpg)
 @snapend
 
 Note: 
@@ -331,10 +330,10 @@ Note:
   skje?
 
 
----?image=https://https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/body_language.png
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/body_language.png&size=80%
 
 @snap[north]
-### @color[black](Kroppsspråk)
+### Kroppsspråk
 @snapend
 
 
@@ -348,7 +347,6 @@ Note:
 - avslappet?
 
 
----?image=https://images.pexels.com/photos/845451/pexels-photo-845451.jpeg
 ---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/video_meeting.jpeg
 
 @snap[north-west]
@@ -442,7 +440,6 @@ Note:
 @snapend
 
 Note: 
-- FIXME: Bilde (bruk eget)
 - bilde av figur med personer og piler
 - informasjon om domenet
 - informasjon om kode
