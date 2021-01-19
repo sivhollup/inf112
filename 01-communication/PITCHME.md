@@ -85,8 +85,8 @@ Note:
 @snapend
 
 Note: 
-- første del av boken er pensum
-- eksempler i Java og C++
+- mesteparten av Agile Technical Practices Distilled er pensum, noen av de mer avanserte delene er
+  fordypningsstoff
 - online bok om Kanban og Scrum
 - forelesningsnotater og noen artikler på nett
 - kommer til å snakke om ting som står i boken, men prøver bevisst å gi andre
