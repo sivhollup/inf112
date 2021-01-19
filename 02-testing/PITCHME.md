@@ -339,7 +339,7 @@ Note:
 
 
 
----?image=https://raw.githubusercontent.com/sivhollup/inf112/master/01-testing/img/red_green_refactor.png&size=35%
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/02-testing/img/red_green_refactor.png&size=35%
 
 Note: 
 - Refaktorere: å endre kodestruktur uten å endre funksjonalitet, det vil si at
@@ -510,5 +510,13 @@ Note:
   funksjonalitet som testes er virksomhetskritisk
 - hvis tester gjør at endring av kode er vanskelig (men dette er typisk et tegn
   på at noe er gale med koden din)
+- Eksempel: data blir brukt opp, data på tvers av uavhengige systemer (feks
+  transaksjoner)
+
+
+
+---
+
+### Neste forelesning: Prosjektmetodikk
 
 
