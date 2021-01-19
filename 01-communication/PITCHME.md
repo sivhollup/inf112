@@ -4,11 +4,19 @@
 @snapend
 
 Note: 
-- Intro: alle sitter remote i mye større grad enn før
-- kommunikasjon som faktor for trivsel og effektivitet (men kun intro til første
-  forelesning, hva med faget som helhet?)
+- Intro: Jobber til vanlig som utvikler, foreleser på deltid. 
+- arbeidshverdagen min har endret seg vesentlig ila 2020. Samtidig skal
+  output (systemer levert) være likt. 
+- Hvordan var hverdagen? Videomøter (jobbe sammen remote eller diskutere
+  problemstillinger), team på samme rom med tavle og skjermer. 
+- Nå? Alle remote, skjermdeling og video/tale eneste måte å kommunisere på
+- kommunikasjon som faktor for trivsel og effektivitet 
+- Dere skal lære å utvikle systemer, og dere må også i alle fall delvis gjøre
+  dette med remote-arbeid
 - intro Siv: ansatt 20% for å forelese dette faget, jobber ellers som konsulent
-  i kantega. Arrangerer også Nerdschool. 
+  i kantega. Arrangerte også Nerdschool.
+- Konsulent: ute hos kunde, samarbeide med kunde, remote helt eller delvis,
+  mange ulike prosjekter
 - Dette faget handler om verkøyene vi bruker for å utvikle programvare
 - Hvordan bruker vi disse verktøyene på en god måte?
 - Når brukes de ulike verktøyene? 
@@ -19,6 +27,8 @@ Note:
 Note:
 - Dette faget handler om hvordan vi jobber, og mer viktig: jobber sammen for å utvikle programvare
 - Kommunikasjon er det viktigste verktøyet vi har, derfor den lille historien 
+- Hvordan kommunisere i forelensingen? Vil du si eller spørre om noe, rekk opp
+  hånden eller skriv en kommentar (enten til meg eller felles)
 
 
 ---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/clay_craft.jpeg
@@ -111,6 +121,8 @@ Note:
 - Mye av det som trengs for å drive med programvareutvikling. 
 - Skraper såvidt i overflaten, kunne nok laget et fag basert på hver eneste
   forelesning. 
+- Også: arkitektur, logging, etikk, sikkerhet, brukbarhet, design og UX,
+  kodekvalitet
 - Hvordan jobbe sammen
 - Tekniske verktøy for å lage større programvaresystem
 - Metoder som gir god kodekvalitet
@@ -143,6 +155,8 @@ Note:
 - bilde av mann og dame, han står over henne
 - OPPGAVE: Hva ser dere i dette bildet? Bruk noen minutter 
 - Er dette en OK situasjon eller ikke?
+- Bruk 1 minutt på å tolke bildet, skriv kommentar om hva du tenker eller rekk
+  opp hånden
 - Hvis han er leder og hun er nyansatt? Aggresjon?
 - Hva er de bare dypt konsentrerte og engasjerte?
 - Er de likeverdige?
@@ -176,9 +190,16 @@ Note:
 - Eller gjør de det? Kanskje det høres ut som om de snakker om ulike ting, mens
   de egentlig prater om det samme? 
 - Kanskje de diskuterer noe de egentlig er enige om?
-- Den situasjonen jeg åpnet med er et typisk eksempel, og når vi utvikler
-  programvare skjer dette mye oftere enn man skulle tro
+- Eksempel: språkforvirring i prosjektet jeg nettopp har jobbet i
+- svindelforsøk (fraud)
+- reklamasjon (dispute)
+- fraud brukes også om reklamasjon, fordi det ofte er svindel som er
+  utgangspunkt for en reklamasjon. Delsystemet vi har laget har faktisk feil
+  navn (ett års utvikling, og mange år før det), fraud i stedet for dispute. 
 - språket vi bruker er veldig abstrakt. 
+- Helt vanlig med slike misforståelser. God kommunikasjon gjør at det er lettere
+  å oppdage, og håndtere denne type ting. Vi må øve på å få til god og vellykket
+  kommunikasjon
 
 
 
@@ -191,11 +212,10 @@ Note:
 Note: 
 - Meldingen betyr det samme for mottaker og avsender
 - Meldingen er nyttig for mottakeren
-- OPPGAVE: bruk noen minutter med en som sitter i nærheten: En finner et
-  eksempel å vellykket kommunikasjon, en finner eksempel på misforståelse (hva
-  hva som helst). Fortell hverandre om situasjonen. Hva var bra med den
-  vellykkede kommunikasjonen? Hvordan oppdaget dere at dere hadde misforstått
-  hverandre?
+- OPPGAVE: dele opp i grupper. bruk 4 minutter og finn et eksempel på vellykket
+  kommunikasjon, et eksempel på misforståelse (hva hva som helst). Fortell
+  hverandre om situasjonen. Hva var bra med den vellykkede kommunikasjonen?
+  Hvordan oppdaget dere at dere hadde misforstått hverandre?
 - Hvilke kommunikasjonskanaler har vi vanligvis i programvareutvikling?
 
 
@@ -287,7 +307,7 @@ Note:
 
 --- 
 
-### Antagelser er farlige
+### Alle gjør antagelser
 
 Note: 
 - pass på å fortelle om antagelser når dere diskuterer 
@@ -320,7 +340,7 @@ Note:
   avbrytelser)
 - Er alle tilstede i rommet? Hvis remote, kamera eller bare lyd?
 - Interaktivt (hvis ikke, er møte rett format?)
-- Hold konstruktiv tone (den som kaller bør ta ansvar for det, men gjør det hvis
+- Hold konstruktiv tone (den som kaller inn bør ta ansvar for det, men gjør det hvis
   ingen andre gjør dette)
 - forklar kontekst så kort som mulig
 - Agenda: ALLTID
@@ -339,6 +359,8 @@ Note:
 
 
 Note: 
+- Bilde av to stykker som sitter sammen
+- OPPGAVE: hvordan tolker dere kroppsspråket til figurene på bildet?
 - ikke invader andres personlige område
 - bakoverlent med kryssede armer/ben: negativ
 - fremoverlent antyder interessert
@@ -364,6 +386,24 @@ Note:
   problemer
 - Eksempel: remote prosjekt NDLA, utviklere over hele landet
 - Eksempel: jobber mot team i Trondheim, mye møter remote
+
+
+---
+
+### Trygg kommunikasjon
+
+Note:
+- uavhengig av hvilken måte vi samarbeider på, må vi være trygge for å klare å
+  være effektive
+- vanskelig å lese kroppsspråk over video, og kanskje ikke mulig
+- dårlig lyd kan gjøre det vanskelig å lese stemning hos andre
+- bruk noen minutter ekstra på å sørge for at stemning er god feks i starten av
+  møtet (litt prat om andre ting, evt icebreaker-øvelse)
+- dere skal få prøve noen icebreaker-øvelser i gruppetimene, kanskje vi også
+  prøver i forelensing. Hensikt: bli komfortable med å snakke med hverandre
+  digitalt, klare å lage gode relasjoner til gruppen du jobber med
+- systemutvikling er et kreativt yrke, må være avslappet og komfortabel for å
+  være kreativ. 
 
 
 ---
@@ -478,35 +518,10 @@ Note:
 - leses av mange, lever lenge
 - beskriver løsningen på problemet du prøver å løse
 - mye av kurset handler om hvordan kommunisere best mulig i kode
-- nå skal vi sankke mer i detalj om hvordan vi diskuterer sammen, både ansikt
+- nå skal vi snakke mer i detalj om hvordan vi diskuterer sammen, både ansikt
   til ansikt men også via chat og andre kanaler
 - Dette gjelder særlig fagdiskusjoner og når man koder sammen
  
-
----
-
-### Hvordan diskutere sammen 
-
-#### Et godt eksempel
-
-https://bit.ly/2RFTbqh
-
-Note:
-- settingen her er at to stykker skal kode sammen, parprogrammering
-- åpen for endring i oppsett
-- forklarer hva han gjør
-- undersøker hvordan man kan jobbe best sammen (hva slags kontekst har den du
-  sitter sammen med?)
-- høflig: får tastatur (ber om tastatur)
-- forklarer hvordan ny laptop fungerer
-- lar den andre få tenke i fred
-- bytter på å jobbe
-- virker kanskje vanskelig i begynnelsen, men blir effektivt over tid
-- kanskje ikke like bra: holder armen på stolen til naboen (men litt suboptimalt
-  oppsett med bare laptop)
-- det neste eksempelet er naturlig nok et med problematisk oppførsel. NB: Dette er
-  satt på spissen og samler mange uvaner i ett. 
-
 
 ---
 
@@ -532,6 +547,32 @@ Note:
 - usaklig forsvar av kode
 - gjentagelse
 - ikke noe problem en gang: men hva om dette er hverdag?
+
+
+
+---
+
+### Hvordan diskutere sammen 
+
+#### Et godt eksempel
+
+https://bit.ly/2RFTbqh
+
+Note:
+- settingen her er at to stykker skal kode sammen, parprogrammering
+- åpen for endring i oppsett
+- forklarer hva han gjør
+- undersøker hvordan man kan jobbe best sammen (hva slags kontekst har den du
+  sitter sammen med?)
+- høflig: får tastatur (ber om tastatur)
+- forklarer hvordan ny laptop fungerer
+- lar den andre få tenke i fred
+- bytter på å jobbe
+- virker kanskje vanskelig i begynnelsen, men blir effektivt over tid
+- kanskje ikke like bra: holder armen på stolen til naboen (men litt suboptimalt
+  oppsett med bare laptop)
+- det neste eksempelet er naturlig nok et med problematisk oppførsel. NB: Dette er
+  satt på spissen og samler mange uvaner i ett. 
 
 
 ---
@@ -643,37 +684,6 @@ Note:
 - kommunikasjon er ikke-verbalt og verbalt, skriftlig, figurer, kode, chat
 - kommunikasjon legger grunnlaget for å få til et bra resultat både daglig og
   totalt
-- Til slutt skal vi gjøre en øvelse for å demonstrere en stor svakhet som har
-  med kommunikasjon å gjøre
-- Øvelse: Tellespillet
-
-
----
-
-@snap[west span-10]
-![Tardis](https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/tardis.png)
-@snapend
-
-@snap[midpoint span-10]
-![C3PO](https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/c3po.png)
-@snapend
-
-@snap[east span-10]
-![Cylon](https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/cylon.png)
-@snapend
-
-Note: 
-- Skal vise disse tre ikonene, de bytter med jevne mellomrom. Dere skal huske
-  hvor mange det er av hver uten å skrive ned. 
-- Kjører to runder av dette spillet. 
-- Runde 2: 
-- Hva er 5 + 8? Rop ut svaret
-- "Anne og Ole kjører tog. De starter i hhv Bergen og Oslo samtidig. Anne sitt
-  tog går i 75 km/t, og Ole sitt i 50 km/t. Det er 500 km mellom Bergen og Oslo.
-  Hvor langt har Anne kommet når de møtes (antall km fra Bergen)?"
-- Rop ut tallet på måneden du er født i
-- Hva er siste sifferet i telefonnummeret ditt?
-- Hvis vi hadde gjort denne øvelsen i par, går det an å bli mindre avbrutt?
 
 
 --- 
