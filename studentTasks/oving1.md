@@ -1,4 +1,4 @@
-# INF112 Øvelse 1, Våren 2020
+# INF112 Øvelse 1, Våren 2021
 Før vi starter på denne øvelsen skal alle deles inn i teams. Gruppelederen din vil si i fra om hvilket team du er på og det er disse du skal jobbe sammen med resten av semesteret. 
 
 Målet for denne oppgaven er å trene på kommunikasjon, fremstilling, samt å bli kjent med et av verktøyene vi bruker i kurset. Alle oppgavene skal gjøres i teamet.
