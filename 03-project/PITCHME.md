@@ -1,4 +1,8 @@
----?image=https://raw.githubusercontent.com/sivhollup/inf112/master/03-project/img/baby_learning_to_walk.jpeg
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/03-project/img/baby_learning_to_walk.jpeg&size=65%
+
+@snap[south]
+### Prosjekt og arbeidsmetodikk
+@snapend
 
 Note:
 - Bilde: føtter på et barn som såvidt har lært seg å gå
@@ -18,13 +22,6 @@ Note:
   generelle temaene, men vær forberedt på at verden endrer seg
 - prosjektmetodikk handler om hvordan folk skal samarbeide, og det finner stadig
   mer forskning på dette --> hva som er beste praksis endrer seg over tid
-
-
----
-
-### Prosjekt og arbeidsmetodikk
-
-Note:
 - Hva er et prosjekt? Hvor lenge varer det?
 - Litt historie
 - Smidig/agile -- hva er det?
@@ -33,10 +30,11 @@ Note:
 
 ---
 
-### Hva er et prosjekt?
+### Oppgave
 
 Note:
-- Oppgave: Hva er et prosjekt? Diskuter 3 minutter
+- Oppgave: Hva er et prosjekt?
+- Hva tenker dere ligger i arbeidsmetodikk? 5 min
 - en eller flere oppgaver som skal utføres
 - Ofte utvikle et produkt
 - som oftest lenger varighet
@@ -428,9 +426,8 @@ Note:
 
 
 
----?image=https://raw.githubusercontent.com/sivhollup/inf112/master/03-project/img/planning_feedback_loop_xp.png&size=45%
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/03-project/img/planning_feedback_loops_xp.png&size=45%
 
-#### XP: Livssyklus
 
 Note:
 - bilde: feedbackloop i XP
