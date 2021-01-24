@@ -217,7 +217,7 @@ Note:
 - repoet kan deles ved kloning
 
 
----?image=https://git-scm.com/book/en/v2/images/areas.png&size=60%
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/04-git/img/git_staging_area&size=60%
 
 Note:
 - Oversikt over sentrale konsepter i git
@@ -236,7 +236,7 @@ Note:
 - commit lagrer endringene av filene (evt nye filer) i lokalt repository
 
 
----?image=https://git-scm.com/book/en/v2/images/snapshots.png&size=60%
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/04-git/img/git_file_commits.png&size=60%
 
 @snap[north]
 ### Versjonshistorikk
@@ -300,6 +300,7 @@ Note:
 
 
 ---?image=https://qph.fs.quoracdn.net/main-qimg-d151c0543baa145e6252c1ec95199963&size=50% 
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/04-git/img/git_local_remote.png&size=50%
 
 Note: 
 - working dir/staging/repo har vi allerede sett på
@@ -415,7 +416,7 @@ Note:
 - DemoIV: git-kata (c-f)
 
 
----?image=https://git-scm.com/book/en/v2/images/basic-merging-2.png&size=65%
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/04-git/img/git_merging_graph.png&size=65%
 
 @snap[north]
 #### Merge
@@ -533,12 +534,6 @@ Note:
 - små commits gir trygghet og gjør arbeidet lettere
 - bruk branches, forks og pull requests med forsiktighet
 
-
----
-
-### Denne presentasjonen
-
-https://gitpitch.com/sivhollup/inf112/master?p=v20/04-git
 
 ---
 
