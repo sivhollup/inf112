@@ -217,7 +217,7 @@ Note:
 - repoet kan deles ved kloning
 
 
----?image=https://raw.githubusercontent.com/sivhollup/inf112/master/04-git/img/git_staging_area&size=60%
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/04-git/img/git_staging_area.png&size=60%
 
 Note:
 - Oversikt over sentrale konsepter i git
@@ -299,7 +299,6 @@ Note:
   fra remote og for å dytte våre endringer til remote
 
 
----?image=https://qph.fs.quoracdn.net/main-qimg-d151c0543baa145e6252c1ec95199963&size=50% 
 ---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/04-git/img/git_local_remote.png&size=50%
 
 Note: 
