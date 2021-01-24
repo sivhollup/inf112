@@ -1,4 +1,4 @@
----?image=https://images.pexels.com/photos/1776134/pexels-photo-1776134.jpeg
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/03-project/img/baby_learning_to_walk.jpeg
 
 Note:
 - Bilde: føtter på et barn som såvidt har lært seg å gå
@@ -22,7 +22,7 @@ Note:
 
 ---
 
-### Prosjekt og prosjektmetodikker
+### Prosjekt og arbeidsmetodikk
 
 Note:
 - Hva er et prosjekt? Hvor lenge varer det?
@@ -52,7 +52,7 @@ Note:
 
 
 
----?image=https://flatiron-v3-production.imgix.net/edsger_dijkstra_twitter_1024.jpg
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/03-project/img/edsger_dijkstra_twitter_1024.jpg
 
 @snap[south-east]
 Dijkstra
@@ -269,7 +269,7 @@ Note:
 - alle i teamet må skjønne hva som foregår (alle i samme båt)
 
 
----?image=https://images.pexels.com/photos/1157859/pexels-photo-1157859.jpeg
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/meeting_project_board.jpeg
 
 @snap[south-west]
 ### Prosjekt-tavle
@@ -333,7 +333,7 @@ Note:
 
 
 
----?image=https://images.pexels.com/photos/1437540/pexels-photo-1437540.jpeg
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/03-project/img/project_retrospective_meeting.jpeg
 
 @snap[north-west]
 ### @color[#F6C59A](Retrospektiv)
@@ -428,7 +428,7 @@ Note:
 
 
 
----?image=https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2018Q2/extreme-programming/xp-planning-and-feedback-loops.png&size=45%
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/03-project/img/planning_feedback_loop_xp.png&size=45%
 
 #### XP: Livssyklus
 
@@ -621,9 +621,3 @@ Note:
 
 ### Neste: Versjonskontroll
 
-
---- 
-
-### Denne presentasjonen
-
-https://gitpitch.com/sivhollup/inf112/master?p=v20/03-project
