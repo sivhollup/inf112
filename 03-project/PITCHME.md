@@ -1,7 +1,7 @@
 ---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/03-project/img/baby_learning_to_walk.jpeg&size=65%
 
 @snap[south]
-### Prosjekt og arbeidsmetodikk
+### @color[#CF3C3A](Prosjekt og arbeidsmetodikk)
 @snapend
 
 Note:
@@ -20,9 +20,8 @@ Note:
 - en konsekvens er at det som er relevant nå, som dere lærer i dette kurset,
   gjerne ikke er like relevant om 3 år eller 5 år. Prøver å fiske ut de
   generelle temaene, men vær forberedt på at verden endrer seg
-- prosjektmetodikk handler om hvordan folk skal samarbeide, og det finner stadig
+- prosjekt- og arbeidsmetodikk handler om hvordan folk skal samarbeide, og det finner stadig
   mer forskning på dette --> hva som er beste praksis endrer seg over tid
-- Hva er et prosjekt? Hvor lenge varer det?
 - Litt historie
 - Smidig/agile -- hva er det?
 - Smidige prosjekter
@@ -32,9 +31,12 @@ Note:
 
 ### Oppgave
 
+arbeidsmetodikk, prosjekt, prosjektmetodikk
+
 Note:
-- Oppgave: Hva er et prosjekt?
-- Hva tenker dere ligger i arbeidsmetodikk? 5 min
+- Oppgave: Hva legger dere i disse begrepene?
+- bruk 4 minutter i grupper, en av dere skriver en oppsummering i chat-en
+- 
 - en eller flere oppgaver som skal utføres
 - Ofte utvikle et produkt
 - som oftest lenger varighet
@@ -42,10 +44,18 @@ Note:
 - noe skal leveres (produkt?)
 - et prosjekt har en livsyklus: planlegging/utredning, implementasjon,
   forvaltning) som gjentar seg gjennom hele levetiden til prosjektet
-- tegne på tavlen: enkel livssyklus
+- tegne på tavlen: enkel livssyklus (utrede, planlegge, impl., forvalte)
 - livssyklus for et softwareprosjekt er akkurat som prosjekter i andre domener,
   faktisk er software-utviklingen bare en del av et prosjekt (vi prøver å løse
   et overordnet problem)
+- hensikt: organisere arbeid.
+- hva skal gjøres, hvem skal gjøre hva, prioriteringer (også opp mot økonomi)
+- organisere mennesker: teammedlemmer, kunder, interessenter
+- organisere interaksjon mellom ulike "flater", mennesker, maskiner, behov,
+  krav, økonomi
+- håndtere endringer både strukturelt i organisasjon, i team, i hva som skal
+  lages, hvordan det skal lages
+- håndtere risiko
 - historie på et par minutter for å sette kontekst
 
 
@@ -81,9 +91,8 @@ Note:
 ### Programvarebransjen vs andre bransjer
 
 Note:
-- Oppgave: når er software ferdig utviklet? Vil svaret variere avhengig av
+- når er software ferdig utviklet? Vil svaret variere avhengig av
   hvilket domene systemet lever i? (offentlig/helse/politi/skole/olje/bank osv)
-  4 min diskusjon
 - Mange tenker på software som ferdigprodukt man kan kjøpe (trenger
   ikke vedlikehold eller endring over tid).
 - Mange har tenkt at produktet er "ferdig" etter release (stemmer jo ikke).
@@ -157,6 +166,12 @@ Note:
 Note:
 - handler om hvordan vi vil jobbe, og om hva som egentlig er viktig i et
   utviklingsprosjekt
+- Hvorfor er disse prinsippene viktig? de som jobber er mennesker, mye
+  lederspråk devaluerer mennesker (feks ved å kalle dem ressurser osv)
+- agile manifesto prøver å rette opp i mye feil som ble begått fra 60- til
+  midten av 80-tallet
+- software-utvikling er ikke en ingeniør-disiplin, og kan ikke styres etter dens
+  prinsipper
 - inneholder 4 påstander om hva som er viktig når vi utvikler programvare
 
 ---
@@ -229,6 +244,30 @@ Note:
   organiseres slik at disse feilene skal koste minst mulig
 - Har vokst frem mange ulike smidige prosjektmetodikker (mange gjør det til en
   forretningsplan, bruk "vår" metodikk og bli bedre osv)
+- før vi går videre? Hvor mange jobber egentlig sammen? Hva er et team?
+
+
+---
+
+### Team
+
+Note: 
+- teamstørrelse er viktig
+- noen av metodikkene omtaler teamstørrelse
+- team: 2 og oppover
+- hva er ideelt? Ikke mer enn syv (kommunikasjon blir vanskelig). Tegn grafer
+  med antall kanter mellom deltagere
+- hvem er med i et team? Utviklere. Men gjerne også testere, domeneeksperter,
+  designere, ops/drift. Hvis kryssfunksjonelt må alle disse være med
+- hvilke arbeidsoppgaver må teamet løse?
+- hva skal gjøres, hvem skal gjøre det, hvordan vet vi at vi er ferdige?
+- hvilke andre oppgaver må løses (ikke nødvendigvis av teamet?)
+- økonomi: hvordan finansieres dette, hva kan vi gjøre innenfor de rammene som
+  finnes? 
+- hvem bør være med i teamet? Er dynamikken god i teamet, er teamet effektivt og
+  har alle roller som er nødvendige? 
+- kontakt med kunde/brukere
+
 
 
 ---
@@ -236,7 +275,7 @@ Note:
 ### Prosjektmetodikker
 
 Note:
-- samliger av ulike teknikker for å prosjekter til å fungere bedre
+- samling av ulike teknikker for å prosjekter til å fungere bedre
 - inneholder aktiviteter alle eller noen i teamet gjør, roller en eller flere i
   teamet skal ha
 - noen følger en metodikk strengt, andre plukker og mixer
@@ -265,56 +304,6 @@ Note:
 - holde på med oppgaver som er godt beskrevet. Disse skal også være prioritert i
   samarbeid med kunden (konkrete arbeidsoppgaver er lette å jobbe med)
 - alle i teamet må skjønne hva som foregår (alle i samme båt)
-
-
----?image=https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/meeting_project_board.jpeg
-
-@snap[south-west]
-### Prosjekt-tavle
-@snapend
-
-Note:
-- bilde: lapper på veggen/prosjekttavle
-- hvorfor? holde kontroll på hva teamet jobber med til enhver tid
-- kolonnebasert
-- inneholder oppgaver
-- minimum: TODO, Doing, Done
-- ofte også: backlog/inbox e.l. til ting som ikke ennå er prioritert
-- ofte også: egen kolonne til ekstern test, review etc.
-- tavle kan være fysisk, men mange digitale muligheter også: github project
-  board, trello, jira osv.
-- Hvordan jobbe med en prosjekttavle: 
-- Plukk oppgaver fra kolonnen med prioriterte oppgaver (typisk todo). Denne
-  kolonnen fylles som oftest i planleggingssesjon (feks 2. hver uke). Kolonnen
-  er gjerne også prioritert slik at de viktigste oppgavene ligger øverst
-- Flytt oppgaven du begynner på fra TODO til Doing, slik at andre vet at
-  oppgaven er påbegynt. Gi oppgaven til deg selv slik at andre vet hvem som
-  jobber med den. 
-- Når oppgaven er ferdig og godkjent flyttes oppgaven til Done. Hva som regnes
-  som ferdig (Definition of Done) blir teamet enige om (hvilke tester skal
-  gjøres, kvalitet på kode osv)
-- All informasjon som trengs for å løse en oppgave skal legges inn på oppgaven,
-  slik at den som begynner på oppgaven kjapt kan sette seg inn i og utføre
-  oppgaven. Dette skal fylles inn på planleggingssesjon (evt på en teknisk
-  gjennomgang)
-- hvis oppgaver er avhengig av hverandre, tillater mange systemer å koble sammen
-  oppgaver slik at det blir tydelig at en oppgave ikke kan påbegynnes før en
-  annen er ferdig
-- Hold orden på prosjekttavlen. Flytt oppgaver på riktig tid, særlig hvis man
-  jobber remote eller har kunder som følger med på tavlen er det viktig at den
-  viser hva som faktisk skjer
-- Ha en egen kolonne der kunder/brukere kan legge inn oppgaver. Disse skal
-  gjennom planlegging og prioritering før de havner i Todo-kolonnen
-- Finnes mange fine features i prosjekttavle-verktøy, hovedregel: Keep it
-  simple, stupid (KISS). Prosjekttavlen skal være et hjelpemiddel, ikke bli
-  målet med prosjektet
-
-
----
-
-### Smidige prosjektmetodikker
-
-Note:
 - nok kunnskap i teamet til å kunne fullføre ide til realitet
 - empiriske: lære av det som allerede er gjort
 - samarbeid viktig --> kunnskapsoverføring, bedre løsninger, færre feil 
@@ -328,46 +317,10 @@ Note:
   underveis og gjøre endringer utfra de erfaringene teamet har gjort seg
 - dette innebærer ulike ting, som å justere kursen sammen med kunden, men også
   hvordan teamet fungerer i seg selv
+- hvilke verktøy har vi?
 
 
 
----?image=https://raw.githubusercontent.com/sivhollup/inf112/master/03-project/img/project_retrospective_meeting.jpeg
-
-@snap[north-west]
-### @color[#F6C59A](Retrospektiv)
-@snapend
-
-Note: 
-- Bilde: engasjerte, aktive teammedlemmer
-- Handler om å gå gjennom de erfaringene teamet gjør seg i et prosjekt og
- lære av dem, og endre oppførsel for å få teamet til å fungere bedre
-- viktig prinsipp: alle har gjort det som der og da så ut som den beste
-  løsningen, og alle har gjort så godt de kan
-- prinsippet er viktig fordi retrospektiv ikke handler om å legge skyld for
-  eventuelle problemer
-- fokus skal være på forbedringer og løsninger på problemer (løsningsorientert i
-  stedet for problemorientert)
-- et møte der hele teamet er med, varer typisk 1 - 1 1/2 time, men kan også være
-  kontinuerlig fokus
-- et teammedlem (eller noen utenfra) fasiliteter møtet (styrer øvelsene,
-  tidsbruk, sørger for god og konstruktiv tone osv)
-- går gjennom en eller flere "øvelser" for å vurdere hvordan perioden har vært
-- ender som oftest med forslag til forbedringer, endringer i hva man skal
-  fokusere på osv
-- teamet blir sammen enige om hva som skal endres på for å få bedre samarbeid
-- noen vanlige ting å fokusere på i retrospektiv: 
-- hva har vært bra i sist periode?
-- hva ønsker teamet å slutte med?
-- hva ønsker teamet å begynne med?
-- hva hindrer teamet?
-- praktisk gjennomføring: 
-- bruker ofte post-its og mye tavleplass
-- alle skriver ned det de kommer på på lapper og henger dem opp
-- alle lapper gjennomgås, lignende/like lapper grupperes
-- alle i teamet stemmer på hva som er mest viktig og blir sammen enige om noen
-  få punkter som skal endres/gjennomføres frem til neste retrospektiv
-- husk: hold god stemning, vil helst ende opp med god-feeling etter retro
-- intro til spesifikke metodikker
 
 
 ---
@@ -467,7 +420,7 @@ Note:
 - planlegging, utføre, demo/release, retrospektiv (erfare og lære)
 - planlegge på begynnelsen, så planen er fersk
 - begrenset varighet slik at teamet kan tilpasse seg endringer
-- på slutten av hver sprint skal det som er lages i prroduksjon eller i alle fall
+- på slutten av hver sprint skal det som er lages i produksjon eller i alle fall
   vises til kunden, slik at retning kan justeres etter feedback
 - retrospektiv: lære av det som har skjedd og ta med lærdommen videre i neste
   sprint
@@ -499,6 +452,9 @@ Note:
 - veldig lite regler.
 - sentralt: kanban-tavle (prosjekttavle)
 - eneste virkelige begrensning: antall oppgaver som kan utføres samtidig
+- hvorfor? Fordi vi vet at kontekstbytter ødelegger effektivt og godt arbeid,
+  alle venter på alle
+- gjøre få ting fullt og helt, heller enn  mange ting stykkevis og delt
 - få som bruker kanban kun med dette, veldig ofte i kombinasjon med elementer
   fra XP og scrum
 
@@ -518,26 +474,103 @@ Note:
 - i alle smidige prosjekter er prosjekttavle essensielt
 
 
----
 
-### Team
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/meeting_project_board.jpeg
+
+@snap[south-west]
+### Prosjekt-tavle
+@snapend
+
+Note:
+- bilde: lapper på veggen/prosjekttavle
+- hvorfor? holde kontroll på hva teamet jobber med til enhver tid
+- kolonnebasert
+- inneholder oppgaver
+- minimum: TODO, Doing, Done
+- ofte også: backlog/inbox e.l. til ting som ikke ennå er prioritert
+- ofte også: egen kolonne til ekstern test, review etc.
+- tavle kan være fysisk, men mange digitale muligheter også: github project
+  board, trello, jira osv.
+- Hvordan jobbe med en prosjekttavle: 
+- Plukk oppgaver fra kolonnen med prioriterte oppgaver (typisk todo). Denne
+  kolonnen fylles som oftest i planleggingssesjon (feks 2. hver uke). Kolonnen
+  er gjerne også prioritert slik at de viktigste oppgavene ligger øverst
+- Flytt oppgaven du begynner på fra TODO til Doing, slik at andre vet at
+  oppgaven er påbegynt. Gi oppgaven til deg selv slik at andre vet hvem som
+  jobber med den. 
+- Når oppgaven er ferdig og godkjent flyttes oppgaven til Done. Hva som regnes
+  som ferdig (Definition of Done) blir teamet enige om (hvilke tester skal
+  gjøres, kvalitet på kode osv)
+- All informasjon som trengs for å løse en oppgave skal legges inn på oppgaven,
+  slik at den som begynner på oppgaven kjapt kan sette seg inn i og utføre
+  oppgaven. Dette skal fylles inn på planleggingssesjon (evt på en teknisk
+  gjennomgang)
+- hvis oppgaver er avhengig av hverandre, tillater mange systemer å koble sammen
+  oppgaver slik at det blir tydelig at en oppgave ikke kan påbegynnes før en
+  annen er ferdig
+- Hold orden på prosjekttavlen. Flytt oppgaver på riktig tid, særlig hvis man
+  jobber remote eller har kunder som følger med på tavlen er det viktig at den
+  viser hva som faktisk skjer
+- Ha en egen kolonne der kunder/brukere kan legge inn oppgaver. Disse skal
+  gjennom planlegging og prioritering før de havner i Todo-kolonnen
+- Finnes mange fine features i prosjekttavle-verktøy, hovedregel: Keep it
+  simple, stupid (KISS). Prosjekttavlen skal være et hjelpemiddel, ikke bli
+  målet med prosjektet
+- Oppsummert: 
+- Hensikt: Holder oversikt på hvem som gjør hva, hvilke oppgavers om er ferdige,
+  og hvilke oppgaver som skal løses
+- Kommunikasjon mellom teammedlemmer: hvem gjør hva (pågående)
+- Kommunikasjon mellom team og kunde: hvilke oppgaver er løst (ferdig)
+- Prioritering: hva er rekkefølge på de neste oppgavene som skal løses
+  (todo/prioritert)
+- hva har vi valgt å ikke fokusere på (backlog) i denne fasen
+- avklar hvem som har ansvar for å flytte kort fra en kolonne til en annen
+- avklar hvem som kan legge inn kort i backlog, og hvem som kan flytte oppgaver
+  inn i prioritert
+- ulike prosjektmetodikker setter ulike begrensninger på project board: dvs de
+  setter begrensninger på hvordan teamene jobber (eks: kanban begrenser antall
+  saker som er åpne samtidig, scrum begrenser antall totalsaker i en iterasjon)
+
+
+
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/03-project/img/project_retrospective_meeting.jpeg
+
+@snap[north-west]
+### @color[#F6C59A](Retrospektiv)
+@snapend
 
 Note: 
-- teamstørrelse er viktig
-- noen av metodikkene omtaler teamstørrelse
-- team: 2 og oppover
-- hva er ideelt? Ikke mer enn syv (kommunikasjon blir vanskelig). Tegn grafer
-  med antall kanter mellom deltagere
-- hvem er med i et team? Utviklere. Men gjerne også testere, domeneeksperter,
-  designere, ops/drift. Hvis kryssfunksjonelt må alle disse være med
-- hvilke arbeidsoppgaver må teamet løse?
-- hva skal gjøres, hvem skal gjøre det, hvordan vet vi at vi er ferdige?
-- hvilke andre oppgaver må løses (ikke nødvendigvis av teamet?)
-- økonomi: hvordan finansieres dette, hva kan vi gjøre innenfor de rammene som
-  finnes? 
-- hvem bør være med i teamet? Er dynamikken god i teamet, er teamet effektivt og
-  har alle roller som er nødvendige? 
-- kontakt med kunde/brukere
+- Bilde: engasjerte, aktive teammedlemmer
+- Handler om å gå gjennom de erfaringene teamet gjør seg i et prosjekt og
+ lære av dem, og endre oppførsel for å få teamet til å fungere bedre
+- viktig prinsipp: alle har gjort det som der og da så ut som den beste
+  løsningen, og alle har gjort så godt de kan
+- prinsippet er viktig fordi retrospektiv ikke handler om å legge skyld for
+  eventuelle problemer
+- fokus skal være på forbedringer og løsninger på problemer (løsningsorientert i
+  stedet for problemorientert)
+- et møte der hele teamet er med, varer typisk 1 - 1 1/2 time, men kan også være
+  kontinuerlig fokus
+- et teammedlem (eller noen utenfra) fasiliteter møtet (styrer øvelsene,
+  tidsbruk, sørger for god og konstruktiv tone osv)
+- går gjennom en eller flere "øvelser" for å vurdere hvordan perioden har vært
+- ender som oftest med forslag til forbedringer, endringer i hva man skal
+  fokusere på osv
+- teamet blir sammen enige om hva som skal endres på for å få bedre samarbeid
+- noen vanlige ting å fokusere på i retrospektiv: 
+- hva har vært bra i sist periode?
+- hva ønsker teamet å slutte med?
+- hva ønsker teamet å begynne med?
+- hva hindrer teamet?
+- praktisk gjennomføring: 
+- bruker ofte post-its og mye tavleplass
+- alle skriver ned det de kommer på på lapper og henger dem opp
+- alle lapper gjennomgås, lignende/like lapper grupperes
+- alle i teamet stemmer på hva som er mest viktig og blir sammen enige om noen
+  få punkter som skal endres/gjennomføres frem til neste retrospektiv
+- husk: hold god stemning, vil helst ende opp med god-feeling etter retro
+- OPPGAVE: liten retro om forrige forelesning
+
 
 
 ---
@@ -549,7 +582,7 @@ Note:
 
 ---
 
-### Prosjektmetodikk legger til rette for at alle i teamet forstår domenet
+### Mål: alle i teamet forstår domenet
 
 Note: 
 - programvareutvikling er vanskelig
@@ -571,7 +604,7 @@ Note:
 
 ---
 
-#### Prosjektmetodikk legger til rette for rask feedback
+#### Mål: rask feedback
 
 Note: 
 - begrens arbeidsmengdene til envher tid
@@ -580,7 +613,7 @@ Note:
 
 --- 
 
-#### Prosjektmetodikk legger til rette for å kunne endre kurs raskt
+#### Mål: kunne endre kurs ved behov
 
 Note:
 - lær av fortiden, og lær av det du har fått feedback på
@@ -588,7 +621,7 @@ Note:
 
 ---
 
-#### Prosjektmetodikk legger til rette for å levere verdi raskt
+#### Mål: levere verdi kontinuerlig
 
 Note:
 - ved å levere hurtig, får kunden verdi raskt (flip side av å oppdage feil
@@ -597,7 +630,7 @@ Note:
 
 --- 
 
-#### Prosjektmetodikk legger til rette for å kunne jobbe verdibasert
+#### Mål: jobbe verdibasert
 
 Note: 
 - effekt-basert
