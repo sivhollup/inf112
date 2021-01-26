@@ -21,6 +21,8 @@ Note:
 - hva hvis flere er med? enda vanskeligere å vite hva som er nyeste
 - kan være lurt å ha sentralt sted alle kopierer fra, men trenger fortsatt en
   lur måte å spore endringer på: versjons-kontroll
+- versjonskontroll er omtrent en selvfølge for utviklere og IT-nære personer,
+  men feks kunder, domeneeksperter vet gjerne ingenting
 
 
 ---
@@ -123,47 +125,21 @@ Note:
 - git log (commit-melding er kommet med, hash for commit vises)
 
 
----
-
-### Genererte data skal ikke i versjonskontroll
-
-Note:
-- filer som kan genereres endres gjerne ofte
-- filer som kan genereres trengs ikke i versjonskontroll siden de kan genereres
-- prosjektfiler som genereres av IDE skal ikke i versjonskontroll, disse vil
-  endre seg fra maskin og maskin og vil alltid være med.
-- genererte filer som endrer seg skaper støy i prosjektet, gjemmer vekk de
-  virkelige endringene
-- kompilert kode (vil kunne endre seg fra maskin til maskin, kan genereres på
-  ny maskin uansett)
-- biblioteker og avhengigheter (skal lastes ned når prosjektet bygges)
-- finnes det unntak? Kanskje på data generert som del av forskning, må vurderes
-  (koster det feks et halvt år å generere på nytt? Kanskje verdt å legge inn)
-
-
----
-
-### Hemmeligheter skal ikke i versjonskontroll
-
-Note:
-- hva regnes som hemmeligheter?
-- private nøkler
-- passord 
-- konfigurasjon til produksjon: porter, adresser, IP-adresser? 
-- mange repository er offentlig tilgjengelig, da får hvem som helst tilgang på
-  dette
-- ofte er et testoppsett tilgjengelig (merk at dette testmiljøet helst bør være
-  beskyttet slik at ikke hvem som helst kan utnytte det)
-- Hvordan virker git?
-- tre sentrale begreper: working directory, staging og
-  repository
-
-
----
-
-#### Working directory: en spesifikk commit
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/04-git/img/git_staging_area.png&size=60%
 
 Note: 
+- sentrale konsepter i git: working directory, staging area, repository
+- working directory: konteksten du jobber i, lokalt på din maskin
+- staging area: preview av en commit, også lokalt på din maskin
+- repository: summen av alle filene og endringene
+
+
+---
+
+#### Working directory: arbeidskontekst
+
+Note: 
+- definisjon: en spesifikk kontekst, samt endringer som gjøres i den konteksten
 - lag et repo lokalt --> working directory
 - klon et repository til maskinen din: --> working directory
 - working directory er en samling av endringer på toppen av en commit
@@ -188,6 +164,7 @@ Note:
 - ombestemmer du deg kan du fjerne fra indexen og dermed la være å ta med
   spesifikke endringer
 - brukes til å få oversikt over hva som skal med på en commit
+- har du lagt til for mye? brukt git reset for å fjerne filer fra index-en
 
 
 ---
@@ -223,8 +200,6 @@ Note:
 - Oversikt over sentrale konsepter i git
 - Working directory: katalogen du står i, inneholder din lokale kopi av et
   spesifikt punkt i historien (altså den commiten du er på)
-- Repository: der git lagrer alle data, både filer og endringer som er gjort på
-  filer
 - Staging area: "virtuelt" område (lokalt) hvor git registrerer endringer som
   skal legges til i repository (også kalt index)
 - Staging: Mellomsteg for å kun få med ønskede endringer. Git add legger til
@@ -234,6 +209,47 @@ Note:
 - Gir mulighet til å se over hvilke endringer som kommer inn (egen code review)
 - summen av alle endringene i staging gir deg id-en til commiten
 - commit lagrer endringene av filene (evt nye filer) i lokalt repository
+- Repository: der git lagrer alle data, både filer og endringer som er gjort på
+  filer
+- gått gjennom hva git er og hva de mest sentrale begrepene er
+- hva skal inn i versjonskontroll? 
+- kildekode, dokumentasjon, figurer, oppsett/konfigurasjon om bygg/deploy/miljø,
+  tester, testdata... 
+- men ikke alt skal i versjonskontroll... 
+
+
+---
+
+### Genererte data skal ikke i versjonskontroll
+
+Note:
+- filer som kan genereres endres gjerne ofte
+- filer som kan genereres trengs ikke i versjonskontroll siden de kan genereres
+- prosjektfiler som genereres av IDE skal ikke i versjonskontroll, disse vil
+  endre seg fra maskin og maskin og vil alltid være med.
+- genererte filer som endrer seg skaper støy i prosjektet, gjemmer vekk de
+  virkelige endringene
+- kompilert kode (vil kunne endre seg fra maskin til maskin, kan genereres på
+  ny maskin uansett)
+- biblioteker og avhengigheter (skal lastes ned når prosjektet bygges)
+- finnes det unntak? Kanskje på data generert som del av forskning, må vurderes
+  (koster det feks et halvt år å generere på nytt? Kanskje verdt å legge inn)
+
+
+---
+
+### Hemmeligheter skal ikke i versjonskontroll
+
+Note:
+- hva regnes som hemmeligheter?
+- private nøkler
+- passord 
+- konfigurasjon til produksjon: porter, adresser, IP-adresser? 
+- mange repository er offentlig tilgjengelig, da får hvem som helst tilgang på
+  dette
+- ofte er et testoppsett tilgjengelig (merk at dette testmiljøet helst bør være
+  beskyttet slik at ikke hvem som helst kan utnytte det)
+- Hvordan virker git?
 
 
 ---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/04-git/img/git_file_commits.png&size=60%
@@ -260,6 +276,7 @@ Note:
 - git status
 - git commit
 - git log
+- git reset
 - git init
 
 Note: 
@@ -273,7 +290,7 @@ Note:
 ### git clone
 
 Note:
-- For å bidra til et repository brukes git clone
+- For å dele et repository brukes git clone
 - Lager katalog med samme navn som repository, legger inn .git (altså,
   repositoriet) i katalogen og sjekker ut alle filene i et nytt arbeidsområde
 - laster automatisk inn siste versjon (HEAD) av det som er satt opp som
@@ -363,6 +380,10 @@ Note:
 - avhengig av strukturen trenger du kanskje flere remotes
 - hvis du har laget en fork bør du ha to remotes, origin er din fork på github,
   mens upstream er originalrepositoriet du ønsker å hente ned endringer fra
+- hva er en fork? En kopi av et repository på github som har en peker til det
+  originale repositoriet (upstream). Opererer helt uavhengig av upstream-repo,
+  men kan også både ta ned endringer fra upstream, og levere endringer *til*
+  upstream-repo
 
 
 ---
