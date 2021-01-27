@@ -1,6 +1,7 @@
 ### Spesifisering
 
 Note:
+- OPPGAVE: hva legger dere i spesifisering av et system? 1 min, kommentar i chat
 - beskrivelsen av et system
 - beskrivelse av et problem
 - beskrivelse av en løsning på et problem
@@ -15,7 +16,7 @@ Note:
 
 ---
 
-### En spesifikasjon bør beskrive ønsket oppførsel
+### Beskriv ønsket oppførsel
 
 Note: 
 - systemet skal oppfylle et behov.
@@ -35,6 +36,7 @@ Note:
 - kan komme direkte fra en bruker
 - kan komme fra bruker via andre lag (salgs/anbudsavdeling, ett eller flere lag
   med sjefer)
+
 
 
 ---
@@ -96,15 +98,15 @@ Note:
 
 ---
 
-Som @color[green](rolle) trenger jeg @color[green](funksjonalitet) for å
-@color[green](oppnå nytteverdi)
+Som @color[green](rolle) trenger jeg @color[red](funksjonalitet) for å
+@color[orange](oppnå nytteverdi)
 
 Note: 
 - veldig vanlig format for krav/usecase/userstory
-- skal inneholde HVEM som har behovet
+- skal inneholde HVEM som har behovet (rolle)
 - skal inneholde HVA behovet er (HVILKET problem skal løses/hvilken
-  funksjonalitet som trengs)
-- skal inneholde HVORFOR en rolle har behovet
+  funksjonalitet som trengs) (funksjonalitet)
+- skal inneholde HVORFOR en rolle har behovet (oppnå nytteverdi)
 - introdusert noen nye konsepter her, gå mer i dybden på roller
 
 
@@ -123,15 +125,26 @@ Note:
 - Student
 - Dette er hovedgruppene av roller. I tillegg finnes det "subgrupper" av roller,
   fordi folk bruker systemene på ulike måter. 
+- Oppgave: hvilke roller finnes for twitter? (2-3 min) skriv resultat ned på
+  tavlen
+- Tweeter (innholdsprodusent?), tilhører, moderator, ikke-person-brukere som
+  systemer som ønsker å tweete på vegne av noen, eller konsumere ulike typer
+  tweets 
+- en rolle trenger ikke være en person, det kan også være et system
+- Rolle forteller noe om hva en bruker ønsker å få utført
+- Rollene som er mennesker har noen fellesegenskaper: de er mennesker som bruker
+  systemene
+- Finnes annet aspekt også: brukere sine egenskaper
 
 
 ---
 
-### Personas
+### Brukere har ulike egenskaper
 
 Note: 
 - bruksmønsteret er ulikt for ulike mennesker
 - Oppgave: finn eksempler på hvordan samme brukerrolle har ulike behov (2 min)
+  (mitt uib som brukstilfelle)
 - Svaksynt/blind 
 - Snakker ikke samme språk som hoveddelen av brukerne
 - dyslektiker
@@ -141,12 +154,6 @@ Note:
 - noe av dette handler om universell utforming, noe alle offentlige nettsider er
   lovpålagt å følge (det finnes teknikker for å tilrettelegge websider for
   skjermleser, feks. Men selve bruksopplevelsen er annerledes, feks ved søk)
-- Oppgave: hvilke roller finnes for twitter? (2-3 min) skriv resultat ned på
-  tavlen
-- Tweeter (innholdsprodusent?), tilhører, moderator, ikke-person-brukere som
-  systemer som ønsker å tweete på vegne av noen, eller konsumere ulike typer
-  tweets 
-- en rolle trenger ikke være en person, det kan også være et system
 - ofte lager vi personas for å få frem ulike typer brukere, feks eldre folk som
   taster sakte, ekspertbrukere som vil ha hurtigtaster og krever at systemet
   svarer fort. Disse gjenbrukes i brukerhistoriene og alle som jobber med
@@ -155,22 +162,24 @@ Note:
 - Eksempel: Petter, 53, kjempestore hender og fingre som ikke treffer tastaturet
   ordentlig. Jobber fysisk, sitter så lite foran skjerm som mulig, og har
   problemer med å gjøre finmotoriske bevegelser 
+- Mest viktig å ta med seg: brukeren ligner ikke på deg. Er du usikker? Tenk at
+  brukeren er 50 år og ikke liker å bruke pc. 
 
 
 ---
 
-Som @color[green](rolle) trenger jeg @color[green](funksjonalitet) for å
-@color[green](oppnå nytteverdi)
+Som @color[green](rolle) trenger jeg @color[red](funksjonalitet) for å
+@color[orange](oppnå nytteverdi)
 
 Note:
 - Oppgave: lage brukerhistorier for twitter (4 min, så samle inn fra alle)
-- ser veldig enkelt og greit ut, ikke sant? Det å lage en god kravspesifikasjon
+- ser veldig enkelt og greit ut, ikke sant? Det å lage en god spesifikasjon
   er VANSKELIG (tenk håndverksanalogi)
 - Nå skal vi snakke mer om hva som gjør en spesifikasjon god, og så ser vi om vi
   kan forbedre brukerhistoriene våre
 
 
----?image=https://raw.githubusercontent.com/sivhollup/inf112/master/v19/communication/img/misunderstanding.jpg&position=right&size=55% 100%
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/01-communication/img/misunderstanding.jpg&position=right&size=55% 100%
 
 @snap[span-40 west]
 #### Krav er @color[orange](mangelfulle), @color[orange](uklare) eller @color[orange](direkte feil)
@@ -193,6 +202,7 @@ Note:
   skriver anbud, dette er folk som kanskje aldri har tatt i domenet eller
   problemet som skal løses)
 - hvilke problemer møter vi ofte på?
+- video: https://youtu.be/tUOiO4dN65Y
 
 
 ---
@@ -244,6 +254,7 @@ Note:
 - avtalen om utvikling bør utformes slik at det er rom for å endre på
   prioritering og hva som lages, slik at viktige funksjoner som har blitt glemt
   kan få komme til i ettertid
+- ref smidig-manifestet: samarbeid over rigid avtaleverk
 
 
 ---
@@ -415,6 +426,13 @@ Note:
   koster å lage kråkesølv fremfor funksjonalitet som gir reell verdi
 - Vi vet nå mye om problematiske brukerhistorier og krav. 
 
+---
+
+### New and improved
+
+Note:
+- gå tilbake til brukerhistoriene for twitter og forbedre dem
+- Så oppsummering
 
 ---
 
@@ -460,6 +478,8 @@ Note:
 - hvis kunden snakker om flensehyse, da snakker dere også om flensehyse (OK, så
   er kanskje rentesats mer reelt)
 - krav skal være på kundens og domenet sitt språk
+- Eksempel: språkforvirring på reklamasjon og svinder, som resulterer i at
+  modulen som håndterer reklamasjon (dispute) heter svindel (fraud)
 - dette overføres til kode også, slik at dere snakker på samme måte om krav
   og forretningslogikk som om kode
 - Hva oppnår vi med dette?
@@ -534,7 +554,7 @@ Note:
   før oppgaven kan løses, forelesning i neste uke)
 
 
----?image=https://academiccomputing.files.wordpress.com/2012/07/roborally.jpg&position=right&size=55% 100%
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/05-specification/img/roborally.jpg&position=right&size=55% 100%
 
 @snap[span-40 west]
 ### Årets prosjekt
@@ -546,7 +566,7 @@ Note:
 - https://youtu.be/rlK7tZk41BA <-- kortere demo, også med forklaring av reglene
 
 
----?image=https://www.theboardgamefamily.com/wp-content/uploads/2013/03/RoboRallyLaser1.jpg&size=55%
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/05-specification/img/RoboRallyLaser1.jpg&size=55%
 
 Note: 
 - du skal programmere en robot i et produksjonslokale. Det er satt ut flagg
@@ -556,7 +576,7 @@ Note:
 - roboten programmeres ved at du legger ned kort med bevegelser. Dette utgjør
   programmet som roboten kjører etter den runden
 
----?image=https://www.theboardgamefamily.com/wp-content/uploads/2013/03/RoboRallyCards.jpg
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/05-specification/img/RoboRallyCards.jpg
 
 Note:
 - enkle bevegelseskort, rotasjon høyre/venstre, 180grader, flytt bakover, flytt
@@ -565,7 +585,7 @@ Note:
 - på brettene finnes samlebånd og tannhjul som roterer, disse vil flytte roboter
   som står oppå på gitte tidspunkt
 
----?image=https://i0.wp.com/www.luisescobarblog.com/wp-content/uploads/2014/05/Three-Reasons-Robo-Rally-is-a-Must-Own-Board-Game-2.jpg&size=60%
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/05-specification/img/fullGameView.jpg&size=60%
 
 Note:
 - masse flere regler og kompliserende faktorer, som at alle robotene har lasere
