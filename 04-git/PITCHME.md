@@ -1,8 +1,9 @@
 ---
 
-## Versjonskontroll og git
+## Versjonskontroll 
 
 Note: 
+- resultat fra metodikk-forelesning-retro
 - hva er versjonskontroll? 
 - hvem har brukt versjonskontroll?
 - hva bruker dere versjonskontroll til?
@@ -412,6 +413,7 @@ Note:
 - enkleste: commit direkte til trunk (altså master-branch)
 - Tegne på tavlen: trunk based commit linje
 - DemoIV: git-kata (a-b)
+- Min personlige favoritt
 
 
 ---
@@ -519,7 +521,7 @@ Note:
 - ulike arbeidsflyter har gode og dårlige sider
 - trunk: veldig enkelt
 - trunk: alle endringer er synlige i master
-- trunk: fordel tidlig i prosjektet? Veldig kort feedbackloop
+- trunk: Veldig kort feedbackloop
 - trunk: færre steder ting kan gå galt
 - trunk: krever litt mer å jobbe parallelt (i hvor stor grad skal man jobbe
   parallelt?)
