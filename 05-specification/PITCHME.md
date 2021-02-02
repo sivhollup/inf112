@@ -1,30 +1,20 @@
 ### Spesifisering
 
 Note:
+- spesifisering, krav, brukerhistorier 
+- som oftest ligger et forretningsmål til grunn for det vi trenger å lage (ofte
+  penger spart, tjent eller tid spart)
 - OPPGAVE: hva legger dere i spesifisering av et system? 1 min, kommentar i chat
-- beskrivelsen av et system
-- beskrivelse av et problem
-- beskrivelse av en løsning på et problem
-- beskrivelse av en eller flere oppgaver
-- Poenget: 
+- beskrive et problem
+- beskrive en løsning på et problem
+- beskrive en eller flere oppgaver
+- først og fremst: beskrive behov
+- for å beskrive behov må vi tenke på: 
 - HVEM vi lager en løsning for
 - HVORFOR vi løser et problem
 - HVILKET problem vi prøver å løse
-- Sånn sett: Handler om det å finne ut HVA som skal lages, men det er et
-  resultat av punktene over
+- Resultatet blir HVA som skal lages, men det stammer fra punktene over
 
-
----
-
-### Beskriv ønsket oppførsel
-
-Note: 
-- systemet skal oppfylle et behov.
-- som oftest ligger et forretningsmål til grunn for det vi trenger å lage (ofte
-  penger spart, tjent eller tid spart)
-- kjært barn har mange navn/relaterte konsepter: kravspesifikasjon, usecase,
-  user story, funksjonelle krav, ikke-funksjonelle krav, behov
-- ikke direkte overlapp mellom uttrykkene
 
 
 ---
@@ -32,10 +22,16 @@ Note:
 ### Hvor kommer en spesifikasjon fra? 
 
 Note: 
-- som oftest fra en kunde som har et behov de ønsker å få oppfylt
-- kan komme direkte fra en bruker
-- kan komme fra bruker via andre lag (salgs/anbudsavdeling, ett eller flere lag
+- som oftest fra noen som har et behov de ønsker å få oppfylt
+- direkte fra en bruker
+- fra bruker via andre lag (salgs/anbudsavdeling, ett eller flere lag
   med sjefer)
+- egne ideer, samarbeid
+- eksterne parter (lovverk, andre organisasjoner)
+- Felles: systemet skal oppfylle et behov.
+- kjært barn har mange navn/relaterte konsepter: kravspesifikasjon, usecase,
+  user story, funksjonelle krav, ikke-funksjonelle krav, behov
+- ikke direkte overlapp mellom uttrykkene, går gjennom noen av disse nå
 
 
 
@@ -68,6 +64,7 @@ Note:
 - Krav handler ofte om HVA
 - Krav er ofte overordnede, men kan også være svært detaljerte. Andre skiller på
   krav, use cases og brukerhistorier
+- Krav kan være skumle fordi de ofte handler om HVA som skal lages
 
 
 ---
@@ -83,6 +80,8 @@ Note:
 - mye brukt før, ikke så mye nevnt i dag, ganske formelt og kan være et rigid
   system
 - greit å kjenne til uttrykket 
+- siden usecase og krav ofte "defaulter" til HVA, kan de være skumle. Ofte vil
+  dere treffe på brukerhistorier (user stories)
 
 
 --- 
@@ -93,6 +92,7 @@ Note:
 - engelsk: user stories
 - Vanlig måte å formidle spesifisering på, mye brukt i industrien
 - en brukerhistorie er nettopp: en kort historie
+- kan handle om HVA, men det er lagt opp spesifikt til å få med behov/nytteverdi
 - Følger en bestemt form: 
 
 
@@ -139,7 +139,7 @@ Note:
 
 ---
 
-### Brukere har ulike egenskaper
+### Ulike egenskaper hos brukere/roller
 
 Note: 
 - bruksmønsteret er ulikt for ulike mennesker
@@ -158,6 +158,7 @@ Note:
   taster sakte, ekspertbrukere som vil ha hurtigtaster og krever at systemet
   svarer fort. Disse gjenbrukes i brukerhistoriene og alle som jobber med
   utviklingen av systemet "kjenner" de ulike profilene
+- kalles ofte personas
 - Eksempel: Karen, 49, fargeblind. 
 - Eksempel: Petter, 53, kjempestore hender og fingre som ikke treffer tastaturet
   ordentlig. Jobber fysisk, sitter så lite foran skjerm som mulig, og har
