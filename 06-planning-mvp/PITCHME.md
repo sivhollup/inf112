@@ -19,12 +19,17 @@ Note:
 ### Minimum viable product (MVP)
 
 Note: 
+- en versjon av produktet som gir mest mulig læring for minst mulig jobb
+- et produkt som har nok features til 
+- 1) validere det som skiller dette produktet fra andre
+- 2) tiltrekke seg noen første brukere
+- 3) prøve ut høyrisikoelementer
 - det minste vi kan få til for å kunne gå i produksjon
 - uten dette har vi ikke et produkt
 - vi trenger mer funksjonalitet for full suksess, men det blir should/nice to
   have
 - må kunne testes på reelle brukere
-- må finne MVP i dag (kan være dette justeres noe, men hovedlinjer)
+- gå gjennom MVP i dag (kan være dette justeres noe, men hovedlinjer)
 
 
 ---
@@ -43,12 +48,13 @@ Note:
 
 ---
 
-### MVP gir verdi
+### MVP gir rask tilbakemelding
 
 Note:
-- Hva er verdi? 
-- Kan være penger spart eller penger tjent
-- kan også være kunnskap: tilbakemelding fra brukere
+- rask tilbakemelding fra kunder og brukere
+- 1: kan dette brukes? Ønsker kundene dette? Trenger kundene dette?
+- begynne å få inntjening
+- hvor bør vi gå videre herfra?
 
 
 ---
@@ -58,9 +64,7 @@ Note:
 Note:
 - har du unik funksjonalitet? Legg det til MVP slik at du så tidlig som mulig
   får tilbakemelding på om dette fungerer eller ikke
-- liker brukerne det?
 - klarer brukerner å bruke det slik du hadde tenkt?
-- trenger brukerne det? 
 - hvis hele businesscaset ditt er bygget opp rundt en feature, få den testet så
   tidlig som mulig slik at du kan justere kurs
 - er noe teknisk vanskelig å få til? Ta det med, slik at det blir god tid til å
@@ -69,7 +73,7 @@ Note:
 
 ---
 
-### MVP gir reell informasjon
+### MVP gir mulighet til å justere kurs videre
 
 Note:
 - tilbakemelding fra brukere er gull
@@ -78,7 +82,7 @@ Note:
 - hva savner brukerne? 
 - hvor mange ønsker å bruke systemet?
 - reelle brukere gjør at dere kan lære og dermed videreutvikle
-- brukes til å justere kurs videre
+- når brukere kommer inn, endrer prioriteringer seg
 
 
 ---
@@ -117,7 +121,7 @@ Note:
 
 
 
----?image=https://www.theboardgamefamily.com/wp-content/uploads/2013/03/RoboRallyCards.jpg
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/05-specification/img/RoboRallyCards.jpg
 
 @snap[north-east]
 #### @color[white](Fem faser i en runde)
@@ -203,7 +207,7 @@ Note:
 - move 3: 6 kort (790 - 840, intervall 10)
 
 
----?image=https://www.theboardgamefamily.com/wp-content/uploads/2013/03/RoboRallyLaser1.jpg&size=55%
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/05-specification/img/RoboRallyLaser1.jpg&size=55%
 
 @snap[north]
 #### Detaljer brett
@@ -226,10 +230,10 @@ Note:
 
 
 
----?image=https://i0.wp.com/www.luisescobarblog.com/wp-content/uploads/2014/05/Three-Reasons-Robo-Rally-is-a-Must-Own-Board-Game-2.jpg&size=60%
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/05-specification/img/fullGameView.jpg&size=60%
 
 @snap[north]
-#### Krav for Roborally 
+#### Viktige krav for Roborally (MVP?)
 @snapend
 
 Note: 
@@ -239,14 +243,21 @@ Note:
 - spille fra ulike maskiner
 - dele ut kort
 - velge kort (5 av 9)
-- flytte brikke utfra kort
 - dele ut nye kort ved ny runde
-- vise flere (i alle fall to) brikker på samme brett
+- vise flere (i alle fall to) brikker på samme brett (multiplayer)
 - dele ut kort til hver robot
+- flytte brikke utfra kort
 - flytte flere brikker samtidig
-- flytte brikker utfra prioritet på kort
 - flagg på brettet
 - kunne registrere at en robot har vært innom et flagg
+
+
+---
+
+### Nice to have
+
+Note: 
+- flytte brikker utfra prioritet på kort
 - håndtere konflikter i bevegelse riktig
 - kunne legge igjen backup
 - restarte fra backup v ødeleggelse
@@ -260,14 +271,8 @@ Note:
 - får du skade får du mindre kort i henhold til skaden du har
 - kan ikke gå gjennom vegger
 - for mye skade brenner fast programkort fra runde til runde
-
-
----
-
-### Nice to have
-
-Note: 
 - kunne ta powerdown for å reparere skade
+- single player
 - options-kort, som endrer reglene for deg (bad stuff for andre, good stuff for
   deg osv)
 - pushers, teleportere og andre elementer på brettet
@@ -276,7 +281,6 @@ Note:
 - generere hvordan brett kobles sammen?
 - generere brett?
 - vanskelighetsgrad på brett??
-- single player
 
 
 ---
@@ -284,7 +288,8 @@ Note:
 ### Hvordan gå frem i planlegging
 
 Note: 
-- for et krav, feks vise et brett
+- for et eller flere krav, feks vise et brett
+- lag en brukerhistorie (skal også se mer på dette neste uke)
 - tenk: hva er det minste som må til, programmeringsmessig, for å realisere
   dette? Trenger ikke være pent, trenger ikke være elegant, men må løse oppgaven
 - Prøv å tenke gjennom i grove trekk hvilken kode som trengs (forretningslogikk,
@@ -292,6 +297,8 @@ Note:
 - Diskuter hvordan dere tror det vil se ut klassemessig og lag en implementasjon
 - Hvordan har dere tenkt å verifisere funksjonalitet? 
 - Bli enige om hva som skal til for at oppgaven er ferdig
+- Bli enige om hvordan dere skal verifisere at oppgaven er ferdig (automatisk?
+  manuelt?)
 - gjør dette for de mest kritiske kravene dere vil få på plass først. 
 - Legg inn oppgaver i TODO i prioritert rekkefølge, husk å dra over i In
   progress og legg på hvem som jobber med hva
