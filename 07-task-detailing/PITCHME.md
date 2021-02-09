@@ -8,131 +8,16 @@ Note:
 
 ---
 
-### Runder og faser i spillet 
+### En god brukerhistorie går gjennom hele stacken
 
 Note:
-- etter forelesning kom det noen gode spm, ta opp noe av dette her, samt gå
-  gjennom spillmekanikken en gang til 
-- I løpet av en runde: (tegne på tavlen)
-- 0. Annonser PowerDown
-- 1. Dele ut riktig antall kort
-- 2.a Alle spillere programmerer sine roboter (det skal alltid legges ned fem
-  kort, en for hver fase, enten gjennom fastbrente kort eller de spilleren
-  legger ned)
-- 2.bt Spillere godkjenner programmene sine og leverer tilbake kort de ikke har
-  bruk,t
-- 3. Fase 1
-- 4. Fase 2
-- 5. Fase 3
-- 6. Fase 4
-- 7. Fase 5
-- 8. Opprydning: skadereduksjon, optionskort
-- 9. Samle inn alle kort og stokker dem
-- For hver fase: 
-- a. Snu programkort for riktig fase
-- b. Utføre programkort i prioritert rekkefølge
-- c. Ekspressbånd flytter seg 1 steg
-- d. Vanlige bånd og ekspressbånd flytter seg 1 steg
-- e. tannhjul roterer
-- f. andre elementer på brettet agerer
-- g. lasere aktiveres og skade deles ut
-- h. Backup flyttes
-- i. Flagg registreres
-
-
----
-
-### Roboter har lasere
-
-Note:
-- robot har laser som peker i den retningen roboten ser (fremover)
-- ta med i opptegning
-
-
----
-
-### Vegger mellom felter
-
-Note:
-- vegger tilhører en side av et felt
-- vegger stopper flytting (også ved dytting)
-- en robot kan også flytte flere andre roboter, med mindre det er vegg i veien
-
-
----
-
-### Roborally over lokalt nett
-
-Note:
-- forventer ikke at dere kan koble sammen spill over Internet (i så fall
-  valgfritt)
-- forventer at prosesser kan kobles opp på samme LAN
-- muligens enklest: første prosess som ikke finner noen å koble seg til blir
-  master, og alle andre kobler seg til den
-- tenk på: hva skjer om en spiller faller ut? 
-- skal det gå an å spille fra samme pc? Kanskje? 
-
-
----
-
-### MVP: Flaggposisjon er hardkodet
-
-Note:
-- dere kan bruke ferdig flaggposisjon til MVP, hvis dere får sjans kan dere
-  legge inn mulighet for å plassere ut flagg selv for å variere hvordan brettene
-  spilles
-
-
----
-
-### Krav -- gjennomgang
-
-Note:
-- vise spillebrett
-- vise spiller 
-- vise flere spillere
-- vinne spillet
-- avslutte spillet 
-- kunne dele ut kort
-- besøke et flagg
-- kunne utføre lovlig trekk
-- dele ut kort
-- robot kan miste et liv
-- spiller kan dø 
-- prioritering avgjør rekkefølge på robotenes bevegelser i hver fase
-- prioritering gjøres på nytt for hver fase
-- robot kan få skade
-- robot kan få reparert skade
-- velge spillebrett
-- robot fyrer av laser
-- plassere flagg
-- ta backup
-- når nest siste spiller er ferdig skal timeren på 30 sek settes igang
-- spiller kan programmere roboten
-- godkjenne program for runden
-- robot dør hvis den havner i hull
-- robot dør hvis den havner utenfor brettet
-- robot dør hvis den får 10 i skade
-- antall kort justeres utfra mengden skade roboten har
-- robotens død fjerner optionskort
-- spille en runde
-- vegger stopper bevegelse hos robot
-- vegger stopper lasere
-- vegger ligger mellom to brikker
-- robot stopper laser
-- en robot kan dytte en annen
-- spiller annonserer powerdown
-- robot er i powerdown
-- aktivere robot fra powerdown
-- samlebånd beveger robot
-- gjennomføre en fase
-- tannhjul roterer robot
-- samlebånd kan rotere robot
-- få et optionskort
-- bruke optionskort
-- velge brett før spillet begynner
-- dere må sortere disse, presenter det dere tenker skal være med i MVP i
-  innleveringen
+- eksempel: "vise en spiller på brettet"
+- Dette skal ikke handle kun om visning, men også om at spilleren eksisterer i
+  systemet og modelleres som alt annet
+- hvis du trenger noe i persistenslaget ditt for å få til å vise en spiller,
+  skal dette realiseres
+- noen ganger er det mulig å lage arbeidsoppgaver utfra akseptansekriterier,
+  andre ganger vil ikke det være dekkende
 
 
 ---
@@ -169,6 +54,27 @@ Note:
 
 ---
 
+### Behaviour Driven Development (BDD)
+
+Note:
+- utviklingsmetodikk som sentrerer seg rundt akseptansekriterier (så viktige er
+  de)
+- beskrevet i boken
+- eksempeldrevet utvikling
+- finner avgrensninger og funksjonalitet i systemet vha konkrete eksempler
+- Given, When, Then (Gitt, Når, Så)
+- bruke dette når vi lager akseptansekriterier (som også kan bli konkrete,
+  kjørbare tester om dere vil)
+- verktøy for å ha samtaler om domenet
+- capabilities tilsvarer ca epic, feature set
+- rules tilsvarer ca krav, brukerhistorier (men ofte formulert som krav heller
+  enn brukerhistorier)
+- eksempler == scenarier tilsvarer ca akseptansekriterier, som kan tilsvare
+  konkrete tester (manuelle eller automatiske)
+
+
+---
+
 ### En brukerhistorie fører til konkrete arbeidsoppgaver
 
 Note:
@@ -189,35 +95,66 @@ Note:
 
 ---
 
-### En god brukerhistorie går gjennom hele stacken
+### Krav: vegger
+
 
 Note:
-- eksempel: "vise en spiller på brettet"
-- Dette skal ikke handle kun om visning, men også om at spilleren eksisterer i
-  systemet og modelleres som alt annet
-- hvis du trenger noe i persistenslaget ditt for å få til å vise en spiller,
-  skal dette realiseres
-- noen ganger er det mulig å lage arbeidsoppgaver utfra akseptansekriterier,
-  andre ganger vil ikke det være dekkende
+- forretningsreglene for vegger: 
+- vegg står mellom to ruter
+- vegg kan ikke flyttes på
+- vegg stopper robot-bevegelse
+- vegg stopper laser
+- når vi lager brukerhistorier for denne, hvem er rollen? Robot? Spiller?
+- er det en eller flere brukerhistorier for vegger?
+- OPPGAVE: forslag til brukerhistorier for vegger, 5 minutter
+- hva er funksjonaliteten vi ønsker å få til?
+- hvordan vil dere beskrive verdien som oppnås?
+- få ned alle brukerhistoriene på delt skjerm
+- fellesskap: få brukerhistorie til å gi mening (hva er en god brukerhistorie?)
+- hva mener dere er bra med den/de brukerhistoriene vi nå har laget?
 
 
 ---
 
-### Å vise et brett
+### Akseptansekriterier: vegger
 
 Note:
-- akseptansekriterier: 
-- vise brettet uten elementer
-- vise forventede elementer på brettet (?)
-- brettet har forventet størrelse i x og y-retning
-- Oppgave: Hvordan definerer vi et element? Må dette med i historien? Diskuter 2 minutter
-- Er basisbildet som vises et element? 
-- Oppgave: Hvordan vil dere modellere dette? Hva tror dere trengs av kode for å
-  få til å vise et brett? 2-3 minutter
-- Tegne opp klassene
-- Kanskje en mer meningsfull brukerhistorie er å vise en spiller på et brett? 
-- Eksempel på brukerhistorie: Som spiller trenger jeg å vite hvor roboten min
-  befinner seg for å kunne planlegge neste fase
+- prøve oss på BDD-stil akseptansekriterier
+- hva må være satt opp? Brett? Roboter? (Given, precond., arrange, input)
+- hva er aksjonen (when, act)?
+- hva skal resultatet bli (then, assert, output)?
+- OPPGAVE: bruk 5-7 min på å lage forslag til akseptansekriterier for brukerhistorie for
+  vegg
+- samle akseptansekriterier for brukerhistoriene
+- vurdere - er det konkret og tydelig? Forstår alle hvordan de skal modellere
+  dette nå?
+
+
+---
+
+### Utfordre akseptansekriteriene
+
+Note:
+- Først og fremst: 
+- kan du gi meg et eksempel? <-- gjør det konkret og håndfast
+- kan du se for deg en annen kontekst for samme hendelse som gir et annet
+  utfall? (kontekst-spørsmål -- context questioning)
+- for å avsløre mer om forretningsreglene
+- er det noe annet utfall av hendelsen som er viktig? (outcome questioning)
+- for å avsløre sideeffekter og få dem med i then 
+- hva med våre akseptansekriterier? Kan vi forbedre dem vha disse spørsmålene?
+
+
+---
+
+### Arbeidsoppgaver: vegger
+
+Note:
+- Hva trengs? UI, forretningslogikk. Nye klasser? Nye metoder?
+- OPPGAVE: lag arbeidsoppgaver utfra akseptansekriteriene, 5 min
+- samle arbeidsoppgaver for brukerhistorie/akseptansekriterier
+- planlegg på felles: feks, hvordan skal klasse/objektdiagram se ut? bli enige
+  om hvordan implementasjonen skal gjøres
 
 
 ---
@@ -268,27 +205,7 @@ Note:
 - eksempel på tavlen: brett med ulike typer elementer
 
 
---- 
-
-### Spiller utfører et trekk
-
-Note:
-- prøve oss på en litt mer omfattende historie med litt mer detaljer
-- både forretningslogikk og visningslogikk
-- Oppgave: Hvordan kan denne brukerhistorien se ut? (3-5 min)
-- Oppgave: hva er akseptansekriterier for denne historien? (5-6 min)
-- Eksempel: definere hvordan input skal gis, er det relativ posisjonering eller
-  absolutt?
-- Oppgave: hva blir arbeidsoppgavene? (4-5 min)
-- Eksempel arbeidsoppgaver: 
-- kode visning av brikke 
-- kunne representere en spiller i koden
-- persistens? eller er alt lagret i minnet? 
-- lage: spiller kan gi input om hva trekket skal være (ingen logikk rundt lovlighet)
-- lage visningslogikk for å vise brikke på riktig sted
-- klare å beregne ny posisjon utfra input
-
-
 ---
 
 ### Neste forelesning: refaktorering
+
