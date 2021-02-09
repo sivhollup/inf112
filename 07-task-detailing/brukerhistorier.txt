@@ -1,0 +1,68 @@
+Vegger:
+som laser så vil jeg stoppe når jeg møter en vegg 
+Som laser ønsker jeg å bli stoppet av en vegg for å oppfylle spill-logikk
+
+4) Som spiller ønsker jeg å bli stoppet av en vegg for å ikke bryte reglene
+5) Som spiller ønsker jeg at roboten stoppes av veggen for ikke å bryte reglene
+6) Som spiller ønsker jeg å kunne se veggene på brettet, slik at jeg kan planlegge
+rundt veggene.
+7) Som spiller trenger jeg å vite hvor veggen er slik at jeg kan styre roboten rundt veggen for å komme til flagget
+
+God kvalitet: 
+1) * som spiller vil jeg kunne se hvor veggene ligger, slik at jeg kan planlegge fremover
+2) Som spiller trenger jeg å vite hvor veggen er slik at jeg ikke blir stående fast
+
+3) som robot vil jeg stoppe når jeg møter en vegg (mangler behov)
+
+
+Lasere:
+1) Som laser ønsker jeg å bli stoppet av en vegg for å oppfylle spill-logikk
+2) Som spiller ønsker jeg at lasere blir stoppet av vegger, slik at jeg kan spille litt taktisk.
+3) * Som spiller ønsker jeg at lasere blir stoppet av vegger, slik at jeg kan
+unngå skade
+4) som en vegg kan ikke lasere gå igjennom meg (mangler behov)
+
+
+Brukerhistorie til videre arbeid: 
+
+1) * som spiller vil jeg kunne se hvor veggene ligger, slik at jeg kan planlegge fremover
+
+Akseptansekriterier:
+spilleren må kunne se brettet
+veggene må kunne hindre bvegelse slik at "planlegge fremover" delen gir mening
+veggene skal ikke kunne gå gjennom av noenting i spillet
+
+plassering (x,y)
+0,0 er nedre venstre hjørne
+
+x+ --> øst
+x- --> vest
+y+ --> nord
+y- --> sør
+
+Gitt at 
+vegg ligger mellom 1,1 og 1,2
+når spilleren ser brettet
+så
+ser spilleren veggen mellom rute 1,1 og rute 1,2
+
+Gitt at brettet ikke har vegger mellom ruten 1,1 og rute 1,2
+når spilleren ser brettet
+så ser spilleren ingen vegger mellom rute 1,1 og rute 1,2
+
+Gitt at vegg ligger mellom 1,1 og 1,2
+og rute 1,1 har et objekt
+når spilleren ser brettet
+så ser spilleren veggen mellom ruten 1,1 og 1,2
+
+
+Arbeidsoppgaver: 
+- gui for brett
+- logisk modell for brett (hvordan vi modellerer brettet i applikasjonen)
+- grafikk for vegg, ikon og visningslogikk
+- logisk modell for vegger (egenskaper, feks plassering, utstrekning?)
+- kobling mellom vegg og brett (logisk)
+- tester som verifiserer akseptansekriterier (manuelle eller automatiske)
+
+
+
