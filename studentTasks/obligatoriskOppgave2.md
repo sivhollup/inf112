@@ -15,7 +15,7 @@ feilretting, men om hvordan man jobber og kommuniserer.
 * Under vurdering vil det vektlegges at alle bidrar til kodebasen. Hvis det er stor forskjell i hvem som
 committer, må dere legge ved en kort forklaring for hvorfor det er sånn. Husk å committe alt. (Også
 designfiler)
-* Referat fra møter siden forrige leveranse skal legges ved.
+* Referat fra møter siden forrige leveranse skal legges ved (mange av punktene over er typisk ting som havner i referat)..
 * Bli enige om maks tre forbedringspunkter fra retrospektivet, som skal følges opp under neste sprint.
 
 
@@ -44,8 +44,6 @@ viktigere at de oppgavene som er utført holder høy kvalitet. Utførte oppgaver
 
 ## Vurderingskriterier og vekting
 
-* I denne leveransen blir det ingen presentasjon.
-* Om teamet ønsker, kan all tekst leveres på engelsk.
 * Vurderingskriterier ligger på Mitt.Uib
 
 **Innleveringsfrist: 05. mars 2021, klokken 16.00**
