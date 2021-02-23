@@ -59,7 +59,7 @@ i den mappen. Eventuelle slides kan lastes inn opp til samme mappe.
 **I tillegg til koden, vil dere også vurderes på teamarbeidet gjennom semesteret.**
 
 For å få oppdraget godkjent, må hvert lagmedlem:
-* Møte og delta aktivt i minst 75% av ukentlige møter med deres TA og oblig.2 presentasjonen.
+* Møte og delta aktivt i minst 75% av ukentlige møter med deres TA.
 * Utføre de tildelte oppgavene under og mellom disse ukentlige møtene, som avtalt i teamet.
 * Rapportere tilbake til teamet om framdrift og/eller problemer som oppstår, som avtalt i teamet.
 
