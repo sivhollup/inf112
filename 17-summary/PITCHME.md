@@ -294,7 +294,7 @@ Note:
 
 ---
 
-### Prosjektmetodikk
+### Prosjekt- og arbeidsmetodikk
 
 Note: 
 - hensikt: organisere arbeid. 
