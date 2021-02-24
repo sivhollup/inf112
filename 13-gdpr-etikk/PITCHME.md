@@ -38,11 +38,8 @@ Note:
 - vet dere hvilke data dere leverer fra dere? 
 
 
----?image=image=https://raw.githubusercontent.com/sivhollup/inf112/master/13-gdpr-etikk/img/ca-fb.jpg
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/13-gdpr-etikk/img/ca-fb.jpg&size=85%
 
-@snap[south-west]
-### Cambridge Analytica og Facebook
-@snapend
 
 Note:
 - Facebook samler inn så mye data om brukere de kan
@@ -62,8 +59,8 @@ Note:
   Brexit-politikere i 2016  (målet: påvirke velgere i USA, potensielt også i UK) 
 - nok informasjon til å lage profiler og forslag til hvilken type reklame som
   har størst sjans for å påvirke spesifikke brukere. 
-- er disse de eneste? Neppe. Finnes pr i dag lite lovverk for å hindre denne
-  type ting. 
+- er disse de eneste? Neppe. Lovverk kommer, men ligger langt etter
+  teknologi-utviklingen 
   
 
 ---
@@ -76,6 +73,7 @@ Note:
 - Hva annet gjøres?
 - Fake news: forfalskede nyheter, memes og sitater
 - Feks i USA er det små marginer ved valg, den type informasjon er uvurderlig
+- ellers hadde det ikke vært verdi i fb-konsernet (eller google/alphabet)
 - både FB og CA har prøvd å snakke ned konsekvenser og hvilken informasjon som
   faktisk er delt
 - med dagens lovverk er dennee type deling i stor grad ulovlig (feks GDPR)
@@ -101,6 +99,11 @@ Note:
   er reklame MYE tettere innpå oss nå, og det er mye kortere vei til å påvirke
   deg, enten det er politisk, for å få deg til å kjøpe noe du ikke trenger osv. 
 - Alle meler sin egen kake
+- skrekkbilde og masse dårlige eksempler her. 
+- reklame treffer best hvis den er personlig tilpasset. Bedrifter ønsker å vite
+  hvilken reklame som kan treffe, og hvem de skal sende den til. 
+- Da trenger de å vite mest mulig om deg --> personopplysninger
+- hva er personopplysninger?
 
 
 ---
@@ -112,6 +115,7 @@ Note:
   identifiserbar fysisk person (den registrerte: En fysisk person som direkte
   eller indirekte kan identifiseres, særlig ved hjelp av identifikator (som
   navn, id-nr. eller ett eller flere andre elementer))
+- OPPGAVE: gi eksempler på personopplysninger
 - kan være navn, telefonnummer, venner, adresse, hva du kjøpte i butikken sist
   fredag, hvilken buss du tar til jobb osv. 
 - eks på sensitive personopplysninger:
@@ -126,6 +130,8 @@ Note:
   myndighetskontroll.
 - lovverket som regulerer personopplysninger i EU heter personvernforordningen (GDPR)
 - General Data Protection Regulation
+- EU/Europa ligger nok først i løypen her, andre steder er dette ikke kommet
+  like langt
 - California har nylig vedtatt en tilsvarende lovverk, California Consumer
   Privacy Act (CCPA)
 
@@ -135,7 +141,7 @@ Note:
 ### Dine opplysninger deles med andre
 
 Note:
-- for noen uker sider kom Forbrukerrådet med rapporten: Out of Control
+- for et år siden kom Forbrukerrådet med rapporten: Out of Control
 - https://www.forbrukerradet.no/side/new-study-the-advertising-industry-is-systematically-breaking-the-law/
 - mnemonic har undersøkt 10 mye brukte apper på Android-plattformen: hvilke
   opplysninger deles, til hvor mange, hvor ofte
@@ -145,12 +151,28 @@ Note:
 - deling av seksuelle preferanser
 - deling av siviltilstand
 - deling av hvilke andre apper bruker har installert
-
+- Datatilsynet har varslet en gigantbot til Grindr, behandles nå https://nrkbeta.no/2021/01/26/datatilsynet-varsler-historisk-bot-mot-sjekkeapp/
+- OPPGAVE: hvordan kan denne type informasjon brukes til å påvirke feks valgresultat?
+- villedende reklame eller fake news 
+- tilbakeholde informasjon eller sende ut senere (gjøre folk forvirret, usikre
+  eller likegyldige, for å hindre valgdeltagelse)
 
 
 ---
 
-### Deling er uoversiktelig
+### Dine opplysninger er verdifulle
+
+Note:
+- jada, bare en person, men dine data er ekstremt etteretraktet for mange
+- politisk påvirkning
+- produktsalg
+- nettverk: inngangsport til ANDRE
+- alle steder du bruker gratis: du ER produktet
+
+
+---
+
+### Deling er overalt og uoversiktelig
 
 Note:
 - for en vanlig bruker er det umulig å vite hva som deles, når og i hvilket
