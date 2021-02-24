@@ -38,9 +38,11 @@ Note:
 - vet dere hvilke data dere leverer fra dere? 
 
 
----
+---?image=image=https://raw.githubusercontent.com/sivhollup/inf112/master/13-gdpr-etikk/img/ca-fb.jpg
 
+@snap[south-west]
 ### Cambridge Analytica og Facebook
+@snapend
 
 Note:
 - Facebook samler inn så mye data om brukere de kan
@@ -60,6 +62,8 @@ Note:
   Brexit-politikere i 2016  (målet: påvirke velgere i USA, potensielt også i UK) 
 - nok informasjon til å lage profiler og forslag til hvilken type reklame som
   har størst sjans for å påvirke spesifikke brukere. 
+- er disse de eneste? Neppe. Finnes pr i dag lite lovverk for å hindre denne
+  type ting. 
   
 
 ---
