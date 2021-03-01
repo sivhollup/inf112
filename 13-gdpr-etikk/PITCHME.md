@@ -412,14 +412,14 @@ Note:
   viser at informasjon kan brukes til helt andre ting enn reklame. 
 
 
----?image=https://raw.githubusercontent.com/sivhollup/inf112/master/13-gdpr-etikk/img/snowden.jpg&size=85%
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/13-gdpr-etikk/img/snowden.jpg&size=95%
 
 @snap[south-east]
 @size[small](Photo from Wired)
 @snapend
 
 Note: 
-- _hvor mange kjenner til Edward Snowden?
+- hvor mange kjenner til Edward Snowden?
 - ble kjent da han tok med seg tusenvis av dokumenter fra amerikansk
   etterretning
 - jobbet for et privat selskap som hadde kontrakt med myndigheten i USA
