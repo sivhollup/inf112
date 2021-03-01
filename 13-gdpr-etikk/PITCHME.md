@@ -151,7 +151,9 @@ Note:
 - deling av seksuelle preferanser
 - deling av siviltilstand
 - deling av hvilke andre apper bruker har installert
-- Datatilsynet har varslet en gigantbot til Grindr, behandles nå https://nrkbeta.no/2021/01/26/datatilsynet-varsler-historisk-bot-mot-sjekkeapp/
+- Datatilsynet har varslet en gigantbot til Grindr (100mnok) etter klage fra
+  Forbrukerrådet, behandles nå https://nrkbeta.no/2021/01/26/datatilsynet-varsler-historisk-bot-mot-sjekkeapp/
+- https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2021/varsel-om-overtredelsesgebyr/
 - OPPGAVE: hvordan kan denne type informasjon brukes til å påvirke feks valgresultat?
 - villedende reklame eller fake news 
 - tilbakeholde informasjon eller sende ut senere (gjøre folk forvirret, usikre
@@ -185,19 +187,20 @@ Note:
 - deling har foregått i årevis, noe ulovlig, annet i gråsone.
 - lovverk er i ferd med å komme på plass, EU kommet mye lenger enn feks USA. Men
   hva med resten av verden?! Flesteparten av verdens befolkning bor ikke i
-  hverken Europa eller USA. 
+  hverken Europa eller USA. California er på vei med California Consumer Privacy Act (CCPA) 
 - hva er lovverket i Europa? 
 
 
 ---
 
 ### Personvern*forordningen*
+#### General Data Protection Regulation (GDPR)
 
-Hva er en forordning? 
 
 Note: 
+- Hva er en forordning? 
 - rettsakt eller lov
-- kommer fra EU, vi må følge disse lovene gjennom vårt medlemskap i EØS
+- kommer fra EU, gjelder også oss gjennom vårt medlemskap i EØS
 - i tillegg kan det komme direktiv, mildere måte å angi regler fra EU på, mer
   rom for individuelle tilpasninger
 - I dag brukes betegnelsen om den mest inngripende formen for rettsakt
@@ -214,6 +217,7 @@ Note:
 ### Hva er hensikten med GDPR?
 
 Note:
+- flytte eierskap over data om deg selv fra andre til DEG
 - gi deg som fysisk person rettigheter og muligheter for å kunne håndtere og
   kontrollere data om deg selv
 - vite hvilken informasjon som samles inn
@@ -222,7 +226,8 @@ Note:
 - mulighet til å korrigere data
 - kontrollere hvem som får tilgang til informasjon
 - HVORFOR? Dine data er verdifulle. FB har bygget et helt imperie på dine
-  personopplysninger. 
+  personopplysninger.
+- generelt: er en tjeneste gratis, er du produktet
 
 
 ---
@@ -282,21 +287,32 @@ Note:
 
 ---
 
-### Plikter for databehandler
+### Datainnsamling må være grunngitt
 
 Note:
-- kunne etterfølge alle krav den registrerte har
+- det er ikke lov å hente inn mer data enn du faktisk trenger
+- "kjekt å ha" er ikke god nok grunn
+- ikke kommet noe særlig domfellelse på dette ennå, men praksis strammes til 
+
+
+---
+
+### Databehandleres ansvar og plikter
+
+Note:
+- kunne etterfølge alle krav og rettigheter den registrerte har
 - sikker behandling av opplysninger (eksempel: BK fikk bot for usikker lagring
   av opplysninger)
 - klar formening om hvilke data som trengs og hvordan det skal brukes
 - dokumentasjon på hvordan lovverket etterfølges
 - alle rutiner skal dokumenteres, feks hva de gjør når noen ber om sletting
   eller utlevering (kan være manuelle rutiner)
+- oversikt over GDPR-gebyr så langt: https://www2.deloitte.com/no/no/pages/legal/articles/oversikt-over-gdpr-boeter.html
 
 
 ---
 
-### Dokumentasjon
+### Dokumentasjonskrav for databehandlere
 
 Note:
 - oversikt over hvilken informasjon som samles inn
@@ -306,7 +322,7 @@ Note:
 - rutiner for varsling ved brudd på personopplysningssikkerheten
 - rutiner for å vise at GDPR etterfølges
 - konsekvens-vurdering (ROS-analyse)
-- rutiner for lagring, oppbevaring, behandling
+- rutiner for lagring (sikkerhet og teknisk oversikt), oppbevaring, behandling
 - rutiner for portabilitet osv. 
 - klart og tydelig språk
 -
@@ -315,25 +331,33 @@ Note:
 
 ---
 
-### Samtykke
+### Innhenting krever i hovedsak samtykke
 
 Note:
+- Entiteter som ønsker å samle inn informasjon må få lov (få samtykke)
 - Samtykke må være:
 - frivillig gitt (ingen fordeler eller ulemper knyttet til samtykket)
 - spesifikt (gjelde en spesifikk behandling)
 - utvetydig (tydelig når du har sagt ja med bekreftelse)
 - informert (skal være tydelig hva man har sagt ja til), språk må være tydelig
-- må kunne trekkes tilbake like enkelt som samtykke gis
-- Eksempel på dette fra telefonsalg
+- må kunne trekkes tilbake like enkelt som samtykke gis (syndes MYE mot dette)
+
+
+
+---
+
+### Samtykke skal være spesifikt
+
+Note:
 - Først: hvor mange vet hva Kontakt-og-reservasjonsregisteret er? 
 - Kontakt-og-reservasjonsregisteret leveres av Brønnøysundsregisterne og lar
   deg reservere deg mot telefonsalg og å motta direkte adressert reklame i posten
 - https://www.dinside.no/okonomi/fjordkraft-har-kontaktet-kunder-som-er-reserverte-mot-telefonsalg/70170850
-- Fjordkraft får bot fordi de har brukt informasjon brukt til strømsalg til å
+- Fjordkraft fikk bot fordi de har brukt informasjon brukt til strømsalg til å
   selge mobiltelefonitjenester 
 - noen av deres strømkunder er registrert i Kontakt-og-reservasjonsregisteret
   mot telefonsalg 
-- du kan ikke motsette deg salg når du er eksisterende kunder, men dette gjelder
+- du kan ikke motsette deg salg når du er eksisterende kunde, men dette gjelder
   bare for tilsvarende produkt som det du allerede har kjøpt
 - telefoni er ikke strømsalg, ergo ikke lovlig
 - som utvikler må du gjerne integrere mot reservasjonsregisteret for å sikre at
@@ -342,9 +366,12 @@ Note:
   bedrifter kan ikke registrere seg i reservasjonsregisteret)
 
 
+
 --- 
 
 ### Innebygget personvern 
+
+Standardinnstillinger skal være til fordel for burkeren
 
 Note:
 - standardinnstillinger skal være til fordel for brukeren
@@ -366,17 +393,17 @@ Note:
   "jammen sjefen sa", man må tenke selv. Vi har ofte bedre oversikt på
   konsekvenser enn de som skal ha systemet vi bygger
 - demoer på gode og dårlige løsninger på feks cookies: 
-- ok: https://blogs.oracle.com/oraclemagazine/on-top-n-and-pagination-queries
-- (må klikke en gang, men veldig tydelig og opt-in, fornuftig setting)
 - mindre OK: https://www.sas.no (bitteliten lenke for å endre, vegg av tekst.)
-- ikke ok (i mine øyne). https://www.norwegian.no (ingen info?? Og så helt
+- ikke ok (i mine øyne). ENDRET! https://www.norwegian.no (ingen info?? Og så helt
   nederst, informasjonskapsler. Ingen mulighet til opt-out, alle er skrudd på
   per default, trusler og ansvarsfraskrivelse om at de ikke kan stilles til
-  rette hvis du skrur av noen cookies)
-- Nesten greit: https://www.dagbladet.no (ekstra klikk, opt-out, men gode
-  forklaringer på hva de ulike kapslene brukes til)
-- ikke så ok: https://www.kode24.no/ (hinsides mye tekst, ikke enkelt å justere,
-  mange sites å navigere seg gjennom. Dette får ikke hvemsomhelst til å bruke)
+  rette hvis du skrur av noen cookies) --> nå litt dårlig, følger lovens
+  bokstav, men ikke intensjon fordi de prøver å lure deg til å godta alt! Ekstra
+  klikk for å la være
+- Overhodet ikke greit: aller media. Eks gjennom: https://www.dagbladet.no
+- aktiv bruk av dark design patterns
+- nesten bedre: cnn.com
+- ETT godt eksempel: https://www.datatilsynet.no/
 - et par eksempler til: 
 - https://www.zettasphere.com/gdpr-consent-opt-in-examples/
 - https://econsultancy.com/best-practice-ux-gdpr-marketing-consent/
@@ -385,7 +412,7 @@ Note:
   viser at informasjon kan brukes til helt andre ting enn reklame. 
 
 
----?image=https://www.wired.com/wp-content/uploads/2014/08/03_Cnt3_Fr8-_crop1.jpg
+---?image=https://raw.githubusercontent.com/sivhollup/inf112/master/13-gdpr-etikk/img/snowden.jpg&size=85%
 
 @snap[south-east]
 @size[small](Photo from Wired)
@@ -409,10 +436,14 @@ Note:
 - USAs etterretning (og andre lands etterretningstjenester) samler inn ALT DE
   KAN av metadata om personer, lovlig eller ikke, fordi det har verdi
 - https://en.wikipedia.org/wiki/Global_surveillance_disclosures_(2013%E2%80%93present)
-- _Norge ønsker å innføre tilsvarende, forsøkt innført flere ganger de siste
+- _Norge har vedtatt tilsvarende, forsøkt innført flere ganger de siste
   årene. Forrige gang: Datalagringsdirektivet fra EU
 - Nå kalles det Digitalt grenseforsvar (overvåkning av kommunikasjon inn
   og ut av landet for å avdekke trusler mot nasjonal sikkerhet), norsk initiativ
+- ble vedtatt 1. juni 2020, men er utsatt etter en dom i EU-domstolen (6. okt
+  2020) som forbyr masseinnsamling av teledata
+  (https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2020/eu-dommer-forbyr-masseinnsamling-av-teledata/)
+- mer lenker og oversikt: https://www.datatilsynet.no/aktuelt/aktuelle-nyheter-2020/utset-digitalt-grenseforsvar/
 - Vi vet at større grad av overvåkning har nedkjølende effekt på hva folk tør å
   kommunisere
 - Er dette OK? 
@@ -510,9 +541,4 @@ Note:
 
 ---
 
-### Oversikt over lesestoff i faget: 
-
-https://bit.ly/2WUMVtK
-
-Note:
-- https://github.com/sivhollup/inf112/blob/master/v19/README.md
+### Neste forelesning: Designmønstre
