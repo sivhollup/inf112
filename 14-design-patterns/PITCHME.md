@@ -1,6 +1,6 @@
 ---
 
-### Kvalitet i kode
+### Designmønstre
 
 Note:
 - hvor mange av dere er fornøyde med første utkast av en tekst? 

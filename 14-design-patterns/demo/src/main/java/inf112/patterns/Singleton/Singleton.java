@@ -4,7 +4,8 @@ public class Singleton {
 
     private static Singleton INSTANCE = null;
 
-    private Singleton() {}
+    private Singleton() {
+    }
 
     public static Singleton getInstance() {
         if (null == INSTANCE) {
@@ -14,6 +15,8 @@ public class Singleton {
     }
 
     private synchronized static void createInstance() {
-        INSTANCE = new Singleton();
+        if (null == INSTANCE) {
+            INSTANCE = new Singleton();
+        }
     }
 }

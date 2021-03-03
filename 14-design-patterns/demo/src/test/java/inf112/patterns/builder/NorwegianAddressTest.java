@@ -44,6 +44,9 @@ public class NorwegianAddressTest {
 
     @Test
     public void canPutDifferentParametersTogether() {
-        new NorwegianAddress.Builder().zipArea("Blomsterdalen").streetName("Fineveien").build();
+        new NorwegianAddress.Builder()
+                .zipArea("Blomsterdalen")
+                .streetName("Fineveien")
+                .build();
     }
 }
