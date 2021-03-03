@@ -17,7 +17,7 @@ public class ImageReaderTest {
         reader = getImageReader(reader, imageFileName);
 
         DecodedImage result = reader.getDecodedImage();
-        assertEquals("file.gif: is decoded", result.toString());
+        assertEquals("This is the decoded image: file.gif", result.toString());
     }
 
     @Test
@@ -28,7 +28,7 @@ public class ImageReaderTest {
 
         DecodedImage result = reader.getDecodedImage();
 
-        assertEquals("file.jpeg: is decoded", result.toString());
+        assertEquals("This is the decoded image: file.jpeg", result.toString());
     }
 
     // factory method: don't care about which reader it is, as long as you get the right result and can read the file

@@ -10,6 +10,6 @@ public class DecodedImage {
 
     @Override
     public String toString() {
-        return "This is the decoed image: " + image;
+        return "This is the decoded image: " + image;
     }
 }
