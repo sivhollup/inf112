@@ -11,7 +11,7 @@ public class GifReader implements ImageReader {
     }
 
     @Override
-    public DecodedImage getDecodeImage() {
+    public DecodedImage getDecodedImage() {
         return decodedImage;
     }
 }

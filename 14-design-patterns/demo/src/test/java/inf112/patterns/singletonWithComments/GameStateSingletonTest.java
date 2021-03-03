@@ -1,5 +1,6 @@
 package inf112.patterns.singletonWithComments;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
@@ -20,6 +21,7 @@ public class GameStateSingletonTest {
     }
 
     @Test
+    @Ignore
     public void cannotCreateStateWithConstructor() {
         //new GameStateSingleton();
         //fail("Should not be able to call constructor");

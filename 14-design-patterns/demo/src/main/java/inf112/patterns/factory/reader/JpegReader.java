@@ -11,7 +11,7 @@ public class JpegReader implements ImageReader {
     }
 
     @Override
-    public DecodedImage getDecodeImage() {
+    public DecodedImage getDecodedImage() {
         return decodedImage;
     }
 }

@@ -7,5 +7,5 @@ import inf112.patterns.factory.DecodedImage;
  */
 public interface ImageReader {
 
-    DecodedImage getDecodeImage();
+    DecodedImage getDecodedImage();
 }

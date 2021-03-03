@@ -17,20 +17,22 @@ class StrategyExample {
         order.addLine("Unicorn               ", 3.99);
         order.addLine("Bacon                 ", 1.99);
 
+        System.out.println("Original order: ");
         System.out.println(order.toString());
 
-        /**
+        /*
          * I virkeligheten ville strategien vi velger kommet fra brukergrensesnitt eller annen input som bestemmes runtime
          */
         //order.setDiscountStrategy(new PercentDiscountStrategy(10));
         //order.setDiscountStrategy(new FixedDiscountStrategy(2));
 
-        /**
+        /*
          * Legg på rabatt på ordre, uavhengig av om rabatten endrer totalsum. Hvis vi ikke har satt rabattstrategi brukes
          * defaultstrategien som er satt i Order-klassen
          */
         order.applyDiscount();
 
+        System.out.println("Final prices for order: ");
         System.out.println(order.toString());
     }
 }

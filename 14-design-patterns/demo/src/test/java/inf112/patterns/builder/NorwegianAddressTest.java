@@ -30,7 +30,7 @@ public class NorwegianAddressTest {
         new NorwegianAddress.Builder().zipCode(null).build();
     }
 
-    /**
+    /*
      * Testene måtte ellers vært skrevet på formen:
      * NorwegianAddress address = new NorwegianAddress("vei", "nummer", null, null, null)
      * og vi må på magisk vis huske hva rekkefølgen på parametrene er.
@@ -43,7 +43,7 @@ public class NorwegianAddressTest {
     }
 
     @Test
-    public void foobar() {
+    public void canPutDifferentParametersTogether() {
         new NorwegianAddress.Builder().zipArea("Blomsterdalen").streetName("Fineveien").build();
     }
 }

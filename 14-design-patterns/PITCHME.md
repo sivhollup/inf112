@@ -8,8 +8,8 @@ Note:
   single responsibility principle ... 
 - kode må ofte skrives om: gjøres ofte i bransjen, men ikke på langt nær så ofte
   som man burde
-- hvorfor? første utkast ofte dårlig (tanker oversatt direkte til tekst)
-- korte, meningsfulle funksjoner, dele opp ulike abstraksjonsnivåer
+- hvorfor? første utkast ofte uferdig og lite gjennomtenkt (tanker oversatt direkte til tekst)
+- meningsfulle funksjoner, dele opp ulike abstraksjonsnivåer
 - god navngiving
 - enkle prinsipper som dette har mye mer å si enn dere tror
 - men det finnes da mer? 
@@ -58,6 +58,7 @@ Note:
   implementasjonsklasse kan gjerne implementere flere, men det skal ikke være et
   krav å løse uavhengige problemer i samme klasse. 
 - SOLID-prinsippene er ikke pensum annet enn SRP, men greit å vite hva det er
+  (se i læreboken, Design VI - Solid principles)
 - men da blir vel alt bra? 
 
 
@@ -106,15 +107,23 @@ Note:
 - Over tid: utviklet seg etablerte løsninger på disse problemene: designmønstre
   (design patterns)
 - Konkret: klasseoppdeling og interfaces med navnekonvensjon
+- løser problemer ved å tvinge frem ønsket oppførsel gjennom designvalg
+- ulike programmeringsspråk, særlig over ulike paradigmer (funksjonelt,
+  objektorientert), har ulike egenskaper, ikke alle mønstre vil være relevante i
+  alle språk
+- Mange av designmønstrene er laget i objekt-orientert paradigme
 - Manifesteringer av SOLID-prinsippene
 - En god ressurs i tillegg til læreboken:
   https://sourcemaking.com/design_patterns (inneholder korte forklaringer på
   mange ulike design patterns og hvordan de brukes, samt kodeeksempler)
+- se beskrivelse i git-repoet til faget for hva som er pensum, Design
+  Patterns-kap i boken og sourcemaking.com
+- finnes tre hovedtyper design-mønstre
 
 
 ---
 
-### Creational design patterns
+### 1: Creational design patterns
 
 Note:
 - creational er designmønstre som omhandler hvordan vi oppretter eller
@@ -128,7 +137,7 @@ Note:
 
 ---
 
-### Behavioural design patterns
+### 2: Behavioural design patterns
 
 Note:
 - oppførselsmønstre omhandler hvordan vi håndterer oppførsel og kommunikasjon på
@@ -142,7 +151,7 @@ Note:
 
 ---
 
-### Structural design patterns
+### 3: Structural design patterns
 
 Note:
 - handler også om kommunikasjon, men ikke i form av oppførsel, men mer
@@ -169,6 +178,8 @@ Note:
 - mer generelt: hvis en instans av et objekt kan knyttes direkte til ressursbruk
   (minne, CPU, koblinger over nett osv), kan dette være et tegn på at mengden
   instanser skal begrenses
+- ikke alle er enige i at dette er et designmønster, men jeg synes det er viktig
+  å vise hvordan vi kan tvinge frem en spesifikk oppførsel gjennom design.
 - hvis en instans av en klasse holder på tilstand i et system (flere instanser
   kan føre til race conditions eller ugyldige tilstander i programmet)
 - alle i systemet må få tilgang til instansen
@@ -185,37 +196,9 @@ Note:
   oppretter instans når den trengs og ellers returnerer instansen
 - singleton brukes gjerne av mer avanserte designmønstre
 - alternativ implementasjon: lag en enum med bare en type (som er instansen
-  du skal opprette)
+  du skal opprette). Prøv selv!
 - Kodeeksempel: singleton-pakken i demo-prosjektet
 
-
----
-
-### Factory
-
-Note:
-- en måte å lage instanser av subklasser på uten å eksponere dem til toppklasser
-- Hvilket problem løser Factory?
-- lar høynivåklasser få tilgang til subklasser uten å måtte avhenge av de
-  spesifikke subklassene (dependency inversion i praksis)
-- finnes flere varianter av denne, klassisk Factory, Factory method m.fl.
-- Factory Method: instansiere objekter av
-  konkrete klasser, men finner ut hvilken konkret klasse som skal returneres på
-  egen hånd. Kan være basert på filnavn, oppgitt enum eller en eller annen
-  egenskap 
-- I dette tilfellet har du bare en metode, men den må
-  utvides/endres hver gang en ny klasse kommer til eller faller fra
-- Kodeeksempel: factory.reader i demo-prosjektet
-- tegne på tavlen: klassestruktur for reader (med og uten factory)
-- Hvordan implementerer vi Factory?
-- lager en klasse som heter <navn>Factory
-- lag en metode for hver konkrete klasse som finnes
-- disse metodene implementeres i en konkret Factory-klasse. Hver metode
-  returnerer en instans av den konkrete klassen som ønskes
-- metodene returnerer supertypen (feks ImageWriter), slik at toppklassen som kaller
-  metoden ikke trenger å forholde seg til hvilken konkret implementasjon som
-  brukes
-- tegne på tavlen: ImageWriter-klassehierarki
 
 
 ---
@@ -250,6 +233,36 @@ Note:
 - hvis et programmeringsspråk tilbyr named paramters er builder-mønsteret
   overflødig
 - Kodeeksempel i builder-pakken i demo-prosjektet
+
+
+
+---
+
+### Factory
+
+Note:
+- en måte å lage instanser av subklasser på uten å eksponere dem til toppklasser
+- Hvilket problem løser Factory?
+- lar høynivåklasser få tilgang til subklasser uten å måtte avhenge av de
+  spesifikke subklassene (dependency inversion i praksis)
+- finnes flere varianter av denne, klassisk Factory, Factory method m.fl.
+- Factory Method: instansiere objekter av
+  konkrete klasser, men finner ut hvilken konkret klasse som skal returneres på
+  egen hånd. Kan være basert på filnavn, oppgitt enum eller en eller annen
+  egenskap 
+- I dette tilfellet har du bare en metode, men den må
+  utvides/endres hver gang en ny klasse kommer til eller faller fra
+- Kodeeksempel: factory.reader i demo-prosjektet
+- tegne på tavlen: klassestruktur for reader (med og uten factory)
+- Hvordan implementerer vi Factory?
+- lager en klasse som heter <navn>Factory
+- lag en metode for hver konkrete klasse som finnes
+- disse metodene implementeres i en konkret Factory-klasse. Hver metode
+  returnerer en instans av den konkrete klassen som ønskes
+- metodene returnerer supertypen (feks ImageWriter), slik at toppklassen som kaller
+  metoden ikke trenger å forholde seg til hvilken konkret implementasjon som
+  brukes
+- tegne på tavlen: ImageWriter-klassehierarki
 - nå: oppførselsmønstre (behavioural)
 - handler om å gjøre det enklere å velge riktig type oppførsel ved å innkapsle
   oppførsel i klassestrukturer, eller å regulerer hvordan klasser/objekter
@@ -305,6 +318,19 @@ Note:
 - hva betyr null? Er det en feil eller er det ok? Må håndteres alle steder det
   objektet hentes i koden (bryter flere SOLID-prinsipper). 
 - Kodeeksempel: strategy-pakken i demo-prosjektet (NoDiscountStrategy)
+
+
+
+---
+
+### Facade
+
+Note:
+- ikke strengt tatt pensum, men vil nevne etter logge-forelesning
+- strukturelt designmønster som gir et interface til mange interfaces i et
+  subsystem (pakker et komplisert subsystem inn i noe enklere)
+- gir mulighet for å bytte ut implementasjon/klient, som feks hvilket
+  loggebibliotek som brukes
 - så strukturelle mønster: handler om å få ulike entiteter til å oppføre seg på
   en enhetlig måte
 
@@ -315,6 +341,7 @@ Note:
 
 Note:
 - Hva er Adapter?
+- ligner på facade
 - Legge et nytt lag med programvare for å få konsepter (klasser) med ulike
   tenkemåter til å kunne fungere på samme måte 
 - tenk: ulike typer strømadaptere, må legge noe i mellom for å kunne bruke dine
