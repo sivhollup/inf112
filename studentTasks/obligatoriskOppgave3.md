@@ -18,10 +18,10 @@ feilretting, men om hvordan man jobber og kommuniserer.
 ## Deloppgave 2: Krav
 
 * Oppdater hvilke krav dere har prioritert, hvor langt dere har kommet og hva dere har gjort siden forrige
-gang. 
+gang. Er dere kommet forbi MVP? Forklar hvordan dere prioriterer ny
+funksjonalitet. 
 * For hvert krav dere jobber med, må dere lage 1) ordentlige brukerhistorier, 2) akseptansekriterier og 3) arbeidsoppgaver. Husk at akseptansekriterier ofte skrives mer eller mindre som tester
 * Dersom dere har oppgaver som dere skal til å starte med, hvor dere har oversikt over både brukerhistorie, akseptansekriterier og arbeidsoppgaver, kan dere ta med disse i innleveringen også.
-* Forklar kort hvilke hovedkrav dere anser som en del av MVP og hvorfor. Hvis det er gjort endringer i rekkefølge utfra hva som er gitt fra kunde, hvorfor er dette gjort?
 * Husk å skrive hvilke bugs som finnes i de kravene dere har utført (dersom det finnes bugs). 
 * Kravlista er lang, men det er ikke nødvendig å levere på alle kravene hvis det ikke er realistisk. Det er
 viktigere at de oppgavene som er utført holder høy kvalitet. Utførte oppgaver skal være ferdige.
@@ -70,3 +70,4 @@ For å få oppdraget godkjent, må hvert lagmedlem:
 tester. Husk at testene dere skriver skal brukes. (Som nevnt i deloppgave 3)
 * Travis og Codacy kan være til god hjelp for å sjekke at koden bygger før dere pusher til master.
 * Husk å kjøre programmet før dere lager en tag til levering slik at dere vet at det kjører. 
+
