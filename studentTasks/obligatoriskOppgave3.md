@@ -38,6 +38,9 @@ viktigere at de oppgavene som er utført holder høy kvalitet. Utførte oppgaver
 * Under vurdering vil det vektlegges at alle bidrar til kodebasen. Hvis det er stor forskjell i hvem som
 committer, må dere legge ved en kort forklaring for hvorfor det er sånn. Husk å committe alt. (Også
 designfiler)
+* Prosjektresentasjonen teller ved denne leveransen. Dere blir vurdert på demo
+* av spillet, en beskrivelse av det viktigste dere har lært, hvilke
+* overraskelser dere har hatt og presentasjon av prosjektmetodikk. 
 
 
 ## Vurderingskriterier og vekting
