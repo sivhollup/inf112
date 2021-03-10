@@ -18,7 +18,6 @@ fungerer på?
 gang. 
 * For hvert krav dere jobber med, må dere lage 1) ordentlige brukerhistorier, 2) akseptansekriterier og 3) arbeidsoppgaver. Husk at akseptansekriterier ofte skrives mer eller mindre som tester
 * Dersom dere har oppgaver som dere skal til å starte med, hvor dere har oversikt over både brukerhistorie, akseptansekriterier og arbeidsoppgaver, kan dere ta med disse i innleveringen også.
-* Forklar kort hvilke hovedkrav dere anser som en del av MVP og hvorfor. Hvis det er gjort endringer i rekkefølge utfra hva som er gitt fra kunde, hvorfor er dette gjort?
 * Husk å skrive hvilke bugs som finnes i de kravene dere har utført (dersom det finnes bugs). 
 * Kravlista er lang, men det er ikke nødvendig å levere på alle kravene hvis det ikke er realistisk. Det er viktigere at de oppgavene som er utført holder høy kvalitet. Utførte oppgaver skal være ferdige (spillbare).
 
@@ -34,7 +33,11 @@ gang.
 * Under vurdering vil det vektlegges at alle bidrar til kodebasen. Hvis det er stor forskjell i hvem som
 committer, må dere legge ved en kort forklaring for hvorfor det er sånn. Husk å committe alt. (Også
 designfiler)
-* Prosjektresentasjonen teller ved denne leveransen. Dere blir vurdert på demo av spillet, en beskrivelse av det viktigste dere har lært, en beskrivelse av hvordan nedstengningen av universitetet påvirket prosjektet og hva dere ville gjort annerledes nå som dere har mer erfaring med gruppearbeid. 
+* Prosjektresentasjon teller ved denne leveransen (holdes etter dere har
+ levert). Dere skal ha med demo av spillet, en beskrivelse av det viktigste dere
+ har lært, ville dere gjort noe annerledes om dere hadde gjort det igjen, samt
+ en liten vurdering av hvordan det ville vært å gjennomføre prosjektet med
+ fysisk tilstedeværelse. 
 
 
 ## Vurderingskriterier og vekting
