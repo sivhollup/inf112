@@ -73,7 +73,7 @@ tester. Husk at testene dere skriver skal brukes. (Som nevnt i deloppgave 3)
 
 | Retteskjema for oblig 3   | Max   |
 | --- | --- |
-| **Team of prosjekt** | **20** |
+| **Team og prosjekt** | **20** |
 | Møtereferat (hvem var med, når, hva ble bestemt osv) | 5 |
 | Retrospektiv (skal inneholde beskrivelse av hva som var planlagt å bruke av metodikk, hva de faktisk bruker, og hvorfor) + forbedringspunkter fra retrospektiv  | 5 |
 | Project board er oppdatert | 5 |
