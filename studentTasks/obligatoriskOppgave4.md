@@ -28,7 +28,7 @@
 * Utførte oppgaver skal være ferdige.
 * Hvis dere tester manuelt: lever beskrivelser av hvordan testen foregår, slik at gruppeleder kan utføre testen selv.
 * Under vurdering vil det vektlegges at alle bidrar til kodebasen. Hvis det er stor forskjell i hvem som committer, må dere legge ved en kort forklaring for hvorfor det er sånn. Husk å committe alt. (Også designfiler)
-* Prosjektresentasjon teller ved denne leveransen (holdes etter dere har levert). Dere skal ha med demo av spillet, en beskrivelse av det viktigste dere har lært, ville dere gjort noe annerledes om dere hadde gjort det igjen, samt en liten vurdering av hvordan det ville vært å gjennomføre prosjektet med fysisk tilstedeværelse. 
+* Prosjektpresentasjon teller ved denne leveransen (holdes etter dere har levert). Dere skal ha med demo av spillet, en beskrivelse av det viktigste dere har lært, ville dere gjort noe annerledes om dere hadde gjort det igjen, samt en liten vurdering av hvordan det ville vært å gjennomføre prosjektet med fysisk tilstedeværelse. 
 
 
 ## Vurderingskriterier og vekting
@@ -87,5 +87,5 @@ For å få oppdraget godkjent, må hvert lagmedlem:
 | Commits er ryddige, leveransen er tagget riktig, og levert i riktig format. Commit meldinger er meningsfulle | 5 |
 | Jevn fordeling av commits blant teammedlemmer | 5 |
 | **Presentasjon** | **5** |
-| todo | 5 |
+| Skal inneholde demo av spillet, en beskrivelse av det viktigste dere har lært, ville dere gjort noe annerledes om dere hadde gjort det igjen, samt en liten vurdering av hvordan det ville vært å gjennomføre prosjektet med fysisk tilstedeværelse.  | 5 |
 | **Totalt antall poeng** | **125** |
