@@ -195,9 +195,11 @@ Note:
   produktet deres (feks åpne lisenser som krever at produkter der de brukes får
   samme lisens: konkret at feks kode er open source)
 - Sørge for at de som har funnet på noe unikt får rettigheten til det
-  (immaterierett: åndsverksloven, patentloven, kopibeskyttelse)
+  (immaterierett: åndsverksloven, kopibeskyttelse)
 - rettighet til å selge, videreformidle, bruke, videreutvikle osv., rettigheter
   til å tjene penger på
+- sett hvordan historien har formet de lovene som finnes i dag, samt fremveksten
+  av åpen programvare og lisensiering
 - hva må dere kunne: ha oversikt over de viktigste lovene dere kommer borti, de viktigste
   uttrykkene, og ikke minst konsekvenser av lovverket
 
@@ -214,18 +216,19 @@ Note:
   tilgjengelighet
 - Tenk: hvordan kan systemet du lager misbrukes? 
 - Hva er misbruk? Spionasje, sabotasje, tyveri (målrettede angrep), bevisst
-  misbruk av intern person, feilbruk, annen bruk enn teamet har tenkt
+  misbruk av intern person, feilbruk, annen bruk enn tiltenkt
 - Hvor er sårbarhetsflatene? Alt som er tilgjengelig mot Internet (husk Internet
   var laget for en håndfull enheter, ikke millioner av enheter), grenser mellom
   ulike systemer, innlogging
-- Gjør risikovurdering: tenk som en angriper
+- Annet tankesett: Tenk som en angriper
 - Hva er trusselen? Hva er mulige tiltak? Hva koster det å implementere et
   tiltak vs sannsynlighet for at uønsket hendelse skjer? 
 - Gjør risikovurdering. Hva er risikovurdering? oversikt over hvilke risikoer
   som finnes, hva konsekvens av at disse risikoene utløses, og hva slags
   konsekvenser det kan få, og hvilke tiltak som kan redusere risiko
+- Skriv ned, diskuter med kunden
 - Hva er det svakeste leddet? Som oftest brukeren
-- Ta hensyn til biologi når systemer designes
+- Ta hensyn til biologi når systemer designes. Gjør det enkelt å gjøre det rette
 
 
 ---
@@ -235,10 +238,11 @@ Note:
 Note:
 - kundene dine er brukere, når de klarer å bruke systemet riktig har du lykkes
 - sett deg i brukerens sko: hvordan opplever de systemet ditt? 
-- hvem er brukeren? (Personas)
+- hvem er brukeren? (Personas eller lignende)
 - hvilke problemer trenger brukere å løse? (Er dette krav til systemet? Burde
   det vært det?)
 - Gå gjennom brukerens opplevelse (brukerreise)
+- Hvilke oppgaver trenger brukeren å utføre? (roller)
 - Hvordan kan vi hjelpe brukeren litt mer teknisk?
 - Justering, tekst, form, plassering
 - Ikke gi mer informasjon enn nødvendig
@@ -246,6 +250,8 @@ Note:
 - plasser det mest viktig først og sist
 - bruk repetisjon, plassering, justering, nærhet og luft
 - pass på fonter, farger, kontrast
+- pass på kognitiv grense: mennesket klarer ikke håndtere for mange samtidige
+  konsepter (4-7 på en gang)
 
 
 ---
@@ -269,7 +275,8 @@ Note:
   stor, kan være greit å planlegge rent teknisk hva som skal til for å løse en
   oppgave. Alle skal kunne forstå hva som må designes/kodes for å realisere
   oppgaven. Dere jobber som et team, bruk prosjekttavle til å holde hverandre
-  oppdatert. 
+  oppdatert, lag enkle skisser (feks UML eller designskisser) der det er
+  nødvendig for forståelsen) 
 
 
 ---
@@ -298,7 +305,7 @@ Note:
 
 Note: 
 - hensikt: organisere arbeid. 
-- hva skal gjøres, hvem skal gjøre hva, prioriteringer (også opp mot økonomi)
+- hva skal gjøres, hvem skal gjøre hva, prioriteringer 
 - organisere mennesker: teammedlemmer, kunder, interessenter 
 - organisere interaksjon mellom ulike "flater", mennesker, maskiner, behov,
   krav, økonomi
@@ -323,8 +330,7 @@ Note:
 - hva må dere kunne?
 - reflektere rundt hvilke elementer som er fornuftige og at det går an å sette
   sammen ulike verktøy i fra de ulike metodikkene
-- begrense arbeid som gjøres på en gang
-- vite vanlige roller i softwareteam (teamlead, kundekontakt, testleder)
+- begrense arbeid som gjøres på en gang: hvilke konsekvenser får dette?
 - prosjekttavle: hvilke elementer, hvordan brukes den i de ulike metodikkene
 - lære underveis: retrospektiv. Ikke legger skyld, velger noen få ting å
   forbedre seg på, demokratisk møte
@@ -373,17 +379,18 @@ Note:
 - gjøre distribusjon av kildekode enkelt
 - gruppere endringer
 - jobbe trygt (senke risiko)
+- viser hvordan systemet utvikler seg over tid
 - hva ellers må dere kunne?
 - hvordan git virker teknisk: working directroy, staging, lokalt og remote
   repository
 - ulike kommandoer i git, hva de gjør
 - forskjell på git vs github
 - hvordan utnytte git og github til å jobbe på en god måte: 
-- trunk-based utvikling vs branching: fordeler og ulemper
 - trunk-based: alle er oppdatert på koden til envher tid
 - branching: kan isolere endringer, men risiko for større merge-konflikter.
   Andre tar ikke hensyn til din kode, for de vet ikke om den
 - forskjell på branch og PR
+- trunk-based utvikling vs branching: fordeler og ulemper
 - forstå hvordan git påvirker arbeidsflyten din og hvordan versjonskontroll gjør
   hverdagen din tryggere og mer effektiv
 
@@ -427,7 +434,6 @@ Note:
 - hensikt: å separere ulike deler av systemet som trengs til ulike deler
 - testing i prod er ikke lurt
 - utvikling i testmiljø som mange bruker er ikke lurt
-- begrensninger i prod er ikke noen god ide i test
 - neste nivå av arkitektur: ulike måter å sette sammen et system på (feks i test
   eller prod)
 - hva kan et system bestå av? Feks frontend, backend, persistens-lag
@@ -530,7 +536,7 @@ Note:
 - Hensikt: løse problemer. Øke lesbarhet og vedlikeholdbarhet
 - Dette er kjente oppskrifter for å få kode som har god kvalitet 
 - mange av disse er direkte manifesteringer av SOLID-prinsippene (dere har kun
-  lært om S)
+  lært om SRP)
 - 3 hovedkategorier av designmønstre: creational, behavioral og structural
 - creational: mønstre som handler om hvordan vi oppretter objekter
 - Singleton, når du garantere at du bare har en instans
@@ -569,6 +575,8 @@ Note:
 - like sannsynlig med spørsmål fra gjesteforelesninger som de jeg har holdt
 - les pensumboken
 - les forelesningsnotater
+- vurdering vil bli både å kunne gjøre greie for ulike konsepter, men også mye
+  på hvilke vurderinger du gjør
 
 
 ---
