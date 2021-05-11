@@ -1,4 +1,4 @@
-### Oppsummering V2020
+### Oppsummering V2021
 
 Note:
 - Da jeg begynte som utvikler ble jeg veldig overrasket over forskjellen på det
@@ -444,6 +444,28 @@ Note:
   på samme måte som kode
 - kunne tegne arkitektur både i kode og i systemer. Litt UML (se
   forelesningsnotater, klassediagram og objektdiagram)
+ 
+
+---
+
+### Logging
+
+Note:
+- hensikt? Hjelpe utvikler (som også er en bruker av systemet) med å finne ut
+  hva som skjer: øke observerbarheten til et eksisterende system
+- finne ut hva som har gått gale (feks: logge alle stack-traces) 
+- finne ut hva som har skjedd (selv om det ikke er en feil)
+- spore hendelser gjennom ett eller flere system
+- generelt brukes interfaces til log-rammeverk i vår kode
+- implementasjonen av log-rammeverket kan byttes ut uten å endre i koden
+- de fleste logrammeverk logger på info-nivå, som er midt på treet i
+  alvorlighetsgrad. De vanligste log-nivåene: trace, debug, info, warning, error
+  (økende alvorlighetsgrad). 
+- hva inneholder en log-melding? Typisk tidspunkt, hva logger (klasse), hvem har
+  utført handling (ofte en brukerident), hva sendes inn, og hva er resultatet
+- for API-kall: lagre alle innkommende parametre, lagre gjerne utgående
+  parametre også (for sporing)
+- vær obs på at logger er sårbare, ikke all type informasjon skal ut i logger
 - nå skal vi snakke om viktige verktøy for å hjelpe oss å skrive kode og
   kommunisere behov gjennom kode
 
