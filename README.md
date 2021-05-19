@@ -4,6 +4,11 @@ Pensum merkes spesielt, øvrig fordypningsstoff er også listet opp her. Husk at
 for noen av forelesningene finnes det kodeeksempler dere kan se på, de ligger
 samme katalog som forelesningsnotatene gjør i katalogen demo. 
 
+Hovedboken er [Agile Technical Practices Distilled](https://leanpub.com/agiletechnicalpracticesdistilled) av Santos, Consolaro og Di
+Gioia, og prosjektmetodikk dekkes stort sett av [Kanban and Scrum - Making the
+Most of Both](https://www.infoq.com/minibooks/kanban-scrum-minibook/) av Skarin
+og Kniberg. 
+
 Hele Kanban/Scrum-boken er obligatorisk, samt mesteparten av hovedboken. 
 
 Pensum: 
